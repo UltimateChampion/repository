@@ -1,0 +1,29 @@
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+sourceSets {
+    main {
+        java {
+            srcDir 'src/main/java'
+        }
+        resources {
+            srcDir 'lib'
+        }
+        dependencies {
+    		compile fileTree(dir: 'lib/', include: '*.jar')
+		}
+    }
+}
+
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'M2', 'Implementation-Version': 1.0 , 'Main-Class' : 'AntLabMain'
+    }
+}
+
+task printClasspath << {
+    println compileClasspath
+}
