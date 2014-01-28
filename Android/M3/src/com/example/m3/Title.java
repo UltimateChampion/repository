@@ -26,7 +26,12 @@ public class Title extends Activity {
     	
     	Intent buttonIntent = new Intent(Title.this, Login.class);
     	Title.this.startActivity(buttonIntent);
-
+    }
+    
+    public void goRegister(View view) {
+    	
+    	Intent buttonIntent = new Intent(Title.this, Register.class);
+    	Title.this.startActivity(buttonIntent);
     }
     
 }
