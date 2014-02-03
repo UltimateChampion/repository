@@ -1,4 +1,0 @@
-INDEX VERSION 1.126+/Users/AmierNaji/repository/Android/.metadata/.plugins/org.eclipse.jdt.core
-3613684238.index
-3988723938.index
-911706257.index
