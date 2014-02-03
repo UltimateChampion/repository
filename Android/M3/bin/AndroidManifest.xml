@@ -30,6 +30,10 @@
             android:name="com.example.m3.Register"
             android:label="@string/title_activity_register" >
         </activity>
+        <activity
+            android:name="com.example.m3.UserMain"
+            android:label="@string/title_activity_user_main" >
+        </activity>
     </application>
 
 </manifest>
