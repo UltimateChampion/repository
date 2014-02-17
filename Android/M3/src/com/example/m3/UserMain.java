@@ -18,5 +18,5 @@ public class UserMain extends Activity {
 		getMenuInflater().inflate(R.menu.user_main, menu);
 		return true;
 	}
-
+	
 }
