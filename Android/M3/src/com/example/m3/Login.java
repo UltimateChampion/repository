@@ -16,15 +16,18 @@ import android.widget.Toast;
 
 public class Login extends Activity {
 
-	private RegistrationAdapter regDBAdapter;
+	//private RegistrationAdapter regDBAdapter;
+
+	private DBController dbControl;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_login);
 		
-		regDBAdapter = new RegistrationAdapter(this);
-		regDBAdapter = regDBAdapter.open();
+		dbControl = new DBController(Login.this);
+		//regDBAdapter = new RegistrationAdapter(this);
+		//regDBAdapter = regDBAdapter.open();
 	}
 
 	@Override
@@ -42,13 +45,23 @@ public class Login extends Activity {
 		String currentName = name.getText().toString();
 		String currentPass = pass.getText().toString();
 		
-		String potentialPass = regDBAdapter.getSingleEntry(currentName);
-		Toast.makeText(getApplicationContext(), potentialPass, Toast.LENGTH_LONG).show();
+		dbControl.open();
+		String potentialPass = dbControl.getPassword(currentName);//regDBAdapter.getSingleEntry(currentName);
+    	String userActualName = dbControl.getActualName(currentName);
+		dbControl.close();
+		
+    	dbControl.open();
+		Toast.makeText(getApplicationContext(), dbControl.getData(), Toast.LENGTH_LONG).show();
+    	dbControl.close();
+    	
+
+		//Toast.makeText(getApplicationContext(), userActualName, Toast.LENGTH_LONG).show();
 		
 		
 		if ((currentName.equals("admin") && currentPass.toString().equals("pass123")) || (currentPass.equals(potentialPass))) {
     	
 		Intent buttonIntent = new Intent(Login.this, UserMain.class);
+		buttonIntent.putExtra("realName", userActualName);
     	Login.this.startActivity(buttonIntent);
 		
 		}

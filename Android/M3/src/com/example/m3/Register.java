@@ -20,15 +20,18 @@ public class Register extends Activity {
 	private EditText name, dob, user, pass, confirmPass;
 	private Button createAccountButton;
 	
-	private RegistrationAdapter regDBAdapter;// = new RegistrationAdapter();
+	//private RegistrationAdapter regDBAdapter;// = new RegistrationAdapter();
+	private DBController dbControl;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_register);
 		
-		regDBAdapter = new RegistrationAdapter(this);
-		regDBAdapter = regDBAdapter.open();
+		//regDBAdapter = new RegistrationAdapter(this);
+		//regDBAdapter = regDBAdapter.open();
+		dbControl = new DBController(Register.this);
+		
 		
 		// Get References of Views
 		name = (EditText) findViewById(R.id.editText1);
@@ -47,6 +50,8 @@ public class Register extends Activity {
         	
             String userName=user.getText().toString();
             String password=pass.getText().toString();
+            String realName=name.getText().toString();
+            
             String confirmPassword=confirmPass.getText().toString();
  
             	System.out.println("OK");
@@ -63,20 +68,36 @@ public class Register extends Activity {
             }
             else{
                 // Save the Data in Database
-            	System.out.println(regDBAdapter);
+            	/*System.out.println(regDBAdapter);
             	System.out.println(userName);
             	System.out.println(password);
-                regDBAdapter.insertEntry(userName, password);
+                regDBAdapter.insertEntry(userName, password);*/
                 //Toast.makeText(getApplicationContext(), "Account Successfully Created ", Toast.LENGTH_LONG).show();
                 
-        		String potentialPass = regDBAdapter.getSingleEntry(userName);
-        		Toast.makeText(getApplicationContext(), potentialPass, Toast.LENGTH_LONG).show();
-        		
+            	try {
+            		
+            		dbControl.open();
+            		dbControl.createAccount(userName, password, realName);
+            		dbControl.close();
+            		
+            	}
+            	catch (Exception e) {
+            		
+            		Toast.makeText(getApplicationContext(), "failure!", Toast.LENGTH_LONG).show();
+            	}
+            	
+            	dbControl.open();
+        		Toast.makeText(getApplicationContext(), dbControl.getData(), Toast.LENGTH_LONG).show();
+            	dbControl.close();
+            	//String potentialPass = "";
+            	
+        		//String potentialPass = regDBAdapter.getSingleEntry(userName);
+        		//Toast.makeText(getApplicationContext(), potentialPass, Toast.LENGTH_LONG).show();
             
             	}
             
-        	Intent buttonIntent = new Intent(Register.this, Title.class);
-        	Register.this.startActivity(buttonIntent);
+        	//Intent buttonIntent = new Intent(Register.this, Title.class);
+        	//Register.this.startActivity(buttonIntent);
         	
         	}
         });
