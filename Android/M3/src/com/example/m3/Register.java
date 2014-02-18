@@ -8,6 +8,7 @@ import java.io.PrintWriter;
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
 import android.widget.EditText;
@@ -26,6 +27,9 @@ public class Register extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_register);
 		
+		regDBAdapter = new RegistrationAdapter(this);
+		regDBAdapter = regDBAdapter.open();
+		
 		// Get References of Views
 		name = (EditText) findViewById(R.id.editText1);
 		dob = (EditText) findViewById(R.id.editText2);
@@ -39,6 +43,8 @@ public class Register extends Activity {
         public void onClick(View v) {
             // TODO Auto-generated method stub
  
+
+        	
             String userName=user.getText().toString();
             String password=pass.getText().toString();
             String confirmPassword=confirmPass.getText().toString();
@@ -61,10 +67,21 @@ public class Register extends Activity {
             	System.out.println(userName);
             	System.out.println(password);
                 regDBAdapter.insertEntry(userName, password);
-                Toast.makeText(getApplicationContext(), "Account Successfully Created ", Toast.LENGTH_LONG).show();
+                //Toast.makeText(getApplicationContext(), "Account Successfully Created ", Toast.LENGTH_LONG).show();
+                
+        		String potentialPass = regDBAdapter.getSingleEntry(userName);
+        		Toast.makeText(getApplicationContext(), potentialPass, Toast.LENGTH_LONG).show();
+        		
+            
             	}
+            
+        	Intent buttonIntent = new Intent(Register.this, Title.class);
+        	Register.this.startActivity(buttonIntent);
+        	
         	}
         });
+        
+
 	}
 
 	@Override

@@ -12,6 +12,7 @@ import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class Login extends Activity {
 
@@ -21,6 +22,9 @@ public class Login extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_login);
+		
+		regDBAdapter = new RegistrationAdapter(this);
+		regDBAdapter = regDBAdapter.open();
 	}
 
 	@Override
@@ -39,6 +43,8 @@ public class Login extends Activity {
 		String currentPass = pass.getText().toString();
 		
 		String potentialPass = regDBAdapter.getSingleEntry(currentName);
+		Toast.makeText(getApplicationContext(), potentialPass, Toast.LENGTH_LONG).show();
+		
 		
 		if ((currentName.equals("admin") && currentPass.toString().equals("pass123")) || (currentPass.equals(potentialPass))) {
     	

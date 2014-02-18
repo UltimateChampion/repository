@@ -5,6 +5,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
+import android.widget.Toast;
  
 public class RegistrationAdapter 
 {
@@ -13,8 +14,8 @@ public class RegistrationAdapter
         public static final int NAME_COLUMN = 1;
         // TODO: Create public field for each column in your table.
         // SQL Statement to create a new database.
-        static final String DATABASE_CREATE = "create table "+"LOGIN"+
-                                     "( " +"ID"+" integer primary key autoincrement,"+ "USERNAME  text,PASSWORD text); ";
+        static final String DATABASE_CREATE = "CREATE TABLE "+"LOGIN"+
+                                     "( " +"ID"+" INTEGER PRIMARY KEY AUTOINCREMENT,"+ "USERNAME TEXT, PASSWORD TEXT); ";
         // Variable to hold the database instance
         public  SQLiteDatabase db;
         // Context of the application using the database.
@@ -50,6 +51,8 @@ public class RegistrationAdapter
  
             // Insert the row into your table
             db.insert("LOGIN", null, newValues);
+
+            
             ///Toast.makeText(context, "Reminder Is Successfully Saved", Toast.LENGTH_LONG).show();
         }
         public int deleteEntry(String UserName)
