@@ -19,7 +19,7 @@ public class Register extends Activity {
 	private EditText name, dob, user, pass, confirmPass;
 	private Button createAccountButton;
 	
-	private RegistrationAdapter regDBAdapter;
+	private RegistrationAdapter regDBAdapter;// = new RegistrationAdapter();
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -43,6 +43,7 @@ public class Register extends Activity {
             String password=pass.getText().toString();
             String confirmPassword=confirmPass.getText().toString();
  
+            	System.out.println("OK");
             // check if any of the fields are vacant
             if(userName.equals("")||password.equals("")||confirmPassword.equals(""))
             {
@@ -76,41 +77,6 @@ public class Register extends Activity {
 	public void registerUser(View v) {
 		
 		
-		
-		File f = new File(user.getText().toString()+".txt");
-		
-		
-		/*try {
-		PrintWriter pw = new PrintWriter(f);
-		pw.print(name.getText().toString() + "\n" + dob.getText().toString() + "\n" + user.getText().toString() + "\n"  + pass.getText().toString());
-		pw.close();
-		}
-		catch(Exception e) {
-			
-		}*/
-		
-		try {
-			
-			PrintWriter pw = new PrintWriter(f);
-			pw.print(name.getText().toString() + "\n" + dob.getText().toString() + "\n" + user.getText().toString() + "\n"  + pass.getText().toString());
-			pw.close();
-		/*FileOutputStream fOut = openFileOutput(user.getText().toString()+".txt", Context.MODE_PRIVATE);
-		OutputStreamWriter myOutWriter = new OutputStreamWriter(fOut);
-		myOutWriter.append("test");
-		myOutWriter.close();*/
-			
-			/*String FILENAME = ""+user.getText().toString();
-			String string = ""+pass.getText().toString()+"\n"+name.getText().toString();
-
-			FileOutputStream fos = openFileOutput(FILENAME, Context.MODE_PRIVATE);
-			fos.write(string.getBytes());
-			fos.close();*/
-			
-		}
-		catch (Exception e) {
-			
-		}
-	
 		
 	}
 

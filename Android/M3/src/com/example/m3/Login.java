@@ -15,6 +15,8 @@ import android.widget.EditText;
 
 public class Login extends Activity {
 
+	private RegistrationAdapter regDBAdapter;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -33,7 +35,12 @@ public class Login extends Activity {
 		EditText name = (EditText) findViewById(R.id.editText1);
 		EditText pass = (EditText) findViewById(R.id.editText2);
 		
-		if (name.getText().toString().equals("admin") && pass.getText().toString().equals("pass123")) {
+		String currentName = name.getText().toString();
+		String currentPass = pass.getText().toString();
+		
+		String potentialPass = regDBAdapter.getSingleEntry(currentName);
+		
+		if ((currentName.equals("admin") && currentPass.toString().equals("pass123")) || (currentPass.equals(potentialPass))) {
     	
 		Intent buttonIntent = new Intent(Login.this, UserMain.class);
     	Login.this.startActivity(buttonIntent);
