@@ -76,7 +76,6 @@ public class Login extends Activity {
 			dlgAlert.setPositiveButton("OK", null);
 			dlgAlert.setCancelable(true);
 			dlgAlert.create().show();
-			
 		}
 		
 		
