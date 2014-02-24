@@ -12,5 +12,12 @@
     <color name="red">#FFFF0000</color>
     <string name="title_activity_login">Login</string>
     <string name="title_activity_register">Register</string>
+    <string name="account_name_field">Account name:</string>
+    <string name="enter_account_name_field">Enter Account name</string>
+    <string name="submit">Submit</string>
+    <string name="refresh">Refresh</string>
+    <string name="add_account">Add Account</string>
+    <string name="manage_accounts">Manage Accounts</string>
+    <string name="log_out">Log out</string>
 
 </resources>
