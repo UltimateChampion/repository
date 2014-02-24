@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/richard/Documents/CS2340/repository/Android/app_androidstudio/app/src/main/res" >
+            <file
+                name="ic_launcher"
+                path="/Users/richard/Documents/CS2340/repository/Android/app_androidstudio/app/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/richard/Documents/CS2340/repository/Android/app_androidstudio/app/src/main/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/richard/Documents/CS2340/repository/Android/app_androidstudio/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/richard/Documents/CS2340/repository/Android/app_androidstudio/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="accounts_row_item"
+                path="/Users/richard/Documents/CS2340/repository/Android/app_androidstudio/app/src/main/res/layout/accounts_row_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_accounts"
+                path="/Users/richard/Documents/CS2340/repository/Android/app_androidstudio/app/src/main/res/layout/activity_accounts.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_addaccount"
+                path="/Users/richard/Documents/CS2340/repository/Android/app_androidstudio/app/src/main/res/layout/activity_addaccount.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_login"
+                path="/Users/richard/Documents/CS2340/repository/Android/app_androidstudio/app/src/main/res/layout/activity_login.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_register"
+                path="/Users/richard/Documents/CS2340/repository/Android/app_androidstudio/app/src/main/res/layout/activity_register.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="accountsmenu"
+                path="/Users/richard/Documents/CS2340/repository/Android/app_androidstudio/app/src/main/res/menu/accountsmenu.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="main"
+                path="/Users/richard/Documents/CS2340/repository/Android/app_androidstudio/app/src/main/res/menu/main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="/Users/richard/Documents/CS2340/repository/Android/app_androidstudio/app/src/main/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/richard/Documents/CS2340/repository/Android/app_androidstudio/app/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="action_settings" >Settings
+                </string>
+                <string name="account_name_field" >Account name:
+                </string>
+                <string name="enter_account_name_field" >Enter Account name
+                </string>
+
+                <color name="red" >#FFFF0000
+                </color>
+
+                <string name="add_rm_accounts" >+/- Accounts
+                </string>
+                <string name="submit" >Submit
+                </string>
+                <string name="manage_accounts" >Manage Accounts
+                </string>
+                <string name="title_activity_register" >Register
+                </string>
+                <string name="app_name" >app
+                </string>
+                <string name="already_have_account" >I already have an account
+                </string>
+                <string name="username" >Username:
+                </string>
+                <string name="refresh" >Refresh
+                </string>
+                <string name="password_label" >Password:
+                </string>
+                <string name="title_activity_login" >Login
+                </string>
+                <string name="hello_world" >Hello world!
+                </string>
+                <string name="log_out" >Log out
+                </string>
+                <string name="add_account" >Add Account
+                </string>
+                <string name="sign_up_label" >Register
+                </string>
+            </file>
+            <file
+                path="/Users/richard/Documents/CS2340/repository/Android/app_androidstudio/app/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/richard/Documents/CS2340/repository/Android/app_androidstudio/app/src/main/res/values-sw720dp-land/dimens.xml"
+                qualifiers="sw720dp-land" >
+                <dimen name="activity_horizontal_margin" >128dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/richard/Documents/CS2340/repository/Android/app_androidstudio/app/src/main/res/values-v11/styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/richard/Documents/CS2340/repository/Android/app_androidstudio/app/src/main/res/values-v14/styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+        </source>
+        <source path="/Users/richard/Documents/CS2340/repository/Android/app_androidstudio/app/build/res/rs/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/richard/Documents/CS2340/repository/Android/app_androidstudio/app/src/debug/res" />
+    </dataSet>
+
+</merger>
