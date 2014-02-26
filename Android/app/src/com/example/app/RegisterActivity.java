@@ -64,4 +64,9 @@ public class RegisterActivity extends Activity {
 			}
 		});
 	}
+	
+	public void showLogin(View v) {
+		startActivity(new Intent(this, LoginActivity.class));
+		finish();
+	}
 }

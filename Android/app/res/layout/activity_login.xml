@@ -58,7 +58,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="17sp"
-        android:onClick="showLogin"
-        android:text="Already Have An Account? Log In!" />
+        android:onClick="showRegister"
+        android:text="Don't have an account? Register!" />
 
 </LinearLayout>
