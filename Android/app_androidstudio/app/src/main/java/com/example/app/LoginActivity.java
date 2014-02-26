@@ -3,6 +3,7 @@ package com.example.app;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.widget.EditText;
@@ -31,15 +32,20 @@ public class LoginActivity extends Activity {
 		return true;
 	}
 	
-	public void login() {
-		ParseUser.logInInBackground(username.toString(), password.toString(), new LogInCallback() {
+	public void login(final View view) {
+        view.setEnabled(false);
+		ParseUser.logInInBackground(username.getText().toString(), password.getText().toString(), new LogInCallback() {
 			@Override
 			public void done(ParseUser user, ParseException e) {
 				if (user != null && e == null) {
-					startActivity(new Intent(LoginActivity.this, AccountsActivity.class));
+                    Intent intent = new Intent(LoginActivity.this, AccountsActivity.class);
+                    // intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+					startActivity(intent);
 					finish();
 				}
 				else {
+                    view.setEnabled(true);
+                    Log.e("LoginActivity", "Login failed!");
 					switch(e.getCode()) {
 						case ParseException.USERNAME_TAKEN:
 							break;

@@ -45,12 +45,13 @@
             android:inputType="textPassword" />
 
         <Button
-            android:id="@+id/sign_up"
+            android:id="@+id/loginButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
-            android:onClick="register"
-            android:text="Sign Up" />
+            android:onClick="login"
+            android:text="@string/log_in_button_text" />
+
     </LinearLayout>
 
     <Button

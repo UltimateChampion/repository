@@ -18,6 +18,6 @@
     <string name="refresh">Refresh</string>
     <string name="add_account">Add Account</string>
     <string name="manage_accounts">Manage Accounts</string>
-    <string name="log_out">Log out</string>
+    <string name="log_out">Log out</string><string name="log_in_button_text">Log in</string>
 
 </resources>

@@ -19,7 +19,7 @@ public class RegisterActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_login);
+		setContentView(R.layout.activity_register);
 		
 		username = (EditText) findViewById(R.id.register_username);
 		password = (EditText) findViewById(R.id.register_password);
@@ -41,6 +41,7 @@ public class RegisterActivity extends Activity {
 			public void done(ParseException e) {
 				if (e == null) {
 					Intent intent = new Intent(RegisterActivity.this, AccountsActivity.class);
+                    intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 					startActivity(intent);
 					finish();
 				}

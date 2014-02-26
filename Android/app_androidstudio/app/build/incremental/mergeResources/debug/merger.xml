@@ -83,6 +83,8 @@
                 </string>
                 <string name="submit" >Submit
                 </string>
+                <string name="log_in_button_text" >Log in
+                </string>
                 <string name="manage_accounts" >Manage Accounts
                 </string>
                 <string name="title_activity_register" >Register

@@ -33,19 +33,18 @@ public class AccountsActivity extends Activity implements OnItemClickListener {
         
         ParseUser user = ParseUser.getCurrentUser();
         if (user == null || ParseUser.getCurrentUser().getUsername() == null) {
+            Log.v(AccountsActivity.class.getName(), "USER WAS NULL!");
         	Intent intent = new Intent(this, LoginActivity.class);
         	startActivity(intent);
         	finish();
         }
-        
-        Log.v(AccountsActivity.class.getName(), ParseUser.getCurrentUser().getUsername());
-        
+
         _adapter = new UserAccountAdapter(this, new ArrayList<UserAccount>());
         
         _nameView = (TextView) findViewById(R.id.username_field);
         _accountsView = (ListView) findViewById(R.id.accounts_list);
 
-        _nameView.setText(ParseUser.getCurrentUser().getUsername());
+        if (user != null) _nameView.setText(user.getUsername());
         _accountsView.setAdapter(_adapter);
         _accountsView.setOnItemClickListener(this);
         
