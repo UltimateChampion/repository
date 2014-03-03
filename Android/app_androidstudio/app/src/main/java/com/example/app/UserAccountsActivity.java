@@ -21,7 +21,7 @@ import com.parse.ParseQuery;
 import com.parse.ParseQuery.CachePolicy;
 import com.parse.ParseUser;
 
-public class AccountsActivity extends Activity implements OnItemClickListener {
+public class UserAccountsActivity extends Activity implements OnItemClickListener {
 	private TextView _nameView;
 	private ListView _accountsView;
 	private UserAccountAdapter _adapter;
@@ -33,7 +33,7 @@ public class AccountsActivity extends Activity implements OnItemClickListener {
         
         ParseUser user = ParseUser.getCurrentUser();
         if (user == null || ParseUser.getCurrentUser().getUsername() == null) {
-            Log.v(AccountsActivity.class.getName(), "USER WAS NULL!");
+            Log.v(UserAccountsActivity.class.getName(), "USER WAS NULL!");
         	Intent intent = new Intent(this, LoginActivity.class);
         	startActivity(intent);
         	finish();
