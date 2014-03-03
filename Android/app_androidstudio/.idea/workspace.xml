@@ -32,31 +32,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05c6b869-0d87-4e7d-a4ef-fc598aec2e55" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/pre-dexed/debug/Parse-1.4.1-3fc42d83ed1c5cd1851bba0323094181e222564c.jar" afterPath="$PROJECT_DIR$/app/build/pre-dexed/debug/Parse-1.4.1-3fc42d83ed1c5cd1851bba0323094181e222564c.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/pre-dexed/debug/support-v4-19.0.1-3bf117e59e2e0f41bbf9219f2be90cdcf1dd583d.jar" afterPath="$PROJECT_DIR$/app/build/pre-dexed/debug/support-v4-19.0.1-3bf117e59e2e0f41bbf9219f2be90cdcf1dd583d.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/AccountViewActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/app/AccountViewActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/AddAccountDialog.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/app/AddAccountDialog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/AppApplication.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/app/AppApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/app/LoginActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/source/r/debug/com/example/app/R.java" afterPath="$PROJECT_DIR$/app/build/source/r/debug/com/example/app/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/RegisterActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/app/RegisterActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/Transaction.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/app/Transaction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/TransactionActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/app/TransactionActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/TransactionAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/app/TransactionAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/UserAccount.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/app/UserAccount.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/UserAccountAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/app/UserAccountAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/UserAccountsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/app/UserAccountsActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/accounts_row_item.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/accounts_row_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/accountsmenu.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/accountsmenu.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_account_view.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_account_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_addaccount.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_addaccount.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_transaction.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_transaction.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/ids.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/ids.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/transaction_row_item.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/transaction_row_item.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="app.iws" />
@@ -1288,6 +1263,11 @@
       <created>1393258851020</created>
       <updated>1393258851020</updated>
     </task>
+    <task id="LOCAL-00001" summary="please accept my changes&#10;im begging you git&#10;im begging you&#10;">
+      <created>1393836849335</created>
+      <updated>1393836849335</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
