@@ -38,7 +38,7 @@ public class LoginActivity extends Activity {
 			@Override
 			public void done(ParseUser user, ParseException e) {
 				if (user != null && e == null) {
-                    Intent intent = new Intent(LoginActivity.this, AccountsActivity.class);
+                    Intent intent = new Intent(LoginActivity.this, UserAccountsActivity.class);
                     // intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
 					startActivity(intent);
 					finish();
@@ -46,6 +46,7 @@ public class LoginActivity extends Activity {
 				else {
                     view.setEnabled(true);
                     Log.e("LoginActivity", "Login failed!");
+                    // TODO catch all of these errors
 					switch(e.getCode()) {
 						case ParseException.USERNAME_TAKEN:
 							break;

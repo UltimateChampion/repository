@@ -40,7 +40,7 @@ public class RegisterActivity extends Activity {
 			@Override
 			public void done(ParseException e) {
 				if (e == null) {
-					Intent intent = new Intent(RegisterActivity.this, AccountsActivity.class);
+					Intent intent = new Intent(RegisterActivity.this, UserAccountsActivity.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 					startActivity(intent);
 					finish();
