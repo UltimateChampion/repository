@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_alignParentLeft="true"
-        android:paddingTop="12dp"
+        android:paddingTop="10dp"
         android:id="@id/txnadapter_name" />
 
     <TextView
@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_alignParentRight="true"
-        android:id="@id/txnadapter_date" />
+        android:id="@id/txnadapter_value" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

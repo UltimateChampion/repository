@@ -18,11 +18,11 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int RelativeLayout01=0x7f05000c;
-        public static final int accountName=0x7f05000d;
-        public static final int account_name=0x7f050011;
+        public static final int RelativeLayout01=0x7f050014;
+        public static final int accountName=0x7f050015;
+        public static final int account_name=0x7f050019;
         public static final int account_value=0x7f050000;
-        public static final int accounts_list=0x7f050010;
+        public static final int accounts_list=0x7f050018;
         public static final int accountview_account_label=0x7f050001;
         public static final int accountview_balance=0x7f050002;
         public static final int accountview_balance_label=0x7f050003;
@@ -30,27 +30,36 @@ public final class R {
         public static final int accountview_num_txns=0x7f050005;
         public static final int accountview_num_txns_label=0x7f050006;
         public static final int accountview_txn_list=0x7f050007;
-        public static final int action_settings=0x7f050020;
-        public static final int addaccount=0x7f05001b;
-        public static final int addtransaction=0x7f05001c;
-        public static final int error_message=0x7f050019;
-        public static final int linearLayout=0x7f05000e;
-        public static final int logOutMenuItem=0x7f05001f;
-        public static final int loginButton=0x7f050017;
-        public static final int manageAccountMenuItem=0x7f05001d;
-        public static final int new_account_name=0x7f050012;
-        public static final int refresh=0x7f05001e;
-        public static final int registerButton=0x7f05001a;
-        public static final int register_password=0x7f050016;
-        public static final int register_username=0x7f050015;
-        public static final int signInButton=0x7f050018;
-        public static final int submit_button=0x7f050014;
-        public static final int textView=0x7f050013;
+        public static final int action_settings=0x7f050029;
+        public static final int addaccount=0x7f050024;
+        public static final int addtransaction=0x7f050025;
+        public static final int button=0x7f050023;
+        public static final int error_message=0x7f050021;
+        public static final int linearLayout=0x7f050016;
+        public static final int logOutMenuItem=0x7f050028;
+        public static final int loginButton=0x7f05001f;
+        public static final int manageAccountMenuItem=0x7f050026;
+        public static final int new_account_name=0x7f05001a;
+        public static final int refresh=0x7f050027;
+        public static final int registerButton=0x7f050022;
+        public static final int register_password=0x7f05001e;
+        public static final int register_username=0x7f05001d;
+        public static final int signInButton=0x7f050020;
+        public static final int submit_button=0x7f05001c;
+        public static final int textView=0x7f05001b;
         public static final int txnadapter_date=0x7f050008;
         public static final int txnadapter_name=0x7f050009;
         public static final int txnadapter_value=0x7f05000a;
-        public static final int txncreate_txn_name_label=0x7f05000b;
-        public static final int username_field=0x7f05000f;
+        public static final int txncreate_account_spinner=0x7f05000b;
+        public static final int txncreate_date_label=0x7f05000c;
+        public static final int txncreate_description=0x7f05000d;
+        public static final int txncreate_description_label=0x7f05000e;
+        public static final int txncreate_txn_date=0x7f05000f;
+        public static final int txncreate_txn_name=0x7f050010;
+        public static final int txncreate_txn_name_label=0x7f050011;
+        public static final int txncreate_txn_value=0x7f050012;
+        public static final int txncreate_value_label=0x7f050013;
+        public static final int username_field=0x7f050017;
     }
     public static final class layout {
         public static final int accounts_row_item=0x7f030000;
@@ -88,9 +97,14 @@ public final class R {
         public static final int submit=0x7f060012;
         public static final int title_activity_login=0x7f060013;
         public static final int title_activity_register=0x7f060014;
-        public static final int txncreate_txn_name=0x7f060015;
-        public static final int txncreate_txn_name_label=0x7f060016;
-        public static final int username=0x7f060017;
+        public static final int txncreate_account_label=0x7f060015;
+        public static final int txncreate_button_save=0x7f060016;
+        public static final int txncreate_date_label=0x7f060017;
+        public static final int txncreate_description_label=0x7f060018;
+        public static final int txncreate_txn_name=0x7f060019;
+        public static final int txncreate_txn_name_label=0x7f06001a;
+        public static final int txncreate_value_label=0x7f06001b;
+        public static final int username=0x7f06001c;
     }
     public static final class style {
         /** 

@@ -35,7 +35,14 @@ public class UserAccountAdapter extends ArrayAdapter<UserAccount> {
         if(uac.getAccountValue() < 0.0) {
             value.setTextColor(Color.RED);
         }
+        else {
+            value.setTextColor(Color.BLACK);
+        }
 		
 		return convertView;
 	}
+
+    public List<UserAccount> getList() {
+        return uAccounts;
+    }
 }

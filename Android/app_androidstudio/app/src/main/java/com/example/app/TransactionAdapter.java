@@ -28,7 +28,7 @@ public class TransactionAdapter extends ArrayAdapter<Transaction> {
     public View getView(int position, View convertView, ViewGroup parent) {
         if (convertView == null) {
             LayoutInflater lf = LayoutInflater.from(context);
-            convertView = lf.inflate(R.layout.accounts_row_item, null);
+            convertView = lf.inflate(R.layout.transaction_row_item, null);
         }
 
         Transaction t = transactions.get(position);
@@ -38,7 +38,7 @@ public class TransactionAdapter extends ArrayAdapter<Transaction> {
         TextView date = (TextView) convertView.findViewById(R.id.txnadapter_date);
 
         name.setText(t.getTransactionName());
-        value.setText(String.format("$%.2f" + t.getTransactionValue()));
+        value.setText(String.format("$%.2f", t.getTransactionValue()));
         DateFormat df = new SimpleDateFormat("MM/dd/yyyy HH:mm");
         date.setText(df.format(t.getDate("date")));
 

@@ -10,8 +10,9 @@ import java.util.Date;
 @ParseClassName("Transaction")
 public class Transaction extends ParseObject {
 	public Transaction() {
-		setTransactionValue(0.0);
-        setDate(new Date());
+        super();
+		// setTransactionValue(0.0);
+        // setTransactionDate(new Date());
 	}
 	
 	public void setUser(ParseUser user) {
@@ -25,20 +26,36 @@ public class Transaction extends ParseObject {
     public String getTransactionName() {
         return getString("name");
     }
+
+    public void setTransactionAccount(UserAccount a) {
+        put("userAccount", a);
+    }
+
+    public UserAccount getTransactionAccount() {
+        return (UserAccount)get("userAccount");
+    }
 	
 	public void setTransactionValue(double d) {
-		put("money", new BigDecimal(d).setScale(2, BigDecimal.ROUND_HALF_UP).doubleValue());
+		put("value", new BigDecimal(d).setScale(2, BigDecimal.ROUND_HALF_UP).doubleValue());
 	}
 	
 	public double getTransactionValue() {
-		return getDouble("money");
+		return getDouble("value");
 	}
 	
-	public void setDate(Date d) {
+	public void setTransactionDate(Date d) {
 		put("date", d);
 	}
 	
-	public Date getDate() {
+	public Date getTransactionDate() {
 		return getDate("date");
 	}
+
+    public void setDescription(String s) {
+        put("description", s);
+    }
+
+    public String getDescription() {
+        return getString("description");
+    }
 }

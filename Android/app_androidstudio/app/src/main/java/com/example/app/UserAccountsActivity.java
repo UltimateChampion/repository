@@ -51,6 +51,12 @@ public class UserAccountsActivity extends Activity implements OnItemClickListene
         updateData();
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        updateData();
+    }
+
     public void updateData() {
     	ParseQuery<UserAccount> query = ParseQuery.getQuery(UserAccount.class);
     	query.whereEqualTo("user", ParseUser.getCurrentUser());
@@ -73,15 +79,14 @@ public class UserAccountsActivity extends Activity implements OnItemClickListene
     			else Log.i(this.getClass().getName(), "UACs WAS NULL");
     		}
     	});
+
+        ParseSingleton.getInstance().put("accountsList", _adapter.getList());
     }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        Log.i(this.getClass().getName(), "Returned from creating the new account!");
         if (resultCode == RESULT_OK && data.getExtras() != null) {
-            UserAccount uac = new UserAccount();
-            uac.setAccountName(data.getExtras().getString("accountName"));
-            uac.setAccountValue(data.getExtras().getDouble("accountValue"));
+            UserAccount uac = (UserAccount)ParseSingleton.getInstance().get("newAccount");
             _adapter.add(uac);
         }
     }
@@ -121,11 +126,9 @@ public class UserAccountsActivity extends Activity implements OnItemClickListene
 
 	@Override
 	public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-		Log.i(getClass().getName(), id + " " + position + "!");
         UserAccount uac = _adapter.getItem(position);
 		Intent intent = new Intent(this, AccountViewActivity.class);
-        intent.putExtra("accountName", uac.getAccountName());
-        intent.putExtra("accountValue", uac.getAccountValue());
+        intent.putExtra("accountID", position);
         startActivity(intent);
 	}
 

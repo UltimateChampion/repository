@@ -33,11 +33,13 @@ public class AddAccountDialog extends Activity {
 			uac.setACL(new ParseACL(ParseUser.getCurrentUser()));
 			uac.setUser(ParseUser.getCurrentUser());
 			uac.setAccountName(_newAccountName.getText().toString());
-            uac.setAccountValue(Double.parseDouble(_newAccountValue.getText().toString()));
+            uac.setInitialValue(Double.parseDouble(_newAccountValue.getText().toString()));
+            uac.setAccountValue(uac.getInitialValue());
 			uac.saveEventually();
 
             i.putExtra("accountName", _newAccountName.getText().toString());
             i.putExtra("accountValue", Double.parseDouble(_newAccountValue.getText().toString()));
+            ParseSingleton.getInstance().put("newAccount", uac);
             setResult(RESULT_OK, i);
         }
         else {

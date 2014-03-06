@@ -21,16 +21,16 @@ public class UserAccount extends ParseObject {
         put("accountName", s);
     }
 
+    public void setInitialValue(double d) {
+        put("initialValue", d);
+    }
+
+    public double getInitialValue() {
+        return getDouble("initialValue");
+    }
+
     public String getAccountName() {
         return getString("accountName");
-    }
-
-    public void addTransaction(Transaction t) {
-        // TODO implement this
-    }
-
-    public void removeTransaction(Transaction t) {
-        // TODO implement this
     }
 
     public void setAccountValue(double d) {
@@ -49,8 +49,8 @@ public class UserAccount extends ParseObject {
         put("user", user);
     }
 
-    @SuppressWarnings("unchecked")
-    public List<Transaction> getTxnList() {
-        return (List<Transaction>) getParseObject("txnList");
+    @Override
+    public String toString() {
+        return getString("accountName");
     }
 }
