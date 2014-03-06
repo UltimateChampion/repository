@@ -2,64 +2,79 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="/Users/richard/Documents/CS2340/repository/Android/app_androidstudio/app/src/main/res" >
+        <source path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res" >
             <file
                 name="ic_launcher"
-                path="/Users/richard/Documents/CS2340/repository/Android/app_androidstudio/app/src/main/res/drawable-hdpi/ic_launcher.png"
+                path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/drawable-hdpi/ic_launcher.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/Users/richard/Documents/CS2340/repository/Android/app_androidstudio/app/src/main/res/drawable-mdpi/ic_launcher.png"
+                path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/drawable-mdpi/ic_launcher.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/Users/richard/Documents/CS2340/repository/Android/app_androidstudio/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+                path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/drawable-xhdpi/ic_launcher.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/Users/richard/Documents/CS2340/repository/Android/app_androidstudio/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+                path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
                 qualifiers="xxhdpi"
                 type="drawable" />
             <file
                 name="accounts_row_item"
-                path="/Users/richard/Documents/CS2340/repository/Android/app_androidstudio/app/src/main/res/layout/accounts_row_item.xml"
+                path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/layout/accounts_row_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_account_view"
+                path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/layout/activity_account_view.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="activity_accounts"
-                path="/Users/richard/Documents/CS2340/repository/Android/app_androidstudio/app/src/main/res/layout/activity_accounts.xml"
+                path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/layout/activity_accounts.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="activity_addaccount"
-                path="/Users/richard/Documents/CS2340/repository/Android/app_androidstudio/app/src/main/res/layout/activity_addaccount.xml"
+                path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/layout/activity_addaccount.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="activity_login"
-                path="/Users/richard/Documents/CS2340/repository/Android/app_androidstudio/app/src/main/res/layout/activity_login.xml"
+                path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/layout/activity_login.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="activity_register"
-                path="/Users/richard/Documents/CS2340/repository/Android/app_androidstudio/app/src/main/res/layout/activity_register.xml"
+                path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/layout/activity_register.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_transaction"
+                path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/layout/activity_transaction.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="transaction_row_item"
+                path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/layout/transaction_row_item.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="accountsmenu"
-                path="/Users/richard/Documents/CS2340/repository/Android/app_androidstudio/app/src/main/res/menu/accountsmenu.xml"
+                path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/menu/accountsmenu.xml"
                 qualifiers=""
                 type="menu" />
             <file
                 name="main"
-                path="/Users/richard/Documents/CS2340/repository/Android/app_androidstudio/app/src/main/res/menu/main.xml"
+                path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/menu/main.xml"
                 qualifiers=""
                 type="menu" />
             <file
-                path="/Users/richard/Documents/CS2340/repository/Android/app_androidstudio/app/src/main/res/values/dimens.xml"
+                path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/values/dimens.xml"
                 qualifiers="" >
                 <dimen name="activity_horizontal_margin" >16dp
                 </dimen>
@@ -67,7 +82,71 @@
                 </dimen>
             </file>
             <file
-                path="/Users/richard/Documents/CS2340/repository/Android/app_androidstudio/app/src/main/res/values/strings.xml"
+                path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/values/ids.xml"
+                qualifiers="" >
+                <item
+                    name="txnadapter_value"
+                    type="id"/>
+                <item
+                    name="txncreate_txn_date"
+                    type="id"/>
+                <item
+                    name="accountview_balance_label"
+                    type="id"/>
+                <item
+                    name="txncreate_description"
+                    type="id"/>
+                <item
+                    name="txncreate_description_label"
+                    type="id"/>
+                <item
+                    name="account_value"
+                    type="id"/>
+                <item
+                    name="txnadapter_name"
+                    type="id"/>
+                <item
+                    name="txncreate_txn_name"
+                    type="id"/>
+                <item
+                    name="txncreate_account_spinner"
+                    type="id"/>
+                <item
+                    name="txncreate_value_label"
+                    type="id"/>
+                <item
+                    name="accountview_balance"
+                    type="id"/>
+                <item
+                    name="accountview_num_txns_label"
+                    type="id"/>
+                <item
+                    name="accountview_account_label"
+                    type="id"/>
+                <item
+                    name="accountview_num_txns"
+                    type="id"/>
+                <item
+                    name="txnadapter_date"
+                    type="id"/>
+                <item
+                    name="txncreate_date_label"
+                    type="id"/>
+                <item
+                    name="txncreate_txn_value"
+                    type="id"/>
+                <item
+                    name="accountview_txn_list"
+                    type="id"/>
+                <item
+                    name="accountview_balance_numeric"
+                    type="id"/>
+                <item
+                    name="txncreate_txn_name_label"
+                    type="id"/>
+            </file>
+            <file
+                path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/values/strings.xml"
                 qualifiers="" >
                 <string name="action_settings" >Settings
                 </string>
@@ -75,43 +154,61 @@
                 </string>
                 <string name="enter_account_name_field" >Enter Account name
                 </string>
-
-                <color name="red" >#FFFF0000
-                </color>
-
-                <string name="add_rm_accounts" >+/- Accounts
+                <string name="txncreate_button_save" >Save
                 </string>
-                <string name="submit" >Submit
-                </string>
-                <string name="log_in_button_text" >Log in
+                <string name="txncreate_txn_name_label" >Transaction Name
                 </string>
                 <string name="manage_accounts" >Manage Accounts
                 </string>
                 <string name="title_activity_register" >Register
                 </string>
-                <string name="app_name" >app
+                <string name="txncreate_txn_name" >New Transaction (tap to edit)
                 </string>
                 <string name="already_have_account" >I already have an account
                 </string>
                 <string name="username" >Username:
                 </string>
-                <string name="refresh" >Refresh
-                </string>
                 <string name="password_label" >Password:
                 </string>
-                <string name="title_activity_login" >Login
+                <string name="txncreate_value_label" >Txn Value
                 </string>
                 <string name="hello_world" >Hello world!
                 </string>
-                <string name="log_out" >Log out
+                <string name="add_account" >New Account
                 </string>
-                <string name="add_account" >Add Account
+                <string name="txncreate_account_label" >Account
+                </string>
+                <string name="txncreate_description_label" >Description
+                </string>
+                <string name="accountview_balance_label" >Account Balance
+                </string>
+                <string name="add_rm_accounts" >+/- Accounts
+                </string>
+                <string name="submit" >Submit
+                </string>
+                <string name="txncreate_date_label" >Date
+                </string>
+                <string name="log_in_button_text" >Log in
+                </string>
+                <string name="new_transaction" >New Transaction
+                </string>
+                <string name="account_value" >Account Value
+                </string>
+                <string name="accountview_num_txns" >Transactions
+                </string>
+                <string name="app_name" >app
+                </string>
+                <string name="title_activity_login" >Login
+                </string>
+                <string name="refresh" >Refresh
+                </string>
+                <string name="log_out" >Log out
                 </string>
                 <string name="sign_up_label" >Register
                 </string>
             </file>
             <file
-                path="/Users/richard/Documents/CS2340/repository/Android/app_androidstudio/app/src/main/res/values/styles.xml"
+                path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/values/styles.xml"
                 qualifiers="" >
 
                 <style
@@ -133,13 +230,13 @@
                 </style>
             </file>
             <file
-                path="/Users/richard/Documents/CS2340/repository/Android/app_androidstudio/app/src/main/res/values-sw720dp-land/dimens.xml"
+                path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/values-sw720dp-land/dimens.xml"
                 qualifiers="sw720dp-land" >
                 <dimen name="activity_horizontal_margin" >128dp
                 </dimen>
             </file>
             <file
-                path="/Users/richard/Documents/CS2340/repository/Android/app_androidstudio/app/src/main/res/values-v11/styles.xml"
+                path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/values-v11/styles.xml"
                 qualifiers="v11" >
 
                 <style
@@ -150,7 +247,7 @@
                 </style>
             </file>
             <file
-                path="/Users/richard/Documents/CS2340/repository/Android/app_androidstudio/app/src/main/res/values-v14/styles.xml"
+                path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/values-v14/styles.xml"
                 qualifiers="v14" >
 
                 <style
@@ -161,10 +258,10 @@
                 </style>
             </file>
         </source>
-        <source path="/Users/richard/Documents/CS2340/repository/Android/app_androidstudio/app/build/res/rs/debug" />
+        <source path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/build/res/rs/debug" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="/Users/richard/Documents/CS2340/repository/Android/app_androidstudio/app/src/debug/res" />
+        <source path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/debug/res" />
     </dataSet>
 
 </merger>

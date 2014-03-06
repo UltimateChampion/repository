@@ -1,6 +1,7 @@
 package com.example.app;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.method.KeyListener;
@@ -8,6 +9,7 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 import com.parse.ParseACL;
 import com.parse.ParseUser;
@@ -104,7 +106,7 @@ public class TransactionActivity extends Activity {
     public void createNewTransaction(View v) {
         Intent i = new Intent();
 
-        if (_name.getText().length() > 0 && !_name.getText().equals(getResources().getString(R.id.txncreate_txn_name))) {
+        if ((_name.getText().length() > 0) && !_name.getText().equals(getResources().getString(R.id.txncreate_txn_name)) && (_value.getText().length() > 0)) {
             Transaction t = new Transaction();
             t.setACL(new ParseACL(ParseUser.getCurrentUser()));
             t.setUser(ParseUser.getCurrentUser());
@@ -124,6 +126,12 @@ public class TransactionActivity extends Activity {
             setResult(RESULT_OK, i);
         }
         else {
+            Context context = getApplicationContext();
+            CharSequence text = "Invalid Inputs";
+            int duration = Toast.LENGTH_SHORT;
+
+            Toast toast = Toast.makeText(context, text, duration);
+            toast.show();
             setResult(RESULT_CANCELED, i);
         }
 

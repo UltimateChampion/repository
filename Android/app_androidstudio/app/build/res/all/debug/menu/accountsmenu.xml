@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
     <item android:id="@+id/addaccount" android:title="@string/add_account"></item>
-    <item android:id="@+id/manageAccountMenuItem" android:title="@string/manage_accounts"></item><item android:id="@+id/refresh" android:title="@string/refresh"></item>
-    
+    <item android:id="@+id/addtransaction" android:title="@string/new_transaction"></item>
+    <item android:id="@+id/manageAccountMenuItem" android:title="@string/manage_accounts"></item>
+    <item android:id="@+id/refresh" android:title="@string/refresh"></item>
     <item android:id="@+id/logOutMenuItem" android:title="@string/log_out"></item>
 
 
 </menu>
-<!-- From: file:/Users/richard/Documents/CS2340/repository/Android/app_androidstudio/app/src/main/res/menu/accountsmenu.xml -->
+<!-- From: file:/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/menu/accountsmenu.xml -->

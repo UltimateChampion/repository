@@ -1,4 +1,4 @@
-<!-- From: file:/Users/richard/Documents/CS2340/repository/Android/app_androidstudio/app/src/main/AndroidManifest.xml --><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.example.app">
+<!-- From: file:/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/AndroidManifest.xml --><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.example.app">
 
     <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="19"/>
     
@@ -6,7 +6,7 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
     <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:name="com.example.app.AppApplication" android:theme="@style/AppTheme">
-        <activity android:label="@string/app_name" android:name="com.example.app.AccountsActivity">
+        <activity android:label="@string/app_name" android:name="com.example.app.UserAccountsActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
@@ -17,6 +17,10 @@
         <activity android:label="@string/title_activity_login" android:name="com.example.app.LoginActivity">
         </activity>
         <activity android:label="@string/title_activity_register" android:name="com.example.app.RegisterActivity">
+        </activity>
+        <activity android:label="@string/app_name" android:name="com.example.app.AccountViewActivity">
+        </activity>
+        <activity android:label="@string/app_name" android:name="com.example.app.TransactionActivity">
         </activity>
     </application>
 
