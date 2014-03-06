@@ -3,6 +3,7 @@ package com.example.app;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.text.method.KeyListener;
 import android.view.View;
@@ -30,6 +31,7 @@ public class TransactionActivity extends Activity {
     private EditText _date;
     private EditText _description;
     private Spinner _accountSpinner;
+    private MediaPlayer mp;
 
 
     // TODO Clear text in txn name field on first tap on first create only
@@ -59,6 +61,7 @@ public class TransactionActivity extends Activity {
             _listeners.put(e, e.getKeyListener());
         }
 
+        mp = MediaPlayer.create(this.getApplicationContext(), R.raw.c17);
     }
 
     @Override
@@ -124,6 +127,7 @@ public class TransactionActivity extends Activity {
 //            i.putExtra("transactionDate", date);
 //            i.putExtra("transactionAccountID", _accountSpinner.getSelectedItemPosition());
             setResult(RESULT_OK, i);
+            mp.start();
         }
         else {
             Context context = getApplicationContext();

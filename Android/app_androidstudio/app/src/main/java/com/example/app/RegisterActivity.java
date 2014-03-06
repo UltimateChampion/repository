@@ -2,6 +2,7 @@ package com.example.app;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -15,6 +16,7 @@ public class RegisterActivity extends Activity {
 	private EditText username;
 	private EditText password;
 	private TextView error;
+    private MediaPlayer mp;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +26,8 @@ public class RegisterActivity extends Activity {
 		username = (EditText) findViewById(R.id.register_username);
 		password = (EditText) findViewById(R.id.register_password);
 		error = (TextView) findViewById(R.id.error_message);
+
+        mp = MediaPlayer.create(this.getApplicationContext(), R.raw.b17);
 	}
 	
 	public void register(final View v) {
@@ -42,6 +46,8 @@ public class RegisterActivity extends Activity {
 				if (e == null) {
 					Intent intent = new Intent(RegisterActivity.this, UserAccountsActivity.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+
+                    mp.start();
 					startActivity(intent);
 					finish();
 				}

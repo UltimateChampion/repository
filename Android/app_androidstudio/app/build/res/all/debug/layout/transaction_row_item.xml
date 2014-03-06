@@ -29,4 +29,4 @@
         android:layout_alignParentRight="true"
         android:id="@id/txnadapter_date" />
 
-</RelativeLayout><!-- From: file:/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/layout/transaction_row_item.xml -->
+</RelativeLayout><!-- From: file:/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/layout/transaction_row_item.xml -->

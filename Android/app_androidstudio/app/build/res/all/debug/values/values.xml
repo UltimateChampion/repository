@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/values/dimens.xml -->
     <eat-comment />
 
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/values/ids.xml -->
+    <!-- From: file:/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/values/ids.xml -->
     <eat-comment />
 
     <item name="account_value" type="id"/>
@@ -29,7 +29,7 @@
     <item name="txncreate_txn_name_label" type="id"/>
     <item name="txncreate_txn_value" type="id"/>
     <item name="txncreate_value_label" type="id"/>
-    <!-- From: file:/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/values/strings.xml -->
     <eat-comment />
 
     <string name="account_name_field">Account name:</string>
@@ -61,7 +61,7 @@
     <string name="txncreate_txn_name_label">Transaction Name</string>
     <string name="txncreate_value_label">Txn Value</string>
     <string name="username">Username:</string>
-    <!-- From: file:/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/values/styles.xml -->
     <eat-comment />
 
     <style name="AppBaseTheme" parent="android:Theme.Light">

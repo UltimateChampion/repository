@@ -7,6 +7,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.widget.EditText;
+import android.media.MediaPlayer;
 
 import com.parse.LogInCallback;
 import com.parse.ParseException;
@@ -15,6 +16,7 @@ import com.parse.ParseUser;
 public class LoginActivity extends Activity {
 	private EditText username;
 	private EditText password;
+    private MediaPlayer mp;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +25,8 @@ public class LoginActivity extends Activity {
 		
 		username = (EditText) findViewById(R.id.register_username);
 		password = (EditText) findViewById(R.id.register_password);
+
+        mp = MediaPlayer.create(this.getApplicationContext(), R.raw.b17);
 	}
 
 	@Override
@@ -40,6 +44,8 @@ public class LoginActivity extends Activity {
 				if (user != null && e == null) {
                     Intent intent = new Intent(LoginActivity.this, UserAccountsActivity.class);
                     // intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                    mp.start();
+
 					startActivity(intent);
 					finish();
 				}

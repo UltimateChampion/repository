@@ -2,79 +2,79 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res" >
+        <source path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res" >
             <file
                 name="ic_launcher"
-                path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/drawable-hdpi/ic_launcher.png"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/drawable-hdpi/ic_launcher.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/drawable-mdpi/ic_launcher.png"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/drawable-mdpi/ic_launcher.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/drawable-xhdpi/ic_launcher.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
                 qualifiers="xxhdpi"
                 type="drawable" />
             <file
                 name="accounts_row_item"
-                path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/layout/accounts_row_item.xml"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/layout/accounts_row_item.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="activity_account_view"
-                path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/layout/activity_account_view.xml"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/layout/activity_account_view.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="activity_accounts"
-                path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/layout/activity_accounts.xml"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/layout/activity_accounts.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="activity_addaccount"
-                path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/layout/activity_addaccount.xml"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/layout/activity_addaccount.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="activity_login"
-                path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/layout/activity_login.xml"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/layout/activity_login.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="activity_register"
-                path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/layout/activity_register.xml"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/layout/activity_register.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="activity_transaction"
-                path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/layout/activity_transaction.xml"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/layout/activity_transaction.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="transaction_row_item"
-                path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/layout/transaction_row_item.xml"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/layout/transaction_row_item.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="accountsmenu"
-                path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/menu/accountsmenu.xml"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/menu/accountsmenu.xml"
                 qualifiers=""
                 type="menu" />
             <file
                 name="main"
-                path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/menu/main.xml"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/menu/main.xml"
                 qualifiers=""
                 type="menu" />
             <file
-                path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/values/dimens.xml"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/values/dimens.xml"
                 qualifiers="" >
                 <dimen name="activity_horizontal_margin" >16dp
                 </dimen>
@@ -82,7 +82,7 @@
                 </dimen>
             </file>
             <file
-                path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/values/ids.xml"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/values/ids.xml"
                 qualifiers="" >
                 <item
                     name="txnadapter_value"
@@ -146,7 +146,7 @@
                     type="id"/>
             </file>
             <file
-                path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/values/strings.xml"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/values/strings.xml"
                 qualifiers="" >
                 <string name="action_settings" >Settings
                 </string>
@@ -170,9 +170,9 @@
                 </string>
                 <string name="password_label" >Password:
                 </string>
-                <string name="txncreate_value_label" >Txn Value
-                </string>
                 <string name="hello_world" >Hello world!
+                </string>
+                <string name="txncreate_value_label" >Txn Value
                 </string>
                 <string name="add_account" >New Account
                 </string>
@@ -208,7 +208,7 @@
                 </string>
             </file>
             <file
-                path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/values/styles.xml"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/values/styles.xml"
                 qualifiers="" >
 
                 <style
@@ -230,13 +230,13 @@
                 </style>
             </file>
             <file
-                path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/values-sw720dp-land/dimens.xml"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/values-sw720dp-land/dimens.xml"
                 qualifiers="sw720dp-land" >
                 <dimen name="activity_horizontal_margin" >128dp
                 </dimen>
             </file>
             <file
-                path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/values-v11/styles.xml"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/values-v11/styles.xml"
                 qualifiers="v11" >
 
                 <style
@@ -247,7 +247,7 @@
                 </style>
             </file>
             <file
-                path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/values-v14/styles.xml"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/values-v14/styles.xml"
                 qualifiers="v14" >
 
                 <style
@@ -257,11 +257,21 @@
                     <!-- API 14 theme customizations can go here. -->
                 </style>
             </file>
+            <file
+                name="b17"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/raw/b17.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="c17"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/raw/c17.mp3"
+                qualifiers=""
+                type="raw" />
         </source>
-        <source path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/build/res/rs/debug" />
+        <source path="/Users/AmierNaji/repository/Android/app_androidstudio/app/build/res/rs/debug" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/debug/res" />
+        <source path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/debug/res" />
     </dataSet>
 
 </merger>
