@@ -111,6 +111,9 @@ public class AccountViewActivity extends Activity implements OnItemClickListener
                 ParseUser.logOut();
                 startActivity(new Intent(this, LoginActivity.class));
                 return true;
+            case R.id.recordAccountItem:
+                startActivity(new Intent(this, AccountRecordActivity.class));
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }

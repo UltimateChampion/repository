@@ -18,4 +18,4 @@ android:padding="10dp">
     android:layout_alignParentRight="true"
     android:id="@+id/account_value"/>
 
-</RelativeLayout><!-- From: file:/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/layout/accounts_row_item.xml -->
+</RelativeLayout><!-- From: file:/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/layout/accounts_row_item.xml -->

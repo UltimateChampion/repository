@@ -118,6 +118,9 @@ public class UserAccountsActivity extends Activity implements OnItemClickListene
 				ParseUser.logOut();
 				startActivity(new Intent(this, LoginActivity.class));
 				return true;
+            case R.id.recordAccountItem:
+                startActivity(new Intent(this, AccountRecordActivity.class));
+                return true;
 			default:
 				return super.onOptionsItemSelected(item);
 		}
