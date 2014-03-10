@@ -22,13 +22,14 @@ import com.parse.ParseUser;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
  * Created by michael on 3/8/2014
  */
 public class AccountRecordActivity extends Activity{
-    private TextView _startDateField, _endDateField;
+    private TextView _startDateField, _endDateField, _builtRecordView;
     private ListView _accountBalanceList;
     private TextView _totalBalance;
 
@@ -91,7 +92,9 @@ public class AccountRecordActivity extends Activity{
             return;
         }
         AccountRecord report = new AccountRecord(startDate, endDate);
-        Toast.makeText(this, report.buildRecord(), Toast.LENGTH_SHORT).show();
+        //Toast.makeText(this, report.buildRecord(), Toast.LENGTH_SHORT).show();
+         _builtRecordView= (TextView) findViewById(R.id.built_record_label);
+         _builtRecordView.setText(report.buildRecord());
     }
 
 }

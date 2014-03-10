@@ -14,32 +14,29 @@ import java.util.List;
  * Created by michaelfalk on 3/9/14.
  */
 public class AccountRecord {
-    private Date startDate, endDate;
+    private Date start, end;
     private double balance;
     private List<Transaction> transactions;
 
     public AccountRecord(Date startDate, Date endDate) {
-        this.startDate = startDate;
-        this.endDate = endDate;
+        start = startDate;
+        end = endDate;
         this.balance = 0;
 
     }
 
     public String buildRecord(){
         String out = "";
-        transactions = getRecords(startDate, endDate);
 
-        for (Transaction t: transactions){
-            Date candidateDate = t.getTransactionDate();
-//
-//            if (candidateDate.equals(startDate) || (candidateDate.after(startDate) && candidateDate.before(endDate))|| candidateDate.equals(endDate)){
-//                out += t.getTransactionAccount().getAccountName().toString()+","+candidateDate.toString()+"\n";
-//            }
+        for (Transaction t: getRecords()) {
+
+            out += "\n\n"+ t.getTransactionName() + "-\n"+ t.getTransactionDate().toString();
         }
+
         return out;
     }
 
-    private List<Transaction> getRecords(Date start, Date end) {
+    private List<Transaction> getRecords() {
         Log.i(getClass().getName(), "Now getting records!");
         // Mapping of Account names to Transaction lists to be returned.
         List<Transaction> list = new LinkedList<Transaction>();
