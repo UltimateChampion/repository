@@ -92,6 +92,13 @@ public class AccountRecordActivity extends Activity{
             Toast.makeText(this, "Invalid End Date", Toast.LENGTH_SHORT).show();
             return;
         }
+
+        if (endDate.compareTo(startDate) <= 0) {
+
+            Toast.makeText(this, "End Date must be strictly later than Start Date!", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
         AccountRecord report = new AccountRecord(startDate, endDate);
         //Toast.makeText(this, report.buildRecord(), Toast.LENGTH_SHORT).show();
          _builtRecordView= (TextView) findViewById(R.id.built_record_label);

@@ -33,9 +33,6 @@
     <list default="true" id="05c6b869-0d87-4e7d-a4ef-fc598aec2e55" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecord.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecord.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecordActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecordActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/source/r/debug/com/example/app/R.java" afterPath="$PROJECT_DIR$/app/build/source/r/debug/com/example/app/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_account_record.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_account_record.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -104,10 +101,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AccountRecordActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AccountRecordActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecordActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="100" column="0" selection-start="3627" selection-end="3627" vertical-scroll-proportion="0.0" vertical-offset="825" max-vertical-offset="1260">
+            <state line="105" column="46" selection-start="3786" selection-end="3786" vertical-scroll-proportion="0.64285713" vertical-offset="945" max-vertical-offset="1365">
               <folding />
             </state>
           </provider>
@@ -143,10 +140,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountRecord.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AccountRecord.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecord.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="29" selection-start="904" selection-end="904" vertical-scroll-proportion="0.5159705" vertical-offset="330" max-vertical-offset="1125">
+            <state line="41" column="0" selection-start="1197" selection-end="1197" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1125">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -622,9 +619,9 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/AccountViewActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/UserAccountsActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecordAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecordActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_account_record.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecord.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecordActivity.java" />
       </list>
     </option>
   </component>
@@ -1552,13 +1549,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecordActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="0" selection-start="3627" selection-end="3627" vertical-scroll-proportion="0.0" vertical-offset="825" max-vertical-offset="1260">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_account_record.xml">
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1065">
@@ -1571,10 +1561,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="29" selection-start="904" selection-end="904" vertical-scroll-proportion="0.5159705" vertical-offset="330" max-vertical-offset="1125">
+        <state line="41" column="0" selection-start="1197" selection-end="1197" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1125">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecordActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="46" selection-start="3786" selection-end="3786" vertical-scroll-proportion="0.64285713" vertical-offset="945" max-vertical-offset="1365">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -33,7 +33,7 @@ public class AccountRecord {
 
         for (Transaction t: getRecords()) {
 
-            if (t.getTransactionDate().after(start) && t.getTransactionDate().before(end)) {
+            if ((t.getTransactionDate().compareTo(start) >= 0) && (t.getTransactionDate().compareTo(end) <= 0)) {
             out += "\n\n"+ t.getTransactionName() + "-\n"+ t.getTransactionDate().toString() +"\nAmount Spent- $"+dFormat.format(t.getTransactionValue()) ;
             totalBalance += t.getTransactionValue();
             }
