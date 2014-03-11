@@ -9,6 +9,7 @@ import com.parse.ParseUser;
 import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
+import java.text.DecimalFormat;
 
 /**
  * Created by michaelfalk on 3/9/14.
@@ -26,12 +27,18 @@ public class AccountRecord {
     }
 
     public String buildRecord(){
-        String out = "";
+        String out = "Account Report- \n";
+        double totalBalance = 0;
+        DecimalFormat dFormat = new DecimalFormat("#.00");
 
         for (Transaction t: getRecords()) {
 
-            out += "\n\n"+ t.getTransactionName() + "-\n"+ t.getTransactionDate().toString();
+            if (t.getTransactionDate().after(start) && t.getTransactionDate().before(end)) {
+            out += "\n\n"+ t.getTransactionName() + "-\n"+ t.getTransactionDate().toString() +"\nAmount Spent- $"+dFormat.format(t.getTransactionValue()) ;
+            totalBalance += t.getTransactionValue();
+            }
         }
+        out += "\n\nTotal Balance- $"+dFormat.format(totalBalance);
 
         return out;
     }

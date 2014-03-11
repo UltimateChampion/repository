@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -95,6 +96,7 @@ public class AccountRecordActivity extends Activity{
         //Toast.makeText(this, report.buildRecord(), Toast.LENGTH_SHORT).show();
          _builtRecordView= (TextView) findViewById(R.id.built_record_label);
          _builtRecordView.setText(report.buildRecord());
+         _builtRecordView.setMovementMethod(new ScrollingMovementMethod());
     }
 
 }
