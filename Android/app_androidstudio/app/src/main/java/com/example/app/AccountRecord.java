@@ -1,5 +1,6 @@
 package com.example.app;
 
+import android.accounts.Account;
 import android.util.Log;
 
 import com.parse.ParseException;
@@ -10,6 +11,7 @@ import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
 import java.text.DecimalFormat;
+import java.util.ArrayList;
 
 /**
  * Created by michaelfalk on 3/9/14.
@@ -18,26 +20,46 @@ public class AccountRecord {
     private Date start, end;
     private double balance;
     private List<Transaction> transactions;
+    private List<String> accounts;
+    private List<Double> accountBalances; //Don't HIT ME FOR THIS. Had to make parallel lists b/c time.
 
     public AccountRecord(Date startDate, Date endDate) {
         start = startDate;
         end = endDate;
         this.balance = 0;
-
+        accounts = new ArrayList<String>();
+        accountBalances = new ArrayList<Double>();
     }
 
     public String buildRecord(){
         String out = "Account Report- \n";
         double totalBalance = 0;
+
         DecimalFormat dFormat = new DecimalFormat("#.00");
 
+        out+="\nTransactions:";
         for (Transaction t: getRecords()) {
 
             if ((t.getTransactionDate().compareTo(start) >= 0) && (t.getTransactionDate().compareTo(end) <= 0)) {
-            out += "\n\n"+ t.getTransactionName() + "-\n"+ t.getTransactionDate().toString() +"\nAmount Spent- $"+dFormat.format(t.getTransactionValue()) ;
+            out += "\n\n"+t.getTransactionAccount().toString() +":\n"+ t.getTransactionName() + "-\n"+ t.getTransactionDate().toString() +"\nAmount Spent- $"+dFormat.format(t.getTransactionValue()) ;
             totalBalance += t.getTransactionValue();
+
+                if (!accounts.contains(t.getTransactionAccount().toString())){
+                    accounts.add(t.getTransactionAccount().toString());
+                    accountBalances.add(new Double(0)); //Initialize subaccount balance
+                }
+                if (accounts.contains(t.getTransactionAccount())){
+                    int index = accounts.indexOf(t.getTransactionAccount().toString());
+                    accountBalances.set(accounts.indexOf(index), accountBalances.get(index)+t.getTransactionValue());
+                }
             }
         }
+
+        out+="\n\nAccount Balances:";
+        for (int j = 0; j < accounts.size(); j++){
+            out+="\n\n"+accounts.get(j)+": "+dFormat.format(accountBalances.get(j));
+        }
+
         out += "\n\nTotal Balance- $"+dFormat.format(totalBalance);
 
         return out;

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/Users/AmierNaji/repository/Android/app_androidstudio/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values/values.xml -->
+    <!-- From: file:/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values/values.xml -->
     <eat-comment />
 
     <attr name="actionBarDivider" format="reference" />
@@ -482,12 +482,12 @@
     <dimen name="abc_panel_menu_list_width">296dp</dimen>
     <dimen name="abc_search_view_preferred_width">320dip</dimen>
     <dimen name="abc_search_view_text_min_width">160dip</dimen>
-    <!-- From: file:/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/values/dimens.xml -->
     <eat-comment />
 
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/values/ids.xml -->
+    <!-- From: file:/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/values/ids.xml -->
     <eat-comment />
 
     <item name="account_value" type="id"/>
@@ -498,7 +498,7 @@
     <item name="accountview_num_txns" type="id"/>
     <item name="accountview_num_txns_label" type="id"/>
     <item name="accountview_txn_list" type="id"/>
-    <!-- From: file:/Users/AmierNaji/repository/Android/app_androidstudio/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values/values.xml -->
+    <!-- From: file:/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values/values.xml -->
     <eat-comment />
 
     <item name="action_bar_activity_content" type="id"/>
@@ -507,7 +507,7 @@
     <item name="home" type="id"/>
     <item name="progress_circular" type="id"/>
     <item name="progress_horizontal" type="id"/>
-    <!-- From: file:/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/values/ids.xml -->
+    <!-- From: file:/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/values/ids.xml -->
     <eat-comment />
 
     <item name="txnadapter_date" type="id"/>
@@ -522,7 +522,7 @@
     <item name="txncreate_txn_name_label" type="id"/>
     <item name="txncreate_txn_value" type="id"/>
     <item name="txncreate_value_label" type="id"/>
-    <!-- From: file:/Users/AmierNaji/repository/Android/app_androidstudio/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values/values.xml -->
+    <!-- From: file:/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values/values.xml -->
     <eat-comment />
 
     <integer name="abc_max_action_buttons">2</integer>
@@ -540,7 +540,7 @@
     <string name="abc_searchview_description_voice">Voice search</string>
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
-    <!-- From: file:/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/values/strings.xml -->
     <eat-comment />
 
     <string name="account_name_field">Account name:</string>
@@ -574,7 +574,7 @@
     <string name="txncreate_txn_name_label">Transaction Name</string>
     <string name="txncreate_value_label">Txn Value</string>
     <string name="username">Username:</string>
-    <!-- From: file:/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/values/styles.xml -->
     <eat-comment />
 
     <style name="AppBaseTheme" parent="android:Theme.Light">
@@ -588,7 +588,7 @@
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
-    <!-- From: file:/Users/AmierNaji/repository/Android/app_androidstudio/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values/values.xml -->
+    <!-- From: file:/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values/values.xml -->
     <eat-comment />
 
     <style name="TextAppearance.AppCompat.Base.CompactMenu.Dialog" parent="android:TextAppearance.Medium">

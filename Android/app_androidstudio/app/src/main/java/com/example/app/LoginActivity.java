@@ -8,6 +8,7 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.EditText;
 import android.media.MediaPlayer;
+import android.widget.Toast;
 
 import com.parse.LogInCallback;
 import com.parse.ParseException;
@@ -55,8 +56,10 @@ public class LoginActivity extends Activity {
                     // TODO catch all of these errors
 					switch(e.getCode()) {
 						case ParseException.USERNAME_TAKEN:
+                            Toast.makeText(getApplicationContext(), "Login Failed\nUsername Taken", Toast.LENGTH_SHORT).show();
 							break;
 						default:
+                            Toast.makeText(getApplicationContext(), "Login Failed\nIncorrect Password", Toast.LENGTH_SHORT).show();
 							break;
 					}
 				}

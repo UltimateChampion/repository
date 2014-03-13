@@ -19,9 +19,10 @@
         android:inputType="date"
         android:ems="10"
         android:id="@+id/editText_start_date"
-        android:text="Start Date"
+        android:text="Start: DD/MM/YYYY"
         android:layout_above="@+id/view2"
-        android:layout_toLeftOf="@+id/build_record_button" />
+        android:layout_toLeftOf="@+id/build_record_button"
+        android:textSize="12dp" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -29,9 +30,10 @@
         android:inputType="date"
         android:ems="10"
         android:id="@+id/editText_end_date"
-        android:text="End Date"
+        android:text="End: DD/MM/YYYY"
         android:layout_above="@+id/view2"
-        android:layout_toRightOf="@+id/build_record_button" />
+        android:layout_toRightOf="@+id/build_record_button"
+        android:textSize="12dp" />
 
     <View
         android:layout_width="fill_parent"
@@ -53,4 +55,4 @@
         android:layout_toLeftOf="@+id/editText_end_date"
         android:layout_marginTop="56dp" />
 
-</RelativeLayout><!-- From: file:/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/layout/activity_account_record.xml -->
+</RelativeLayout><!-- From: file:/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/layout/activity_account_record.xml -->
