@@ -31,11 +31,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05c6b869-0d87-4e7d-a4ef-fc598aec2e55" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/pre-dexed/debug/Parse-1.4.1-87f7f2c1e2f0a365b419485dd4491530512018a8.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/pre-dexed/debug/classes-25e82d1692f2f79004b4380dba186ed14fabeb09.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/pre-dexed/debug/Parse-1.4.1-7f4024da18ce616e1248389120a1618b6619e838.jar" afterPath="$PROJECT_DIR$/app/build/pre-dexed/debug/Parse-1.4.1-7f4024da18ce616e1248389120a1618b6619e838.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/pre-dexed/debug/classes-b841aaf5f6e8df6471c6d8039fca22e716414276.jar" afterPath="$PROJECT_DIR$/app/build/pre-dexed/debug/classes-b841aaf5f6e8df6471c6d8039fca22e716414276.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/pre-dexed/debug/support-v4-19.0.1-3bf117e59e2e0f41bbf9219f2be90cdcf1dd583d.jar" afterPath="$PROJECT_DIR$/app/build/pre-dexed/debug/support-v4-19.0.1-3bf117e59e2e0f41bbf9219f2be90cdcf1dd583d.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecord.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecord.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/app/LoginActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_account_record.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_account_record.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -109,16 +108,16 @@
       <file leaf-file-name="AccountRecordActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecordActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="96" column="0" selection-start="3310" selection-end="3310" vertical-scroll-proportion="0.0" vertical-offset="779" max-vertical-offset="1365">
+            <state line="96" column="0" selection-start="3310" selection-end="3310" vertical-scroll-proportion="0.0" vertical-offset="284" max-vertical-offset="1365">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_account_record.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="activity_account_record.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_account_record.xml">
           <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="945">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
               <folding />
             </state>
           </provider>
@@ -130,18 +129,16 @@
       <file leaf-file-name="AccountRecord.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecord.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="30" selection-start="2080" selection-end="2080" vertical-scroll-proportion="-14.538462" vertical-offset="477" max-vertical-offset="1455">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="56" column="95" selection-start="2280" selection-end="2280" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="1365">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Transaction.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/Transaction.java">
+      <file leaf-file-name="UserAccountAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/UserAccountAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="4" selection-start="790" selection-end="790" vertical-scroll-proportion="0.8840304" vertical-offset="0" max-vertical-offset="930">
+            <state line="39" column="9" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="810">
               <folding />
             </state>
           </provider>
@@ -150,7 +147,7 @@
       <file leaf-file-name="UserAccount.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/UserAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="0" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
+            <state line="53" column="0" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.0" vertical-offset="795" max-vertical-offset="930">
               <folding />
             </state>
           </provider>
@@ -159,7 +156,7 @@
       <file leaf-file-name="StringBuilder.class" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/java/lang/StringBuilder.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="0" selection-start="3351" selection-end="3351" vertical-scroll-proportion="0.0" vertical-offset="702" max-vertical-offset="1215">
+            <state line="76" column="0" selection-start="3351" selection-end="3351" vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="1230">
               <folding />
             </state>
           </provider>
@@ -585,9 +582,9 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/UserAccountsActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecordAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/LoginActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_account_record.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecordActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecord.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_account_record.xml" />
       </list>
     </option>
   </component>
@@ -741,36 +738,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app_androidstudio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app_androidstudio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="menu" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1125,7 +1092,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1137,7 +1104,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23796424" sideWeight="0.13984375" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20234291" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296146" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24765626" sideWeight="0.50180507" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24765626" sideWeight="0.50180507" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25963488" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32599726" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23796424" sideWeight="0.86015624" order="13" side_tool="false" content_ui="tabs" />
@@ -1152,8 +1119,8 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29765624" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5667125" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1184,21 +1151,12 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="32" selection-start="1616" selection-end="1616" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="915">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state line="52" column="56" selection-start="1906" selection-end="1906" vertical-scroll-proportion="0.0" vertical-offset="780" max-vertical-offset="1065" />
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/RegisterActivity.java">
@@ -1209,11 +1167,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140" />
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/UserAccount.java">
@@ -1318,63 +1276,63 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/accounts_row_item.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="244" selection-end="244" vertical-scroll-proportion="-3.8888888" vertical-offset="0" max-vertical-offset="390">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
-      <provider selected="true" editor-type-id="android-designer">
+      <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
       <provider editor-type-id="text-editor">
         <state line="52" column="56" selection-start="1906" selection-end="1906" vertical-scroll-proportion="0.0" vertical-offset="780" max-vertical-offset="1065">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_addaccount.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_addaccount.xml">
       <provider editor-type-id="text-editor">
         <state line="29" column="4" selection-start="1008" selection-end="1008" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="885">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml">
-      <provider editor-type-id="android-designer">
+      <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="17" selection-start="536" selection-end="536" vertical-scroll-proportion="-0.014285714" vertical-offset="173" max-vertical-offset="1125">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_accounts.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_accounts.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="38" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.75" vertical-offset="0" max-vertical-offset="560">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/transaction_row_item.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/transaction_row_item.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="31" selection-start="467" selection-end="467" vertical-scroll-proportion="0.34031415" vertical-offset="0" max-vertical-offset="573">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/android/app/Activity.class">
@@ -1406,33 +1364,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/ParseSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_account_view.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state line="36" column="0" selection-start="1269" selection-end="2175" vertical-scroll-proportion="0.0" vertical-offset="438" max-vertical-offset="1365">
           <folding />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/UserAccountsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="106" column="28" selection-start="3478" selection-end="3478" vertical-scroll-proportion="0.0" vertical-offset="1410" max-vertical-offset="1830">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/UserAccountAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="9" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="660">
           <folding />
         </state>
       </provider>
@@ -1451,21 +1395,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/TransactionActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="53" selection-start="4414" selection-end="4414" vertical-scroll-proportion="0.0" vertical-offset="1431" max-vertical-offset="1980">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_transaction.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="0" selection-start="714" selection-end="894" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1845">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/RegisterActivity.java">
@@ -1479,7 +1416,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="58" column="47" selection-start="1892" selection-end="1892" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1155">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1491,26 +1428,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_account_record.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1065">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecordActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="0" selection-start="3310" selection-end="3310" vertical-scroll-proportion="0.0" vertical-offset="779" max-vertical-offset="1365">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/app/libs/Parse-1.4.1.jar!/com/parse/ParseObject.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="327" column="0" selection-start="17929" selection-end="17929" vertical-scroll-proportion="0.81557375" vertical-offset="4492" max-vertical-offset="4980">
+        <state line="327" column="0" selection-start="17929" selection-end="17929" vertical-scroll-proportion="0.81557375" vertical-offset="4492" max-vertical-offset="4980" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/app/libs/Parse-1.4.1.jar!/com/parse/ParseQuery.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="165" column="47" selection-start="8838" selection-end="8845" vertical-scroll-proportion="0.33333334" vertical-offset="2306" max-vertical-offset="3690" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="4" selection-start="790" selection-end="790" vertical-scroll-proportion="0.93" vertical-offset="0" max-vertical-offset="930">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/TransactionActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="53" selection-start="4414" selection-end="4414" vertical-scroll-proportion="0.16374269" vertical-offset="1431" max-vertical-offset="1980">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/ParseSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="107" selection-end="107" vertical-scroll-proportion="0.19961977" vertical-offset="0" max-vertical-offset="526">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/UserAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="0" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/UserAccountAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="9" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.0" vertical-offset="134" max-vertical-offset="660">
           <folding />
         </state>
       </provider>
@@ -1522,27 +1480,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecordActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="0" selection-start="3310" selection-end="3310" vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="1365">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="30" selection-start="2080" selection-end="2080" vertical-scroll-proportion="-14.538462" vertical-offset="477" max-vertical-offset="1455">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/UserAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="0" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
+        <state line="56" column="95" selection-start="2280" selection-end="2280" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="1365">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/Transaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="4" selection-start="790" selection-end="790" vertical-scroll-proportion="0.8840304" vertical-offset="0" max-vertical-offset="930">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_account_record.xml">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1065">
           <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
   </component>

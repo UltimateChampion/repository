@@ -19,10 +19,11 @@
         android:inputType="date"
         android:ems="10"
         android:id="@+id/editText_start_date"
-        android:text="Start: DD/MM/YYYY"
         android:layout_above="@+id/view2"
         android:layout_toLeftOf="@+id/build_record_button"
-        android:textSize="12dp" />
+        android:textSize="12dp"
+        android:editable="true"
+        android:hint="Start: MM/dd/YYYY" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -30,10 +31,11 @@
         android:inputType="date"
         android:ems="10"
         android:id="@+id/editText_end_date"
-        android:text="End: DD/MM/YYYY"
         android:layout_above="@+id/view2"
         android:layout_toRightOf="@+id/build_record_button"
-        android:textSize="12dp" />
+        android:textSize="12dp"
+        android:editable="true"
+        android:hint="End: MM/dd/YYYY" />
 
     <View
         android:layout_width="fill_parent"
@@ -51,8 +53,11 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text=""
         android:id="@+id/built_record_label"
-        android:layout_below="@+id/built_record_label"
-        android:layout_toLeftOf="@+id/editText_end_date"
-        android:layout_marginTop="56dp" />
+        android:layout_alignTop="@+id/view2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="false" />
 
 </RelativeLayout><!-- From: file:/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/layout/activity_account_record.xml -->

@@ -7,6 +7,7 @@ import com.parse.ParseException;
 import com.parse.ParseQuery;
 import com.parse.ParseUser;
 
+import java.text.NumberFormat;
 import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
@@ -32,35 +33,38 @@ public class AccountRecord {
     }
 
     public String buildRecord(){
-        String out = "Account Report- \n";
+        String out = "Account Report: \n";
         double totalBalance = 0;
 
-        DecimalFormat dFormat = new DecimalFormat("#.00");
+//        DecimalFormat toMoney = (DecimalFormat)NumberFormat.getCurrencyInstance();
+//        String symbol = toMoney.getCurrency().getSymbol();
+//        toMoney.setNegativePrefix(symbol+"-"); // or "-"+symbol if that's what you need
+//        toMoney.setNegativeSuffix("");
+        DecimalFormat toMoney = new DecimalFormat("$#,##0.00;-$#,##0.00");
 
-        out+="\nTransactions:";
+        out+="\nTransactions:\n";
         for (Transaction t: getRecords()) {
 
             if ((t.getTransactionDate().compareTo(start) >= 0) && (t.getTransactionDate().compareTo(end) <= 0)) {
-            out += "\n\n"+t.getTransactionAccount().toString() +":\n"+ t.getTransactionName() + "-\n"+ t.getTransactionDate().toString() +"\nAmount Spent- $"+dFormat.format(t.getTransactionValue()) ;
+            out += "\tAccount: "+t.getTransactionAccount().getAccountName() +":\n\tName: "+ t.getTransactionName() + "-\n\tDate: "+ t.getTransactionDate().toString() +"\n\tAmount Spent: " + toMoney.format(t.getTransactionValue()) + "\n\n" ;
             totalBalance += t.getTransactionValue();
 
                 if (!accounts.contains(t.getTransactionAccount().toString())){
                     accounts.add(t.getTransactionAccount().toString());
                     accountBalances.add(new Double(0)); //Initialize subaccount balance
                 }
-                if (accounts.contains(t.getTransactionAccount())){
-                    int index = accounts.indexOf(t.getTransactionAccount().toString());
-                    accountBalances.set(accounts.indexOf(index), accountBalances.get(index)+t.getTransactionValue());
-                }
+                int index = accounts.indexOf(t.getTransactionAccount().toString());
+                accountBalances.set(index, accountBalances.get(index)+t.getTransactionValue());
             }
         }
 
-        out+="\n\nAccount Balances:";
+
+        out+="Account Balances:\n";
         for (int j = 0; j < accounts.size(); j++){
-            out+="\n\n"+accounts.get(j)+": "+dFormat.format(accountBalances.get(j));
+            out+="\t"+accounts.get(j)+": "+toMoney.format(accountBalances.get(j))+"\n";
         }
 
-        out += "\n\nTotal Balance- $"+dFormat.format(totalBalance);
+        out += "\n\tTotal Balance: "+toMoney.format(totalBalance)+"\n";
 
         return out;
     }
@@ -78,6 +82,8 @@ public class AccountRecord {
         query.whereLessThan("date", end);
         // Make sure we only select our current user's transactions
         query.whereEqualTo("user", ParseUser.getCurrentUser());
+        //include accounts into consideration
+        query.include("userAccount");
         // Execute the search in the foreground (we don't want background)
         try {
             list = query.find();
