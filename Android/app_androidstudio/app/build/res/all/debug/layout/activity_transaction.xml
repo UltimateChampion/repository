@@ -11,10 +11,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="10dp"
-        android:text="@string/txncreate_txn_name"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:editable="true"
-        android:enabled="true" />
+        android:enabled="true"
+        android:hint="New Transaction (tap to edit)" />
 
     <View
         android:layout_width="fill_parent"
