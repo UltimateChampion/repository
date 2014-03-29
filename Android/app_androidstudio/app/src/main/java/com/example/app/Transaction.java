@@ -9,28 +9,53 @@ import java.util.Date;
 
 @ParseClassName("Transaction")
 public class Transaction extends ParseObject {
-	public Transaction() {
+
+    /**
+     * Constructor
+     */
+    public Transaction() {
         super();
 		// setTransactionValue(0.0);
         // setTransactionDate(new Date());
 	}
-	
+
+    /**
+     * Puts user into the database
+     * @param user object representing the current user
+     */
 	public void setUser(ParseUser user) {
 		put("user", user);
 	}
 
+    /**
+     * Puts transaction name in database
+     * @param s name of the transaction
+     */
     public void setTransactionName(String s) {
         put("name", s);
     }
+
+    /**
+     * Retrieves transaction name from database
+     * @return String of the transaction name
+     */
 
     public String getTransactionName() {
         return getString("name");
     }
 
+    /**
+     * Puts the super-account into database
+     * @param a object representing the super-account
+     */
     public void setTransactionAccount(UserAccount a) {
         put("userAccount", a);
     }
 
+    /**
+     * Retrieves transaction super account from database
+     * @return transaction super account object
+     */
     public UserAccount getTransactionAccount() {
         return (UserAccount)get("userAccount");
     }

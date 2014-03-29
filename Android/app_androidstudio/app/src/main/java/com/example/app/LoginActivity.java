@@ -18,6 +18,11 @@ public class LoginActivity extends Activity {
 	private EditText username;
 	private EditText password;
     private MediaPlayer mp;
+
+    /**
+     * Activity Creation
+     * @param savedInstanceState buffered information bundle from the last activity
+     */
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +35,11 @@ public class LoginActivity extends Activity {
         mp = MediaPlayer.create(this.getApplicationContext(), R.raw.b17);
 	}
 
+    /**
+     *
+     * @param menu
+     * @return
+     */
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.

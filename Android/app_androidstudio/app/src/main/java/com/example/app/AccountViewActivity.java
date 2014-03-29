@@ -159,7 +159,7 @@ public class AccountViewActivity extends Activity implements OnItemClickListener
         Intent intent = new Intent(this, TransactionActivity.class);
         intent.putExtra("accountID", getIntent().getIntExtra("accountID", 0));
         intent.putExtra("accountName", _accountNameField.getText().toString());
-        intent.putExtra("edit", false);
+        intent.putExtra("edit", true);
         startActivityForResult(intent, 1);
     }
 

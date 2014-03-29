@@ -17,6 +17,7 @@ import java.util.ArrayList;
 /**
  * Created by michaelfalk on 3/9/14.
  */
+
 public class AccountRecord {
     private Date start, end;
     private double balance;
@@ -24,13 +25,24 @@ public class AccountRecord {
     private List<String> accounts;
     private List<Double> accountBalances; //Don't HIT ME FOR THIS. Had to make parallel lists b/c time.
 
+    /**
+     * @param startDate beginning date from where to start reading transactions
+     * @param endDate date to stop reading transactions
+     */
     public AccountRecord(Date startDate, Date endDate) {
-        start = startDate;
-        end = endDate;
+
+
+        start = new Date(startDate.getTime());
+        end = new Date(endDate.getTime());
         this.balance = 0;
         accounts = new ArrayList<String>();
         accountBalances = new ArrayList<Double>();
     }
+
+    /**
+     * Creates formatted financial report
+     * @return String representation of the financial report
+     */
 
     public String buildRecord(){
         String out = "Account Report: \n";
@@ -68,6 +80,11 @@ public class AccountRecord {
 
         return out;
     }
+
+    /**
+     * Finds records given date boundary information
+     * @return List of transactions found between the start and end date
+     */
 
     private List<Transaction> getRecords() {
         Log.i(getClass().getName(), "Now getting records!");
