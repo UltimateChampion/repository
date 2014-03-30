@@ -1,0 +1,30 @@
+<!-- From: file:/Users/AmierNaji/repository/Android/app_androidstudioTests/app_androidstudioTests/app/src/main/AndroidManifest.xml --><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.example.app">
+
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="19"/>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:name="com.example.app.AppApplication" android:theme="@style/AppTheme">
+        <activity android:label="@string/app_name" android:name="com.example.app.UserAccountsActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="com.example.app.AddAccountDialog" android:theme="@android:style/Theme.Dialog">
+        </activity>
+        <activity android:label="@string/title_activity_login" android:name="com.example.app.LoginActivity">
+        </activity>
+        <activity android:label="@string/title_activity_register" android:name="com.example.app.RegisterActivity">
+        </activity>
+        <activity android:label="@string/app_name" android:name="com.example.app.AccountViewActivity">
+        </activity>
+        <activity android:label="@string/app_name" android:name="com.example.app.TransactionActivity">
+        </activity>
+        <activity android:label="@string/title_activity_account_record" android:name="com.example.app.AccountRecordActivity">
+        </activity>
+    </application>
+
+</manifest>
