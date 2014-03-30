@@ -31,419 +31,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05c6b869-0d87-4e7d-a4ef-fc598aec2e55" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/pre-dexed/debug/Parse-1.4.1-87f7f2c1e2f0a365b419485dd4491530512018a8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/libs/Parse-1.4.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ab_bottom_solid_dark_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ab_bottom_solid_dark_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ab_bottom_solid_dark_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ab_bottom_solid_light_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ab_bottom_solid_light_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ab_bottom_solid_light_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ab_bottom_transparent_dark_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ab_bottom_transparent_dark_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ab_bottom_transparent_dark_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ab_bottom_transparent_light_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ab_bottom_transparent_light_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ab_bottom_transparent_light_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ab_share_pack_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ab_solid_dark_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ab_solid_dark_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ab_solid_dark_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ab_solid_light_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ab_solid_light_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ab_solid_light_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ab_stacked_solid_dark_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ab_stacked_solid_dark_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ab_stacked_solid_dark_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ab_stacked_solid_light_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ab_stacked_solid_light_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ab_stacked_solid_light_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ab_stacked_transparent_dark_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ab_stacked_transparent_dark_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ab_stacked_transparent_dark_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ab_stacked_transparent_light_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ab_stacked_transparent_light_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ab_stacked_transparent_light_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ab_transparent_dark_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ab_transparent_dark_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ab_transparent_dark_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ab_transparent_light_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ab_transparent_light_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ab_transparent_light_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_cab_background_bottom_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_cab_background_bottom_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_cab_background_bottom_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_cab_background_bottom_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_cab_background_bottom_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_cab_background_bottom_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_cab_background_top_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_cab_background_top_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_cab_background_top_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_cab_background_top_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_cab_background_top_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_cab_background_top_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ic_ab_back_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ic_ab_back_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ic_ab_back_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ic_ab_back_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ic_ab_back_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ic_ab_back_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ic_cab_done_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ic_cab_done_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ic_cab_done_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ic_cab_done_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ic_cab_done_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ic_cab_done_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ic_clear_disabled.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ic_clear_disabled.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ic_clear_disabled.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ic_clear_normal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ic_clear_normal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ic_clear_search_api_disabled_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ic_clear_search_api_disabled_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ic_clear_search_api_disabled_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ic_clear_search_api_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ic_clear_search_api_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ic_clear_search_api_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ic_commit_search_api_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ic_commit_search_api_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ic_commit_search_api_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ic_commit_search_api_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ic_commit_search_api_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ic_commit_search_api_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ic_go.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ic_go.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ic_go.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ic_go_search_api_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ic_go_search_api_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ic_go_search_api_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ic_menu_moreoverflow_normal_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ic_menu_moreoverflow_normal_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ic_menu_moreoverflow_normal_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ic_menu_moreoverflow_normal_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ic_menu_moreoverflow_normal_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ic_menu_moreoverflow_normal_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ic_menu_share_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ic_menu_share_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ic_menu_share_holo_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ic_menu_share_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ic_menu_share_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ic_menu_share_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ic_search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ic_search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ic_search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ic_search_api_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ic_search_api_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ic_search_api_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ic_voice_search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ic_voice_search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ic_voice_search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ic_voice_search_api_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ic_voice_search_api_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ic_voice_search_api_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_list_divider_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_list_divider_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_list_divider_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_list_divider_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_list_divider_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_list_divider_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_list_focused_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_list_focused_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_list_focused_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_list_longpressed_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_list_longpressed_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_list_longpressed_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_list_pressed_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_list_pressed_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_list_pressed_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_list_pressed_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_list_pressed_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_list_pressed_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_list_selector_disabled_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_list_selector_disabled_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_list_selector_disabled_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_list_selector_disabled_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_list_selector_disabled_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_list_selector_disabled_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_menu_dropdown_panel_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_menu_dropdown_panel_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_menu_dropdown_panel_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_menu_dropdown_panel_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_menu_dropdown_panel_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_menu_dropdown_panel_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_menu_hardkey_panel_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_menu_hardkey_panel_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_menu_hardkey_panel_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_menu_hardkey_panel_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_menu_hardkey_panel_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_menu_hardkey_panel_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_spinner_ab_default_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_spinner_ab_default_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_spinner_ab_default_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_spinner_ab_default_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_spinner_ab_default_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_spinner_ab_default_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_spinner_ab_disabled_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_spinner_ab_disabled_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_spinner_ab_disabled_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_spinner_ab_disabled_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_spinner_ab_disabled_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_spinner_ab_disabled_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_spinner_ab_focused_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_spinner_ab_focused_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_spinner_ab_focused_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_spinner_ab_focused_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_spinner_ab_focused_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_spinner_ab_focused_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_spinner_ab_pressed_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_spinner_ab_pressed_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_spinner_ab_pressed_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_spinner_ab_pressed_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_spinner_ab_pressed_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_spinner_ab_pressed_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_tab_selected_focused_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_tab_selected_focused_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_tab_selected_focused_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_tab_selected_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_tab_selected_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_tab_selected_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_tab_selected_pressed_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_tab_selected_pressed_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_tab_selected_pressed_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_tab_unselected_pressed_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_tab_unselected_pressed_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_tab_unselected_pressed_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_textfield_search_default_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_textfield_search_default_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_textfield_search_default_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_textfield_search_default_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_textfield_search_default_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_textfield_search_default_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_textfield_search_right_default_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_textfield_search_right_default_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_textfield_search_right_default_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_textfield_search_right_default_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_textfield_search_right_default_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_textfield_search_right_default_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_textfield_search_right_selected_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_textfield_search_right_selected_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_textfield_search_right_selected_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_textfield_search_right_selected_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_textfield_search_right_selected_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_textfield_search_right_selected_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_textfield_search_selected_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_textfield_search_selected_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_textfield_search_selected_holo_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_textfield_search_selected_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_textfield_search_selected_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_textfield_search_selected_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/src/main/res/raw/b17.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/src/main/res/raw/c17.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/pre-dexed/debug/classes-25e82d1692f2f79004b4380dba186ed14fabeb09.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/classes.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/gradle/wrapper/gradle-wrapper.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/src/main/res/drawable-hdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/src/main/res/drawable-mdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/src/main/res/drawable-xhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/src/main/res/drawable-xxhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/pre-dexed/debug/support-v4-19.0.1-3bf117e59e2e0f41bbf9219f2be90cdcf1dd583d.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/src/main/java/com/example/app/AccountRecord.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/src/main/java/com/example/app/AccountRecordActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/src/main/java/com/example/app/AccountRecordAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/src/main/java/com/example/app/AccountViewActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/src/main/java/com/example/app/AddAccountDialog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/src/main/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/src/main/java/com/example/app/AppApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/source/buildConfig/debug/com/example/app/BuildConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/source/buildConfig/test/debug/com/example/app/test/BuildConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/.idea/libraries/ComAndroidSupportAppcompatV71901_aar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/.idea/libraries/Gradle__ComAndroidSupportAppcompatV71901_aar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/.idea/libraries/Gradle__Parse_1_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/.idea/libraries/Gradle__support_v4_19_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/src/main/java/com/example/app/LoginActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/src/main/java/com/example/app/ParseSingleton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/.idea/libraries/Parse_1_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/source/r/debug/android/support/v7/appcompat/R.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/source/r/debug/com/example/app/R.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/R.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/src/main/java/com/example/app/RegisterActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/src/main/java/com/example/app/Transaction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/src/main/java/com/example/app/TransactionActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/src/main/java/com/example/app/TransactionAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/src/main/java/com/example/app/UserAccount.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/src/main/java/com/example/app/UserAccountAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/src/main/java/com/example/app/UserAccountsActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_action_bar_decor.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout-v11/abc_action_bar_decor.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_action_bar_decor_include.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_action_bar_decor_overlay.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_action_bar_home.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_action_bar_tab.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_action_bar_tabbar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_action_bar_title_item.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_action_bar_view_list_nav_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_action_menu_item_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_action_menu_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_action_mode_bar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_action_mode_close_item.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_activity_chooser_view.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout-v14/abc_activity_chooser_view.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_activity_chooser_view_include.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_activity_chooser_view_list_item.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_expanded_menu_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/anim/abc_fade_in.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/anim/abc_fade_out.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable/abc_ic_clear.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable/abc_ic_clear_holo_light.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable/abc_item_background_holo_dark.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable/abc_item_background_holo_light.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_list_menu_item_checkbox.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_list_menu_item_icon.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_list_menu_item_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_list_menu_item_radio.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable/abc_list_selector_background_transition_holo_dark.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable/abc_list_selector_background_transition_holo_light.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable/abc_list_selector_holo_dark.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable/abc_list_selector_holo_light.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_popup_menu_item_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable/abc_search_dropdown_dark.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_search_dropdown_item_icons_2line.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable/abc_search_dropdown_light.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/color/abc_search_url_text_holo.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_search_view.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/anim/abc_slide_in_bottom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/anim/abc_slide_in_top.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/anim/abc_slide_out_bottom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/anim/abc_slide_out_top.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable/abc_spinner_ab_holo_dark.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable/abc_spinner_ab_holo_light.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable/abc_tab_indicator_ab_holo.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable/abc_textfield_searchview_holo_dark.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable/abc_textfield_searchview_holo_light.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable/abc_textfield_searchview_right_holo_dark.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable/abc_textfield_searchview_right_holo_light.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/src/main/res/layout/accounts_row_item.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/src/main/res/menu/accountsmenu.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/src/main/res/layout/activity_account_record.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/src/main/res/layout/activity_account_view.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/src/main/res/layout/activity_accounts.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/src/main/res/layout/activity_addaccount.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/src/main/res/layout/activity_login.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/src/main/res/layout/activity_register.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/src/main/res/layout/activity_transaction.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/app.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app_androidstudio.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app_androidstudioTests.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/.idea/libraries/appcompat_v7_19_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/src/main/res/values/dimens.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/src/main/res/values-sw600dp/dimens.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/src/main/res/values-sw720dp-land/dimens.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/src/main/res/values-w820dp/dimens.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/.idea/findbugs-idea.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/.idea/gradle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/gradlew.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/gradlew" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/src/main/res/values/ids.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/import-summary.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/local.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/src/main/res/menu/main.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/settings.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/src/main/res/values/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/src/main/res/values/styles.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/src/main/res/values-v11/styles.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/src/main/res/values-v14/styles.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/support_simple_spinner_dropdown_item.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/.idea/libraries/support_v4_19_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/src/main/java/test/java/testAmier" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/src/main/res/layout/transaction_row_item.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-af/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-am/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-ar/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-bg/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-ca/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-cs/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-da/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-de/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-el/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-en-rGB/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-en-rIN/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-es/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-es-rUS/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-et-rEE/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-fa/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-fi/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-fr/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-fr-rCA/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-hi/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-hr/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-hu/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-hy-rAM/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-in/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-it/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-iw/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-ja/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-ka-rGE/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-km-rKH/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-ko/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-land/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-large/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-lo-rLA/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-lt/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-lv/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-mn-rMN/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-ms-rMY/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-nb/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-nl/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-pl/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-pt/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-pt-rPT/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-ro/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-ru/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-sk/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-sl/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-sr/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-sv/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-sw/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-sw600dp/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-th/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-tl/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-tr/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-uk/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-v11/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-v14/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-vi/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-w360dp/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-w480dp/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-w500dp/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-w600dp/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-w720dp/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-xlarge/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-zh-rCN/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-zh-rHK/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-zh-rTW/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-zu/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/app/DateValidater.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/test/java/testAmier2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/test/java/testAmier2.null" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/.gradle/1.9/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/.gradle/1.9/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecord.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecord.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecordActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecordActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/app.iml" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_androidstudio.iml" afterPath="$PROJECT_DIR$/app_androidstudio.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app_androidstudioTests.iml" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/app_androidstudioTests.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../app_androidstudioTests/app_androidstudioTests/.idea/workspace.xml" />
     </list>
     <ignored path="app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -512,29 +112,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AccountRecordActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AccountRecordActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecordActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="96" column="0" selection-start="3310" selection-end="3310" vertical-scroll-proportion="0.0" vertical-offset="1440" max-vertical-offset="1725">
+            <state line="91" column="19" selection-start="3160" selection-end="3160" vertical-scroll-proportion="0.6366782" vertical-offset="821" max-vertical-offset="1170">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountRecord.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AccountRecord.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecord.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="32" selection-start="1170" selection-end="1170" vertical-scroll-proportion="-0.65217394" vertical-offset="645" max-vertical-offset="1620">
+            <state line="116" column="44" selection-start="4237" selection-end="4237" vertical-scroll-proportion="0.0" vertical-offset="1419" max-vertical-offset="1695">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TransactionAdapter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/TransactionAdapter.java">
+      <file leaf-file-name="DateValidater.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/DateValidater.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="29" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="825">
-              <folding />
+            <state line="23" column="0" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="870">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#347#348#0" expanded="true" />
+                <element signature="e#379#380#0" expanded="true" />
+                <element signature="e#421#422#0" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -542,16 +148,45 @@
       <file leaf-file-name="UserAccount.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/UserAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="0" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.0" vertical-offset="795" max-vertical-offset="930">
+            <state line="53" column="0" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.0" vertical-offset="146" max-vertical-offset="870">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddAccountDialog.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/AddAccountDialog.java">
+      <file leaf-file-name="UserAccountAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/UserAccountAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="13" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="975">
+            <state line="39" column="9" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.0" vertical-offset="131" max-vertical-offset="660">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testAmier2.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/test/java/testAmier2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="0" selection-start="527" selection-end="527" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="600">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Transaction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/Transaction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="56" column="47" selection-start="1265" selection-end="1265" vertical-scroll-proportion="0.0" vertical-offset="1016" max-vertical-offset="1305">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransactionActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/TransactionActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="119" column="53" selection-start="4414" selection-end="4414" vertical-scroll-proportion="0.0" vertical-offset="1431" max-vertical-offset="1980">
               <folding />
             </state>
           </provider>
@@ -560,25 +195,7 @@
       <file leaf-file-name="AppApplication.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/AppApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="13" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="360">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ParseSingleton.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/ParseSingleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="13" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="540">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegisterActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/RegisterActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="30" selection-start="1861" selection-end="1861" vertical-scroll-proportion="0.0" vertical-offset="915" max-vertical-offset="1275">
+            <state line="7" column="13" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0" vertical-offset="26" max-vertical-offset="315">
               <folding />
             </state>
           </provider>
@@ -587,7 +204,7 @@
       <file leaf-file-name="LoginActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/LoginActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="6" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="1365">
+            <state line="38" column="6" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.0" vertical-offset="834" max-vertical-offset="1125">
               <folding />
             </state>
           </provider>
@@ -1009,7 +626,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/menu/accountsmenu.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/UserAccountsActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecordAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecordActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_account_record.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_transaction.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/AccountViewActivity.java" />
@@ -1017,9 +633,12 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/testAmier" />
         <option value="$PROJECT_DIR$/app/src/main/java/test/testAmier" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecord.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/LoginActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/Transaction.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/test/java/testAmier2.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecord.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/DateValidater.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecordActivity.java" />
       </list>
     </option>
   </component>
@@ -1079,6 +698,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1087,9 +707,140 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app_androidstudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app_androidstudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app_androidstudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app_androidstudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app_androidstudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app_androidstudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app_androidstudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app_androidstudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app_androidstudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app_androidstudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app_androidstudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app_androidstudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -1100,55 +851,33 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="recentsLimit" value="5" />
-    <property name="FullScreen" value="false" />
-    <property name="SearchEverywhereHistory" value="&#10;addaccount&#10;if&#10;_ad" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="192.168.56.101:5555" />
-    <property name="LayoutCode.rearrangeEntriesJava" value="false" />
-    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="options.lastSelected" value="com.genymobile.genymotion.ide.idea.GdmSettings" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="254" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="264" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="268" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1062" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="260" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="262" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="266" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1060" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/repository-master/Android/app_androidstudio" />
-    <property name="OverrideImplement.combined" value="true" />
-    <property name="OverrideImplement.overriding.sorted" value="false" />
-    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.WIDTH" value="328" />
+    <property name="recentsLimit" value="5" />
+    <property name="SearchEverywhereHistory" value="" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="192.168.56.101:5555" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test.java" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/../app_androidstudioTests" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.example.app" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/src/main/java" />
       <recent name="$PROJECT_DIR$/app/src" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.app" />
+    </key>
   </component>
-  <component name="RunManager" selected="Android Application.app">
+  <component name="RunManager" selected="Android Tests.testAmier">
     <configuration default="false" name="UserAccountsActivity" type="AndroidRunConfigurationType" factoryName="Android Application" temporary="true">
       <module name="app" />
       <option name="ACTIVITY_CLASS" value="com.example.app.UserAccountsActivity" />
@@ -1314,10 +1043,10 @@
     </configuration>
     <configuration default="false" name="testAmier" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="app" />
-      <option name="TESTING_TYPE" value="0" />
+      <option name="TESTING_TYPE" value="2" />
       <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
       <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
+      <option name="CLASS_NAME" value="test.java.testAmier2" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
@@ -1336,8 +1065,8 @@
     </configuration>
     <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Android Application.app" />
-      <item index="1" class="java.lang.String" itemvalue="Android Tests.testAmier" />
-      <item index="2" class="java.lang.String" itemvalue="Android Application.UserAccountsActivity" />
+      <item index="1" class="java.lang.String" itemvalue="Android Application.UserAccountsActivity" />
+      <item index="2" class="java.lang.String" itemvalue="Android Tests.testAmier" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -1422,21 +1151,21 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296146" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3986711" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20234291" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47342193" sideWeight="0.29765624" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20234291" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.81640625" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296146" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24765626" sideWeight="0.50180507" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25963488" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24765626" sideWeight="0.50180507" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296146" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32599726" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47342193" sideWeight="0.70234376" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.02578125" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296146" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.02578125" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24765626" sideWeight="0.49819493" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24765626" sideWeight="0.49819493" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32392028" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="PMD" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1474,21 +1203,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/import-summary.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/import-summary.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1080" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/import-summary.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1080" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/import-summary.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="0" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1080" />
@@ -1551,17 +1265,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="43" selection-start="1783" selection-end="1783" vertical-scroll-proportion="1.0" vertical-offset="0" max-vertical-offset="855">
-          <folding />
-        </state>
+        <state line="46" column="43" selection-start="1783" selection-end="1783" vertical-scroll-proportion="1.0" vertical-offset="0" max-vertical-offset="855" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/transaction_row_item.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="31" selection-start="467" selection-end="467" vertical-scroll-proportion="0.34031415" vertical-offset="0" max-vertical-offset="573" />
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/android/app/Activity.class">
@@ -1595,51 +1307,51 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/accounts_row_item.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state line="7" column="0" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml">
       <provider editor-type-id="text-editor">
         <state line="11" column="17" selection-start="536" selection-end="536" vertical-scroll-proportion="0.0" vertical-offset="173" max-vertical-offset="1125" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_account_record.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_account_record.xml">
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1065" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_account_view.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_account_view.xml">
       <provider editor-type-id="text-editor">
         <state line="36" column="0" selection-start="1269" selection-end="2175" vertical-scroll-proportion="0.0" vertical-offset="438" max-vertical-offset="1365" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_accounts.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_accounts.xml">
       <provider editor-type-id="text-editor">
         <state line="28" column="38" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.0" vertical-offset="56" max-vertical-offset="555" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_addaccount.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_addaccount.xml">
       <provider editor-type-id="text-editor">
         <state line="29" column="4" selection-start="1008" selection-end="1008" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="885" />
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gradlew">
@@ -1653,26 +1365,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_transaction.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state line="18" column="0" selection-start="720" selection-end="900" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1845" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
       <provider editor-type-id="text-editor">
         <state line="52" column="56" selection-start="1906" selection-end="1906" vertical-scroll-proportion="0.0" vertical-offset="780" max-vertical-offset="1065" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/test/java/testAmier">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0" vertical-offset="86" max-vertical-offset="465">
-          <folding />
-        </state>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
@@ -1689,36 +1394,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/TransactionActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="53" selection-start="4414" selection-end="4414" vertical-scroll-proportion="0.0" vertical-offset="1431" max-vertical-offset="1980" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecordAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="13" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/AccountViewActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="156" column="35" selection-start="6232" selection-end="6232" vertical-scroll-proportion="0.0" vertical-offset="1063" max-vertical-offset="2355" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/UserAccountsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="106" column="28" selection-start="3478" selection-end="3478" vertical-scroll-proportion="0.0" vertical-offset="1410" max-vertical-offset="1830" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/UserAccountAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="9" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/AppApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/ParseSingleton.java">
@@ -1735,13 +1418,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/Transaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="47" selection-start="1265" selection-end="1265" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="1305">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/TransactionAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="29" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="675">
@@ -1749,9 +1425,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/UserAccount.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/test/java/testAmier2.null">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="0" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
+        <state line="10" column="22" selection-start="0" selection-end="573" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/test/java/testAmier">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0" vertical-offset="131" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/AccountViewActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="156" column="35" selection-start="6232" selection-end="6232" vertical-scroll-proportion="0.0" vertical-offset="1543" max-vertical-offset="2355">
           <folding />
         </state>
       </provider>
@@ -1763,23 +1453,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecordActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/AppApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="0" selection-start="3310" selection-end="3310" vertical-scroll-proportion="0.0" vertical-offset="839" max-vertical-offset="1365">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="32" selection-start="1170" selection-end="1170" vertical-scroll-proportion="-0.65217394" vertical-offset="645" max-vertical-offset="1620">
+        <state line="7" column="13" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="6" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1125">
+        <state line="38" column="6" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.0" vertical-offset="834" max-vertical-offset="1125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/test/java/testAmier2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="527" selection-end="527" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="600">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="47" selection-start="1265" selection-end="1265" vertical-scroll-proportion="0.0" vertical-offset="1016" max-vertical-offset="1305">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/TransactionActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="53" selection-start="4414" selection-end="4414" vertical-scroll-proportion="0.0" vertical-offset="1431" max-vertical-offset="1980">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/UserAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="0" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/UserAccountAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="9" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.0" vertical-offset="131" max-vertical-offset="660">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="116" column="44" selection-start="4237" selection-end="4237" vertical-scroll-proportion="0.0" vertical-offset="1104" max-vertical-offset="1695">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/DateValidater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="870">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecordActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="19" selection-start="3160" selection-end="3160" vertical-scroll-proportion="0.6366782" vertical-offset="821" max-vertical-offset="1170">
           <folding />
         </state>
       </provider>

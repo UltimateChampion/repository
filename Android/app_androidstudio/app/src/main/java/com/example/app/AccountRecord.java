@@ -111,4 +111,9 @@ public class AccountRecord {
 
         return list;
     }
+
+    public boolean validDateRange() {
+
+       return (!(end.compareTo(start) <= 0));
+    }
 }

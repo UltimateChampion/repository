@@ -78,28 +78,15 @@ public class AccountRecordActivity extends Activity{
         _endDateField = (TextView) findViewById(R.id.editText_end_date);
         String startDateString = _startDateField.getText().toString();
         String endDateString = _endDateField.getText().toString();
-        SimpleDateFormat dateFormatter = new SimpleDateFormat("MM/dd/yy"); //Find a way to force slashes (our format)
-        Date startDate = null, endDate = null;
-        try {
-            startDate = dateFormatter.parse(startDateString);
-        } catch (java.text.ParseException e) {
-            Toast.makeText(this, "Invalid Start Date", Toast.LENGTH_SHORT).show();
-            return;
-        }
-        try {
-            endDate = dateFormatter.parse(endDateString);
-        } catch (java.text.ParseException e) {
-            Toast.makeText(this, "Invalid End Date", Toast.LENGTH_SHORT).show();
+         //Find a way to force slashes (our format)
+
+        if (DateValidater.validateDate(startDateString, endDateString)) {
+            Toast.makeText(this, "Invalid Date Inputs", Toast.LENGTH_SHORT).show();
             return;
         }
 
-        if (endDate.compareTo(startDate) <= 0) {
 
-            Toast.makeText(this, "End Date must be strictly later than Start Date!", Toast.LENGTH_SHORT).show();
-            return;
-        }
-
-        AccountRecord report = new AccountRecord(startDate, endDate);
+        AccountRecord report = new AccountRecord(DateValidater.getFirstDate(), DateValidater.getSecondDate());
         //Toast.makeText(this, report.buildRecord(), Toast.LENGTH_SHORT).show();
          _builtRecordView= (TextView) findViewById(R.id.built_record_label);
          _builtRecordView.setText(report.buildRecord());
