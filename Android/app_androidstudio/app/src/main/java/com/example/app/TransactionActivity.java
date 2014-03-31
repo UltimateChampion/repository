@@ -108,8 +108,7 @@ public class TransactionActivity extends Activity {
 
     public void createNewTransaction(View v) {
         Intent i = new Intent();
-
-        if ((_name.getText().length() > 0) && !_name.getText().equals(getResources().getString(R.id.txncreate_txn_name)) && (_value.getText().length() > 0)) {
+        if (InputValidator.isValid(_name.getText().toString(), _value.getText().toString()) && !_name.getText().equals(getResources().getString(R.id.txncreate_txn_name))) {
             Transaction t = new Transaction();
             t.setACL(new ParseACL(ParseUser.getCurrentUser()));
             t.setUser(ParseUser.getCurrentUser());

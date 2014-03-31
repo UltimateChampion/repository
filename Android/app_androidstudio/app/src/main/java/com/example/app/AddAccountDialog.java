@@ -30,7 +30,7 @@ public class AddAccountDialog extends Activity {
 	public void createNewAccount(View v) {
         Intent i = new Intent();
 
-		if ((_newAccountName.getText().length() > 0) && (_newAccountValue.getText().length() > 0)) {
+		if (InputValidator.isValid(_newAccountName.getText().toString(), _newAccountValue.getText().toString())){
 			UserAccount uac = new UserAccount();
 			uac.setACL(new ParseACL(ParseUser.getCurrentUser()));
 			uac.setUser(ParseUser.getCurrentUser());
