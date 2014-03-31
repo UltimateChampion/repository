@@ -8,7 +8,7 @@ import java.util.Date;
 /**
  * Created by AmierNaji on 3/30/14.
  */
-public class DateValidater {
+public class DateValidator {
 
     private static Date startDate;
     private static Date endDate;
