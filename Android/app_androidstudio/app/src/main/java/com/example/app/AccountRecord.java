@@ -20,7 +20,6 @@ import java.util.ArrayList;
 
 public class AccountRecord {
     private Date start, end;
-    private double balance;
     private List<Transaction> transactions;
     private List<String> accounts;
     private List<Double> accountBalances; //Don't HIT ME FOR THIS. Had to make parallel lists b/c time.
@@ -34,7 +33,6 @@ public class AccountRecord {
 
         start = new Date(startDate.getTime());
         end = new Date(endDate.getTime());
-        this.balance = 0;
         accounts = new ArrayList<String>();
         accountBalances = new ArrayList<Double>();
     }
