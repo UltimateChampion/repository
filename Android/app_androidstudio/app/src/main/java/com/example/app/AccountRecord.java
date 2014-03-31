@@ -20,7 +20,6 @@ import java.util.ArrayList;
 
 public class AccountRecord {
     private Date start, end;
-    private List<Transaction> transactions;
     private List<String> accounts;
     private List<Double> accountBalances; //Don't HIT ME FOR THIS. Had to make parallel lists b/c time.
 
@@ -56,7 +55,7 @@ public class AccountRecord {
         for (Transaction t: getRecords()) {
 
             if ((t.getTransactionDate().compareTo(start) >= 0) && (t.getTransactionDate().compareTo(end) <= 0)) {
-            out += "\tAccount: "+t.getTransactionAccount().getAccountName() +":\n\tName: "+ t.getTransactionName() + "-\n\tDate: "+ t.getTransactionDate().toString() +"\n\tAmount Spent: " + toMoney.format(t.getTransactionValue()) + "\n\n" ;
+            out += "\tAccount: "+t.getTransactionAccount().getAccountName() +":\n\tName: "+ t.getTransactionName() + "\n\tDate: "+ t.getTransactionDate().toString() +"\n\tAmount Spent: " + toMoney.format(t.getTransactionValue()) + "\n\n" ;
             totalBalance += t.getTransactionValue();
 
                 if (!accounts.contains(t.getTransactionAccount().toString())){
