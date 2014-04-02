@@ -39,7 +39,11 @@ public class TransactionActivity extends Activity {
 
     // TODO Replace the date field with a DatePicker and a TimePicker
 
-
+    
+    /**
+     * Activity Creation
+     * @param savedInstanceState buffered information bundle from the last activity
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -64,6 +68,9 @@ public class TransactionActivity extends Activity {
         mp = MediaPlayer.create(this.getApplicationContext(), R.raw.c17);
     }
 
+    /**
+     * Displays the activity data
+     */
     @Override
     protected void onStart() {
         super.onStart();
@@ -106,6 +113,10 @@ public class TransactionActivity extends Activity {
         _accountSpinner.setSelection(getIntent().getIntExtra("accountID", 0));
     }
 
+    /**
+     * Creates new transaction
+     * @param v the view to be used
+     */
     public void createNewTransaction(View v) {
         Intent i = new Intent();
         if (InputValidator.isValid(_name.getText().toString(), _value.getText().toString()) && !_name.getText().equals(getResources().getString(R.id.txncreate_txn_name))) {

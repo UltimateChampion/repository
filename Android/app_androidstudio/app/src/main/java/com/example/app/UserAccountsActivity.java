@@ -25,12 +25,16 @@ public class UserAccountsActivity extends Activity implements OnItemClickListene
 	private TextView _nameView;
 	private ListView _accountsView;
 	private UserAccountAdapter _adapter;
-
+    
+    /**
+     * Activity Creation
+     * @param savedInstanceState buffered information bundle from the last activity
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_accounts);
-
+        
         ParseUser user = ParseUser.getCurrentUser();
         if (user == null || ParseUser.getCurrentUser().getUsername() == null) {
             Log.v(UserAccountsActivity.class.getName(), "USER WAS NULL!");
@@ -38,25 +42,31 @@ public class UserAccountsActivity extends Activity implements OnItemClickListene
         	startActivity(intent);
         	finish();
         }
-
+        
         _adapter = new UserAccountAdapter(this, new ArrayList<UserAccount>());
-
+        
         _nameView = (TextView) findViewById(R.id.username_field);
         _accountsView = (ListView) findViewById(R.id.accounts_list);
-
+        
         if (user != null) _nameView.setText(user.getUsername());
         _accountsView.setAdapter(_adapter);
         _accountsView.setOnItemClickListener(this);
-
+        
         updateData();
     }
-
+    
+    /**
+     * Activity is resumed and can now interact with the user
+     */
     @Override
     protected void onResume() {
         super.onResume();
         updateData();
     }
-
+    
+    /**
+     * Updates the activity
+     */
     public void updateData() {
     	ParseQuery<UserAccount> query = ParseQuery.getQuery(UserAccount.class);
     	query.whereEqualTo("user", ParseUser.getCurrentUser());
@@ -68,7 +78,7 @@ public class UserAccountsActivity extends Activity implements OnItemClickListene
                     Log.e(getClass().getName(), "error code: " + e.getCode());
                     return;
                 }
-
+                
                 // TODO fix ordering of UserAccounts in _accountsView after updating
                 if (uacs != null) {
                     _adapter.clear();
@@ -79,10 +89,16 @@ public class UserAccountsActivity extends Activity implements OnItemClickListene
     			else Log.i(this.getClass().getName(), "UACs WAS NULL");
     		}
     	});
-
+        
         ParseSingleton.getInstance().put("accountsList", _adapter.getList());
     }
-
+    
+    /**
+     * Gives the request code the exited activity started with, the result code it returned, and any additional data from it
+     * @param requestCode the request code allowing identification of who the result came from
+     * @param resultCode the result code returned from the child activity through setResult()
+     * @param data any additional data from the activity
+     */
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (resultCode == RESULT_OK && data.getExtras() != null) {
@@ -90,14 +106,23 @@ public class UserAccountsActivity extends Activity implements OnItemClickListene
             _adapter.add(uac);
         }
     }
-
-
+    
+    /**
+     * Initializes the contents of the activity's option menu
+     * @return boolean of true to display the menu
+     * @param menu the options menu that holds the items
+     */
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.accountsmenu, menu);
         return true;
     }
-
+    
+    /**
+     * Tells which item in the menu has been selected and acts accordingly
+     * @return boolean of false to allow normal menu processing to proceed and true to consume it there
+     * @param item the item in the menu that was selected
+     */
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 		switch (item.getItemId()) {
@@ -125,8 +150,14 @@ public class UserAccountsActivity extends Activity implements OnItemClickListene
 				return super.onOptionsItemSelected(item);
 		}
     }
-
-
+    
+    /**
+     * Selects a UserAccount and starts the activity associated with it
+     * @param parent the AdapterView where the click happened
+     * @param view the view within the AdapterView tht was clicked
+     * @param position the position of the view within the adapter
+     * @param id the row id of the item that was clicked
+     */
 	@Override
 	public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
         UserAccount uac = _adapter.getItem(position);
@@ -134,5 +165,5 @@ public class UserAccountsActivity extends Activity implements OnItemClickListene
         intent.putExtra("accountID", position);
         startActivity(intent);
 	}
-
+    
 }
