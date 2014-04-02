@@ -18,12 +18,17 @@ import java.util.ArrayList;
  * Created by michaelfalk on 3/9/14.
  */
 
+/**
+ * A class to build an account record from selected start and end dates.
+ */
 public class AccountRecord {
     private Date start, end;
     private List<String> accounts;
     private List<Double> accountBalances; //Don't HIT ME FOR THIS. Had to make parallel lists b/c time.
 
     /**
+     * Constructor to build an account record bounded by start and end dates.
+     *
      * @param startDate beginning date from where to start reading transactions
      * @param endDate date to stop reading transactions
      */
@@ -40,15 +45,10 @@ public class AccountRecord {
      * Creates formatted financial report
      * @return String representation of the financial report
      */
-
     public String buildRecord(){
         String out = "Account Report: \n";
         double totalBalance = 0;
 
-//        DecimalFormat toMoney = (DecimalFormat)NumberFormat.getCurrencyInstance();
-//        String symbol = toMoney.getCurrency().getSymbol();
-//        toMoney.setNegativePrefix(symbol+"-"); // or "-"+symbol if that's what you need
-//        toMoney.setNegativeSuffix("");
         DecimalFormat toMoney = new DecimalFormat("$#,##0.00;-$#,##0.00");
 
         out+="\nTransactions:\n";
@@ -109,8 +109,12 @@ public class AccountRecord {
         return list;
     }
 
+    /**
+     * Compares date objects in AccountRecord object to determine if the end date comes after the start date.
+     *
+     * @return Boolean indicating that start comes before end.
+     */
     public boolean validDateRange() {
-
        return (!(end.compareTo(start) <= 0));
     }
 }

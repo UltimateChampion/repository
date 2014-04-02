@@ -24,6 +24,10 @@ import java.util.List;
 /**
  * Created by richard on 3/3/14.
  */
+
+/**
+ * Android activity to display the name, balance, and (number of) transactions for an account.
+ */
 public class AccountViewActivity extends Activity implements OnItemClickListener {
     private TextView _accountNameField;
     private ListView _txnList;
@@ -33,6 +37,13 @@ public class AccountViewActivity extends Activity implements OnItemClickListener
     private UserAccount _account;
     private List<UserAccount> _accountList;
 
+    /**
+     * Tell device to create the view based on savedInstanceState and
+     * the activity_account_view layout in R file. Initializes values using the
+     * TransactionAdapter to display the transactions tied to this account.
+     *
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -67,6 +78,13 @@ public class AccountViewActivity extends Activity implements OnItemClickListener
         updateData();
     }
 
+    /**
+     * Check to observe that transaction was added, and changes text color to reflect negative and positive transactions.
+     *
+     * @param requestCode signal to request database.
+     * @param resultCode signal that database was changed correctly.
+     * @param data information on interaction with database.
+     */
     // TODO this
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -84,6 +102,12 @@ public class AccountViewActivity extends Activity implements OnItemClickListener
         else _accountBalanceField.setTextColor((Color.BLACK));
     }
 
+    /**
+     * Generate a pop-up menu based on R.menu.accountsmenu on click of the menu button
+     *
+     * @param menu
+     * @return true when menu is created.
+     */
     // TODO Customize a menu for the AccountViewActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -91,6 +115,12 @@ public class AccountViewActivity extends Activity implements OnItemClickListener
         return true;
     }
 
+    /**
+     * Handle changing activities/views when a menu button is clicked.
+     *
+     * @param item
+     * @return true when menu item is clicked.
+     */
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
@@ -119,6 +149,9 @@ public class AccountViewActivity extends Activity implements OnItemClickListener
         }
     }
 
+    /**
+     * Updates and refreshes display of list of transactions with information from the (parse) database.
+     */
     public void updateData() {
         ParseQuery<Transaction> query = ParseQuery.getQuery(Transaction.class);
         query.whereEqualTo("userAccount", _account);
@@ -151,6 +184,14 @@ public class AccountViewActivity extends Activity implements OnItemClickListener
 
     }
 
+    /**
+     * Update (parse) database upon button click.
+     *
+     * @param adapterView
+     * @param view
+     * @param i
+     * @param l
+     */
     // TODO Implement the onItemClickListener
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
@@ -163,6 +204,9 @@ public class AccountViewActivity extends Activity implements OnItemClickListener
         startActivityForResult(intent, 1);
     }
 
+    /**
+     * Add new transaction to database.
+     */
     private void addTransaction() {
         Intent intent = new Intent(this, TransactionActivity.class);
         intent.putExtra("accountID", getIntent().getIntExtra("accountID", 0));

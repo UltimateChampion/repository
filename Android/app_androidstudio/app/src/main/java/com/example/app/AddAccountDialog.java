@@ -12,10 +12,19 @@ import android.widget.Toast;
 import com.parse.ParseACL;
 import com.parse.ParseUser;
 
+/**
+ * Activity in which user can create a new account to track finances.
+ */
 public class AddAccountDialog extends Activity {
 	private EditText _newAccountName;
     private EditText _newAccountValue;
-	
+
+    /**
+     * Tell device to create the view based on savedInstanceState and R.activity_addaccount.
+     * Displays fields for account name and initial account value.
+     *
+     * @param savedInstanceState
+     */
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -27,6 +36,12 @@ public class AddAccountDialog extends Activity {
         _newAccountValue = (EditText) findViewById(R.id.account_value);
 	}
 
+    /**
+     * If inputs are valid, creates a new account and stores the information in the (parse) database.
+     * Otherwise, toasts that inputs were invalid.
+     *
+     * @param v the button clicked, indicating completion of inputting information.
+     */
 	public void createNewAccount(View v) {
         Intent i = new Intent();
 

@@ -29,18 +29,34 @@ import java.util.List;
 /**
  * Created by michael on 3/8/2014
  */
+
+/**
+ * The android activity that has fields for the start date, end date, and space to display the
+ * generated financial report/account record.
+ */
 public class AccountRecordActivity extends Activity{
     private TextView _startDateField, _endDateField, _builtRecordView;
     private ListView _accountBalanceList;
     private TextView _totalBalance;
 
+    /**
+     * Tell device to create the view based on savedInstanceState and
+     * the activity_account_record layout in R file.
+     *
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_account_record);
     }
 
-
+    /**
+     * Generate a pop-up menu based on R.menu.accountsmenu on click of the menu button
+     *
+     * @param menu
+     * @return true when menu is created.
+     */
     // TODO Customize a menu for the AccountViewActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -48,6 +64,12 @@ public class AccountRecordActivity extends Activity{
         return true;
     }
 
+    /**
+     * Handle changing activities/views when a menu button is clicked.
+     *
+     * @param item
+     * @return true when menu item is clicked.
+     */
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
@@ -73,6 +95,13 @@ public class AccountRecordActivity extends Activity{
         }
     }
 
+    /**
+     * On click of the button, input dates checked to be valid.
+     * If valid, an accountRecord is generated and displayed.
+     * Else, program toasts user that "Invalid Date Inputs" were used.
+     *
+     * @param V the button clicked.
+     */
     public void onButtonClick(View V) {
         _startDateField = (TextView) findViewById(R.id.editText_start_date);
         _endDateField = (TextView) findViewById(R.id.editText_end_date);

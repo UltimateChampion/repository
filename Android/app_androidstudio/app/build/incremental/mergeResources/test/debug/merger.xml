@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merger>
-
-    <dataSet config="main" >
-        <source path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/instrumentTest/res" />
-        <source path="/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/build/res/rs/test/debug" />
-    </dataSet>
-
-</merger>
