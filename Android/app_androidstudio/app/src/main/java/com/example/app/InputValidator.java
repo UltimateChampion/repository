@@ -15,6 +15,12 @@ public class InputValidator {
         return (name.length() > 0) && (value.length() > 0) && isNumeric(value);
     }
 
+    /**
+     * Checks to see if the given string is a valid value.
+     *
+     * @param str The String representation of a numeric value.
+     * @return true if str is a valid numeric, false otherwise.
+     */
     public static boolean isNumeric(String str)
     {
         try

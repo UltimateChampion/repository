@@ -18,6 +18,11 @@ public class RegisterActivity extends Activity {
 	private TextView error;
     private MediaPlayer mp;
 	
+	/**
+     * Activity Creation
+     * @param savedInstanceState buffered information bundle from the last activity
+     */
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -30,6 +35,9 @@ public class RegisterActivity extends Activity {
         mp = MediaPlayer.create(this.getApplicationContext(), R.raw.b17);
 	}
 	
+	/**
+	 * Attempts to register the user.
+	 */
 	public void register(final View v) {
 		if (username.getText().length() == 0 || password.getText().length() == 0) {
 			return;
@@ -72,6 +80,11 @@ public class RegisterActivity extends Activity {
 		});
 	}
 	
+	/**
+	 * Directs the App to the Login screen.
+	 *
+	 * @param v 
+	 */
 	public void showLogin(View v) {
 		startActivity(new Intent(this, LoginActivity.class));
 		finish();

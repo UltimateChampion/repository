@@ -37,9 +37,10 @@ public class LoginActivity extends Activity {
 
     /**
      *
-     * @param menu
-     * @return
+     * @param menu The menu to be added to the action bar.
+     * @return true
      */
+    
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
@@ -47,6 +48,10 @@ public class LoginActivity extends Activity {
 		return true;
 	}
 	
+	/**
+	 * Attempts to login the user.
+	 */
+
 	public void login(final View view) {
         view.setEnabled(false);
 		ParseUser.logInInBackground(username.getText().toString(), password.getText().toString(), new LogInCallback() {
@@ -78,6 +83,12 @@ public class LoginActivity extends Activity {
 		});
 	}
 	
+	/**
+	 * Directs the App to the Registration screen.
+	 *
+	 * @param v 
+	 */
+
 	public void showRegister(View v) {
 		startActivity(new Intent(this, RegisterActivity.class));
 		finish();

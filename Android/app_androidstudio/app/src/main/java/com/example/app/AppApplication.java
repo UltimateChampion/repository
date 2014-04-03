@@ -7,6 +7,9 @@ import com.parse.ParseObject;
 
 public class AppApplication extends Application {
 
+	/**
+     * Creates the Application.
+     */
 	@Override
 	public void onCreate() {
 		super.onCreate();
