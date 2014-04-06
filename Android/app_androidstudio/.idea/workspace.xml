@@ -31,72 +31,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05c6b869-0d87-4e7d-a4ef-fc598aec2e55" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/apk/app-debug-test-unaligned.apk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/apk/app-debug-unaligned.apk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/android/support/v7/appcompat/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/android/support/v7/appcompat/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/android/support/v7/appcompat/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/android/support/v7/appcompat/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/android/support/v7/appcompat/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/android/support/v7/appcompat/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/android/support/v7/appcompat/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/android/support/v7/appcompat/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/android/support/v7/appcompat/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/android/support/v7/appcompat/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/android/support/v7/appcompat/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/android/support/v7/appcompat/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/com/example/app/AccountRecord.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/com/example/app/AccountRecordActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/com/example/app/AccountRecordAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/com/example/app/AccountViewActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/com/example/app/AccountViewActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/com/example/app/AddAccountDialog.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/com/example/app/AppApplication.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/com/example/app/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/com/example/app/DateValidater.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/com/example/app/InputValidator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/com/example/app/LoginActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/com/example/app/LoginActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/com/example/app/ParseSingleton$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/com/example/app/ParseSingleton$Holder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/com/example/app/ParseSingleton.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/com/example/app/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/com/example/app/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/com/example/app/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/com/example/app/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/com/example/app/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/com/example/app/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/com/example/app/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/com/example/app/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/com/example/app/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/com/example/app/R$menu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/com/example/app/R$raw.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/com/example/app/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/com/example/app/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/com/example/app/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/com/example/app/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/com/example/app/RegisterActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/com/example/app/RegisterActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/com/example/app/Transaction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/com/example/app/TransactionActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/com/example/app/TransactionAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/com/example/app/UserAccount.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/com/example/app/UserAccountAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/com/example/app/UserAccountsActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/com/example/app/UserAccountsActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/test/java/testAmier.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/test/java/testAmier2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/debug/test/java/testInputValidator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/classes/test/debug/com/example/app/test/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/pre-dexed/debug/Parse-1.4.1-7f4024da18ce616e1248389120a1618b6619e838.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/pre-dexed/debug/classes-b841aaf5f6e8df6471c6d8039fca22e716414276.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/pre-dexed/debug/support-v4-19.0.1-3bf117e59e2e0f41bbf9219f2be90cdcf1dd583d.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/source/buildConfig/test/debug/com/example/app/test/BuildConfig.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/test/java/testDateValidator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecord.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecord.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecordActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecordActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/AccountViewActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/app/AccountViewActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/AddAccountDialog.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/app/AddAccountDialog.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="app.iws" />
@@ -169,29 +108,37 @@
       <file leaf-file-name="AccountRecordActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecordActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="0" selection-start="1885" selection-end="2044" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1605">
+            <state line="3" column="30" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0" vertical-offset="1241" max-vertical-offset="1815">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountViewActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AccountViewActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/AccountViewActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="69" selection-start="1100" selection-end="1162" vertical-scroll-proportion="-12.115385" vertical-offset="0" max-vertical-offset="3060">
-              <folding>
-                <element signature="e#6012#7055#0" expanded="true" />
-                <element signature="e#7044#7045#0" expanded="true" />
-              </folding>
+            <state line="37" column="43" selection-start="1083" selection-end="1083" vertical-scroll-proportion="0.48128343" vertical-offset="0" max-vertical-offset="3270">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddAccountDialog.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AddAccountDialog.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/AddAccountDialog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="30" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.56152123" vertical-offset="124" max-vertical-offset="1050">
+            <state line="59" column="36" selection-start="2226" selection-end="2226" vertical-scroll-proportion="0.0" vertical-offset="479" max-vertical-offset="1050">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountRecord.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecord.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="3" selection-start="330" selection-end="330" vertical-scroll-proportion="-1.0769231" vertical-offset="272" max-vertical-offset="1935">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -623,10 +570,10 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/InputValidator.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/TransactionActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/test/java/testInputValidator.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/AddAccountDialog.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecord.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecordActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/AccountViewActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/AddAccountDialog.java" />
       </list>
     </option>
   </component>
@@ -634,8 +581,9 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
     <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="height" value="697" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -686,7 +634,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -829,6 +776,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -838,7 +786,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="options.lastSelected" value="com.genymobile.genymotion.ide.idea.GdmSettings" />
+    <property name="options.lastSelected" value="preferences.sourceCode" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -847,7 +795,7 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="192.168.56.101:5555" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Test" />
-    <property name="FullScreen" value="true" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -916,19 +864,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -954,6 +889,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1154,7 +1102,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="0" y="22" width="1280" height="697" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1162,10 +1110,12 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296146" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.56478405" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3986711" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20234291" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287483" sideWeight="0.18359375" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287483" sideWeight="0.81640625" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32724252" sideWeight="0.81640625" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296146" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24765626" sideWeight="0.50180507" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25963488" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -1185,7 +1135,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29765624" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5655376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1215,6 +1164,20 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/AccountViewActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="69" selection-start="1100" selection-end="1162" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="3345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/AddAccountDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="30" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="1050">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/TransactionActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2235">
@@ -1494,30 +1457,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="77" selection-start="753" selection-end="753" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1710">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecordActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="0" selection-start="1885" selection-end="2044" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1605">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/AccountViewActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="69" selection-start="1100" selection-end="1162" vertical-scroll-proportion="-12.115385" vertical-offset="0" max-vertical-offset="3060">
-          <folding>
-            <element signature="e#6012#7055#0" expanded="true" />
-            <element signature="e#7044#7045#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/AppApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="13" selection-start="127" selection-end="127" vertical-scroll-proportion="0.08746356" vertical-offset="0" max-vertical-offset="686">
@@ -1527,7 +1466,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/AddAccountDialog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="30" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.56152123" vertical-offset="124" max-vertical-offset="1050">
+        <state line="59" column="36" selection-start="2226" selection-end="2226" vertical-scroll-proportion="0.0" vertical-offset="479" max-vertical-offset="1050">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="3" selection-start="330" selection-end="330" vertical-scroll-proportion="-1.0769231" vertical-offset="272" max-vertical-offset="1935">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/AccountRecordActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="30" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0" vertical-offset="1241" max-vertical-offset="1815">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/AccountViewActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="43" selection-start="1083" selection-end="1083" vertical-scroll-proportion="0.48128343" vertical-offset="0" max-vertical-offset="3270">
           <folding />
         </state>
       </provider>

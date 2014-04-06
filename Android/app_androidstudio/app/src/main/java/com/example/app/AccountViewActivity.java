@@ -42,7 +42,7 @@ public class AccountViewActivity extends Activity implements OnItemClickListener
      * the activity_account_view layout in R file. Initializes values using the
      * TransactionAdapter to display the transactions tied to this account.
      *
-     * @param savedInstanceState
+     * @param savedInstanceState State of the previous activity.
      */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,9 +59,11 @@ public class AccountViewActivity extends Activity implements OnItemClickListener
         _txnList.setOnItemClickListener(this);
 
         Bundle v = getIntent().getExtras();
-        if (v == null) return;
+        if (v == null) {
+            return;
+        }
 
-        _accountList = (List<UserAccount>)ParseSingleton.getInstance().get("accountsList");
+        _accountList = (List<UserAccount>) ParseSingleton.getInstance().get("accountsList");
         _account = _accountList.get(v.getInt("accountID"));
         if (_account == null) Log.e(getClass().getName(), "_account is null");
         String accountName = _account.getAccountName();
@@ -72,8 +74,12 @@ public class AccountViewActivity extends Activity implements OnItemClickListener
         _accountBalanceField.setText(accountBalance);
         _numTransactionsField.setText("" + _adapter.getCount());
 
-        if (balance < 0.0) _accountBalanceField.setTextColor(Color.RED);
-        else _accountBalanceField.setTextColor((Color.BLACK));
+        if (balance < 0.0) {
+            _accountBalanceField.setTextColor(Color.RED);
+        }
+        else {
+            _accountBalanceField.setTextColor((Color.BLACK));
+        }
 
         updateData();
     }
@@ -89,7 +95,7 @@ public class AccountViewActivity extends Activity implements OnItemClickListener
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (resultCode == RESULT_OK && data != null && data.getBooleanExtra("transactionModified", false)) {
-            Transaction t = (Transaction)ParseSingleton.getInstance().get("newTransaction");
+            Transaction t = (Transaction) ParseSingleton.getInstance().get("newTransaction");
             UserAccount u = t.getTransactionAccount();
             _adapter.add(t);
             _numTransactionsField.setText("" + _adapter.getCount());
@@ -98,12 +104,16 @@ public class AccountViewActivity extends Activity implements OnItemClickListener
             _accountBalanceField.setText(String.format("$%.2f", _account.getAccountValue()));
         }
 
-        if (_account.getAccountValue() < 0.0) _accountBalanceField.setTextColor(Color.RED);
-        else _accountBalanceField.setTextColor((Color.BLACK));
+        if (_account.getAccountValue() < 0.0) {
+            _accountBalanceField.setTextColor(Color.RED);
+        }
+        else {
+            _accountBalanceField.setTextColor((Color.BLACK));
+        }
     }
 
     /**
-     * Generate a pop-up menu based on R.menu.accountsmenu on click of the menu button
+     * Generate a pop-up menu based on R.menu.accountsmenu on click of the menu button.
      *
      * @param menu
      * @return true when menu is created.
@@ -118,7 +128,7 @@ public class AccountViewActivity extends Activity implements OnItemClickListener
     /**
      * Handle changing activities/views when a menu button is clicked.
      *
-     * @param item
+     * @param item is the menu item.
      * @return true when menu item is clicked.
      */
     @Override
@@ -175,22 +185,29 @@ public class AccountViewActivity extends Activity implements OnItemClickListener
 
                     _numTransactionsField.setText("" + _adapter.getCount());
                     _accountBalanceField.setText(String.format("$%.2f", _account.getAccountValue()));
-                } else Log.i(this.getClass().getName(), "No transactions!");
+                }
+                else {
+                    Log.i(this.getClass().getName(), "No transactions!");
+                }
             }
         });
 
-       if (_account.getAccountValue() < 0.0) _accountBalanceField.setTextColor(Color.RED);
-       else _accountBalanceField.setTextColor((Color.BLACK));
+       if (_account.getAccountValue() < 0.0) {
+           _accountBalanceField.setTextColor(Color.RED);
+       }
+       else {
+           _accountBalanceField.setTextColor((Color.BLACK));
+       }
 
     }
 
     /**
      * Update (parse) database upon button click.
      *
-     * @param adapterView
-     * @param view
-     * @param i
-     * @param l
+     * @param adapterView View of the account adapter
+     * @param view View used to get context of current activity
+     * @param i first int
+     * @param l first long
      */
     // TODO Implement the onItemClickListener
     @Override

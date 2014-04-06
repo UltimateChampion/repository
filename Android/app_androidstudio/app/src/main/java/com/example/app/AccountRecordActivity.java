@@ -2,29 +2,19 @@ package com.example.app;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import com.parse.FindCallback;
-import com.parse.ParseException;
-import com.parse.ParseQuery;
 import com.parse.ParseUser;
 
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.LinkedList;
-import java.util.List;
+
+
 
 /**
  * Created by michael on 3/8/2014
@@ -54,7 +44,7 @@ public class AccountRecordActivity extends Activity{
     /**
      * Generate a pop-up menu based on R.menu.accountsmenu on click of the menu button
      *
-     * @param menu
+     * @param menu describes the menu
      * @return true when menu is created.
      */
     // TODO Customize a menu for the AccountViewActivity
@@ -67,7 +57,7 @@ public class AccountRecordActivity extends Activity{
     /**
      * Handle changing activities/views when a menu button is clicked.
      *
-     * @param item
+     * @param item is the menu item
      * @return true when menu item is clicked.
      */
     @Override
@@ -117,9 +107,9 @@ public class AccountRecordActivity extends Activity{
 
         AccountRecord report = new AccountRecord(DateValidator.getFirstDate(), DateValidator.getSecondDate());
         //Toast.makeText(this, report.buildRecord(), Toast.LENGTH_SHORT).show();
-         _builtRecordView= (TextView) findViewById(R.id.built_record_label);
-         _builtRecordView.setText(report.buildRecord());
-         _builtRecordView.setMovementMethod(new ScrollingMovementMethod());
+        _builtRecordView = (TextView) findViewById(R.id.built_record_label);
+        _builtRecordView.setText(report.buildRecord());
+        _builtRecordView.setMovementMethod(new ScrollingMovementMethod());
     }
 
 }

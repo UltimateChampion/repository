@@ -1,13 +1,13 @@
 package com.example.app;
 
-import android.accounts.Account;
+
 import android.util.Log;
 
 import com.parse.ParseException;
 import com.parse.ParseQuery;
 import com.parse.ParseUser;
 
-import java.text.NumberFormat;
+
 import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
@@ -22,6 +22,9 @@ import java.util.ArrayList;
  * A class to build an account record from selected start and end dates.
  */
 public class AccountRecord {
+    /**
+     * Private variables.
+     */
     private Date start, end;
     private List<String> accounts;
     private List<Double> accountBalances; //Don't HIT ME FOR THIS. Had to make parallel lists b/c time.
@@ -42,44 +45,44 @@ public class AccountRecord {
     }
 
     /**
-     * Creates formatted financial report
+     * Creates formatted financial report.
      * @return String representation of the financial report
      */
-    public String buildRecord(){
+    public String buildRecord() {
         String out = "Account Report: \n";
         double totalBalance = 0;
 
         DecimalFormat toMoney = new DecimalFormat("$#,##0.00;-$#,##0.00");
 
-        out+="\nTransactions:\n";
+        out += "\nTransactions:\n";
         for (Transaction t: getRecords()) {
 
             if ((t.getTransactionDate().compareTo(start) >= 0) && (t.getTransactionDate().compareTo(end) <= 0)) {
-            out += "\tAccount: "+t.getTransactionAccount().getAccountName() +":\n\tName: "+ t.getTransactionName() + "\n\tDate: "+ t.getTransactionDate().toString() +"\n\tAmount Spent: " + toMoney.format(t.getTransactionValue()) + "\n\n" ;
-            totalBalance += t.getTransactionValue();
+            out += "\tAccount: " + t.getTransactionAccount().getAccountName() + ":\n\tName: " + t.getTransactionName() + "\n\tDate: " + t.getTransactionDate().toString() + "\n\tAmount Spent: " + toMoney.format(t.getTransactionValue()) + "\n\n";
+               totalBalance += t.getTransactionValue();
 
-                if (!accounts.contains(t.getTransactionAccount().toString())){
+                if (!accounts.contains(t.getTransactionAccount().toString())) {
                     accounts.add(t.getTransactionAccount().toString());
                     accountBalances.add(new Double(0)); //Initialize subaccount balance
                 }
                 int index = accounts.indexOf(t.getTransactionAccount().toString());
-                accountBalances.set(index, accountBalances.get(index)+t.getTransactionValue());
+                accountBalances.set(index, accountBalances.get(index) + t.getTransactionValue());
             }
         }
 
 
-        out+="Account Balances:\n";
+        out += "Account Balances:\n";
         for (int j = 0; j < accounts.size(); j++){
-            out+="\t"+accounts.get(j)+": "+toMoney.format(accountBalances.get(j))+"\n";
+            out += "\t" + accounts.get(j) + ": " + toMoney.format(accountBalances.get(j)) + "\n";
         }
 
-        out += "\n\tTotal Balance: "+toMoney.format(totalBalance)+"\n";
+        out += "\n\tTotal Balance: " + toMoney.format(totalBalance) + "\n";
 
         return out;
     }
 
     /**
-     * Finds records given date boundary information
+     * Finds records given date boundary information.
      * @return List of transactions found between the start and end date
      */
 
@@ -115,6 +118,6 @@ public class AccountRecord {
      * @return Boolean indicating that start comes before end.
      */
     public boolean validDateRange() {
-       return (!(end.compareTo(start) <= 0));
+        return (!(end.compareTo(start) <= 0));
     }
 }
