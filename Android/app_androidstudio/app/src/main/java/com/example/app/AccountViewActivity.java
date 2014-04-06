@@ -37,6 +37,10 @@ public class AccountViewActivity extends Activity implements OnItemClickListener
     private UserAccount _account;
     private List<UserAccount> _accountList;
 
+    private String accID = "accountID";
+    private String accName = "accountName";
+    private String edit = "edit";
+
     /**
      * Tell device to create the view based on savedInstanceState and
      * the activity_account_view layout in R file. Initializes values using the
@@ -215,9 +219,9 @@ public class AccountViewActivity extends Activity implements OnItemClickListener
         // This should just gray out all of the EditTexts and only update if data was changed
         // Maybe I should implement a UserAccount.equals method.
         Intent intent = new Intent(this, TransactionActivity.class);
-        intent.putExtra("accountID", getIntent().getIntExtra("accountID", 0));
-        intent.putExtra("accountName", _accountNameField.getText().toString());
-        intent.putExtra("edit", true);
+        intent.putExtra(accID, getIntent().getIntExtra("accountID", 0));
+        intent.putExtra(accName, _accountNameField.getText().toString());
+        intent.putExtra(edit, true);
         startActivityForResult(intent, 1);
     }
 
@@ -226,9 +230,9 @@ public class AccountViewActivity extends Activity implements OnItemClickListener
      */
     private void addTransaction() {
         Intent intent = new Intent(this, TransactionActivity.class);
-        intent.putExtra("accountID", getIntent().getIntExtra("accountID", 0));
-        intent.putExtra("accountName", _accountNameField.getText().toString());
-        intent.putExtra("edit", true);
+        intent.putExtra(accID, getIntent().getIntExtra("accountID", 0));
+        intent.putExtra(accName, _accountNameField.getText().toString());
+        intent.putExtra(edit, true);
         startActivityForResult(intent, 1);
     }
 }

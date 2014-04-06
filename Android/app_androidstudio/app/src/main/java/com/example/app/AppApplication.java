@@ -1,9 +1,11 @@
 package com.example.app;
 import android.app.Application;
-
 import com.parse.Parse;
 import com.parse.ParseObject;
 
+/**
+ * Application that begins the Android App.
+ */
 
 public class AppApplication extends Application {
 
@@ -11,7 +13,7 @@ public class AppApplication extends Application {
      * Creates the Application.
      */
 	@Override
-	public void onCreate() {
+   	public void onCreate() {
 		super.onCreate();
 		Parse.initialize(this, "YIVDzaJoFQvyNUY8OA6LlM6hniqOrjYvBJA9PaTD", "8NHMSqmbfZGOPSkzovW05PcJ4Rxkhfhj9FdJTy3g");
 		ParseObject.registerSubclass(UserAccount.class);

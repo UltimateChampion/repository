@@ -7,7 +7,7 @@ public class InputValidator {
     /**
      * Check for valid inputs
      *
-     * @return true for valid inputs, otherwise false
+     * @return true for valid inputs, otherwise false.
      * @param name String representing a name
      * @param value String representing a numeric (monetary) value
      */
@@ -23,12 +23,10 @@ public class InputValidator {
      */
     public static boolean isNumeric(String str)
     {
-        try
-        {
+        try {
             double d = Double.parseDouble(str);
         }
-        catch(NumberFormatException nfe)
-        {
+        catch(NumberFormatException nfe) {
             return false;
         }
         return true;

@@ -10,12 +10,13 @@ import android.widget.TextView;
 
 import java.util.List;
 
+
 public class UserAccountAdapter extends ArrayAdapter<UserAccount> {
 	private Context context;
 	private List<UserAccount> uAccounts;
     
     /**
-     * Constructs a UserAccountAdapter with a handle to the system and its objects
+     * Constructs a UserAccountAdapter with a handle to the system and its objects.
      * @param context a handle to the system
      * @param objects the list of objects
      */
@@ -26,7 +27,7 @@ public class UserAccountAdapter extends ArrayAdapter<UserAccount> {
 	}
     
     /**
-     * Gets a View that displays the user account at the specified position in the data set
+     * Gets a View that displays the user account at the specified position in the data set.
      * @param position the position of the user account within the adapter's data set
      * @param convertView the old view to reuse
      * @param parent the parent that this view will be attached to
@@ -53,7 +54,11 @@ public class UserAccountAdapter extends ArrayAdapter<UserAccount> {
 		
 		return convertView;
 	}
-    
+
+    /**
+     * Gets list of accounts
+     * @return list of accounts
+     */
     public List<UserAccount> getList() {
         return uAccounts;
     }

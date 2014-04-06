@@ -1,7 +1,5 @@
 package com.example.app;
 
-import android.widget.Toast;
-
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -35,12 +33,14 @@ public class DateValidator {
      * 
      * @param a String representation of the start date.
      * @param b String representation of the end date.
+     * @return whether or not the date is valid.
      */
     public static boolean validateDate(String a, String b) {
 
         dateFormatter = new SimpleDateFormat("MM/dd/yy");
 
-        Date startDate = null, endDate = null;
+        Date startDate;
+        Date endDate;
         try {
             startDate = dateFormatter.parse(a);
         } catch (java.text.ParseException e) {

@@ -20,7 +20,7 @@ public class LoginActivity extends Activity {
     private MediaPlayer mp;
 
     /**
-     * Activity Creation
+     * Activity Creation.
      * @param savedInstanceState buffered information bundle from the last activity
      */
 	
@@ -50,6 +50,7 @@ public class LoginActivity extends Activity {
 	
 	/**
 	 * Attempts to login the user.
+     * @param view Current view to know the context
 	 */
 
 	public void login(final View view) {
@@ -79,7 +80,6 @@ public class LoginActivity extends Activity {
 					}
 				}
 			}
-			
 		});
 	}
 	
@@ -92,5 +92,5 @@ public class LoginActivity extends Activity {
 	public void showRegister(View v) {
 		startActivity(new Intent(this, RegisterActivity.class));
 		finish();
-	}
+   	}
 }

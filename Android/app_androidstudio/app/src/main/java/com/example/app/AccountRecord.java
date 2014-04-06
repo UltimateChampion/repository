@@ -28,6 +28,7 @@ public class AccountRecord {
     private Date start, end;
     private List<String> accounts;
     private List<Double> accountBalances; //Don't HIT ME FOR THIS. Had to make parallel lists b/c time.
+    private String date = "date";
 
     /**
      * Constructor to build an account record bounded by start and end dates.
@@ -93,10 +94,10 @@ public class AccountRecord {
 
         ParseQuery<Transaction> query = new ParseQuery(Transaction.class);
         // Constraint: all dates from start to end, inclusive
-        query.whereEqualTo("date", start);
-        query.whereGreaterThan("date", start);
-        query.whereEqualTo("date", end);
-        query.whereLessThan("date", end);
+        query.whereEqualTo(date, start);
+        query.whereGreaterThan(date, start);
+        query.whereEqualTo(date, end);
+        query.whereLessThan(date, end);
         // Make sure we only select our current user's transactions
         query.whereEqualTo("user", ParseUser.getCurrentUser());
         //include accounts into consideration

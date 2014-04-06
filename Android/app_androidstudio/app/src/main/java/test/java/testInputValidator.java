@@ -9,7 +9,8 @@ import junit.framework.TestCase;
  */
 public class testInputValidator extends TestCase {
     /**
-     * Test 1: Test that a valid input return true (valid Name and valid (numeric) Value)
+     * Test 1: Test that a valid input return true (valid Name and valid (numeric) Value).
+     * @throws Exception exc
      */
     public void test1() throws Exception {
         String name = "Valid Account Name";
@@ -18,7 +19,8 @@ public class testInputValidator extends TestCase {
     }
 
     /**
-     * Test 2: Test that a invalid input return false (valid Name and invalid (non-numeric) Value)
+     * Test 2: Test that a invalid input return false (valid Name and invalid (non-numeric) Value).
+     * @throws Exception exc
      */
     public void test2() throws Exception {
         String name = "Valid Account Name";
@@ -27,7 +29,8 @@ public class testInputValidator extends TestCase {
     }
 
     /**
-     * Test 3: Test that a invalid input return false (invalid (no) Name and valid (numeric) Value)
+     * Test 3: Test that a invalid input return false (invalid (no) Name and valid (numeric) Value).
+     * @throws Exception exc
      */
     public void test3() throws Exception {
         String name = "";
@@ -36,7 +39,8 @@ public class testInputValidator extends TestCase {
     }
 
     /**
-     * Test 4: Test that a invalid input return false (valid Name and invalid (no) Value)
+     * Test 4: Test that a invalid input return false (valid Name and invalid (no) Value).
+     * @throws Exception exc
      */
     public void test4() throws Exception {
         String name = "Valid Account Name";
@@ -45,7 +49,8 @@ public class testInputValidator extends TestCase {
     }
 
     /**
-     * Test 5: Test that a invalid input return false (invalid (no) Name and invalid (no) Value)
+     * Test 5: Test that a invalid input return false (invalid (no) Name and invalid (no) Value).
+     * @throws Exception exc
      */
     public void test5() throws Exception {
         String name = "";

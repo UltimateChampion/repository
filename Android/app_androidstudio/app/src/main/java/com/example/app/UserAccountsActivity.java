@@ -27,7 +27,7 @@ public class UserAccountsActivity extends Activity implements OnItemClickListene
 	private UserAccountAdapter _adapter;
     
     /**
-     * Activity Creation
+     * Activity Creation.
      * @param savedInstanceState buffered information bundle from the last activity
      */
     @Override
@@ -48,7 +48,9 @@ public class UserAccountsActivity extends Activity implements OnItemClickListene
         _nameView = (TextView) findViewById(R.id.username_field);
         _accountsView = (ListView) findViewById(R.id.accounts_list);
         
-        if (user != null) _nameView.setText(user.getUsername());
+        if (user != null) {
+            _nameView.setText(user.getUsername());
+        }
         _accountsView.setAdapter(_adapter);
         _accountsView.setOnItemClickListener(this);
         
@@ -56,7 +58,7 @@ public class UserAccountsActivity extends Activity implements OnItemClickListene
     }
     
     /**
-     * Activity is resumed and can now interact with the user
+     * Activity is resumed and can now interact with the user.
      */
     @Override
     protected void onResume() {
@@ -65,7 +67,7 @@ public class UserAccountsActivity extends Activity implements OnItemClickListene
     }
     
     /**
-     * Updates the activity
+     * Updates the activity.
      */
     public void updateData() {
     	ParseQuery<UserAccount> query = ParseQuery.getQuery(UserAccount.class);
@@ -86,7 +88,9 @@ public class UserAccountsActivity extends Activity implements OnItemClickListene
                         _adapter.add(uacs.get(i));
                     }
     			}
-    			else Log.i(this.getClass().getName(), "UACs WAS NULL");
+    			else {
+                    Log.i(this.getClass().getName(), "UACs WAS NULL");
+                }
     		}
     	});
         
@@ -94,7 +98,7 @@ public class UserAccountsActivity extends Activity implements OnItemClickListene
     }
     
     /**
-     * Gives the request code the exited activity started with, the result code it returned, and any additional data from it
+     * Gives the request code the exited activity started with, the result code it returned, and any additional data from it.
      * @param requestCode the request code allowing identification of who the result came from
      * @param resultCode the result code returned from the child activity through setResult()
      * @param data any additional data from the activity
@@ -108,7 +112,7 @@ public class UserAccountsActivity extends Activity implements OnItemClickListene
     }
     
     /**
-     * Initializes the contents of the activity's option menu
+     * Initializes the contents of the activity's option menu.
      * @return boolean of true to display the menu
      * @param menu the options menu that holds the items
      */
@@ -119,7 +123,7 @@ public class UserAccountsActivity extends Activity implements OnItemClickListene
     }
     
     /**
-     * Tells which item in the menu has been selected and acts accordingly
+     * Tells which item in the menu has been selected and acts accordingly.
      * @return boolean of false to allow normal menu processing to proceed and true to consume it there
      * @param item the item in the menu that was selected
      */
@@ -152,7 +156,7 @@ public class UserAccountsActivity extends Activity implements OnItemClickListene
     }
     
     /**
-     * Selects a UserAccount and starts the activity associated with it
+     * Selects a UserAccount and starts the activity associated with it.
      * @param parent the AdapterView where the click happened
      * @param view the view within the AdapterView tht was clicked
      * @param position the position of the view within the adapter

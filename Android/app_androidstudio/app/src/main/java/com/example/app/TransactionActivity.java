@@ -32,6 +32,8 @@ public class TransactionActivity extends Activity {
     private EditText _description;
     private Spinner _accountSpinner;
     private MediaPlayer mp;
+    private String accList = "accountsList";
+    private String edit = "edit";
 
 
     // TODO Clear text in txn name field on first tap on first create only
@@ -41,7 +43,7 @@ public class TransactionActivity extends Activity {
 
     
     /**
-     * Activity Creation
+     * Activity Creation.
      * @param savedInstanceState buffered information bundle from the last activity
      */
     @Override
@@ -69,14 +71,14 @@ public class TransactionActivity extends Activity {
     }
 
     /**
-     * Displays the activity data
+     * Displays the activity data.
      */
     @Override
     protected void onStart() {
         super.onStart();
         _date.setText(new Date().toString());
-        if (getIntent().hasExtra("edit")) {
-            if (!getIntent().getBooleanExtra("edit", true)) {
+        if (getIntent().hasExtra(edit)) {
+            if (!getIntent().getBooleanExtra(edit, true)) {
                 for (int i = 0; i < _editTexts.size(); i++) {
                     EditText e = _editTexts.get(i);
                     if (e != null) {
@@ -103,7 +105,7 @@ public class TransactionActivity extends Activity {
 
         // Now to populate the spinner with values
         ArrayList<String> ul = new ArrayList<String>();
-        for (UserAccount u : ((List<UserAccount>)ParseSingleton.getInstance().get("accountsList"))) {
+        for (UserAccount u : ((List<UserAccount>) ParseSingleton.getInstance().get(accList))) {
             ul.add(u.getAccountName());
         }
 
@@ -114,7 +116,7 @@ public class TransactionActivity extends Activity {
     }
 
     /**
-     * Creates new transaction
+     * Creates new transaction.
      * @param v the view to be used
      */
     public void createNewTransaction(View v) {
@@ -126,7 +128,7 @@ public class TransactionActivity extends Activity {
             t.setTransactionName(_name.getText().toString());
             t.setTransactionValue(Double.parseDouble(_value.getText().toString()));
             // TODO not this
-            t.setTransactionAccount(((List<UserAccount>) ParseSingleton.getInstance().get("accountsList")).get(_accountSpinner.getSelectedItemPosition()));
+            t.setTransactionAccount(((List<UserAccount>) ParseSingleton.getInstance().get(accList)).get(_accountSpinner.getSelectedItemPosition()));
             String date = _date.getText().toString();
             t.setTransactionDate(new Date(date));
             t.saveEventually();

@@ -8,14 +8,17 @@ import android.view.View;
 import android.view.WindowManager.LayoutParams;
 import android.widget.EditText;
 import android.widget.Toast;
-
 import com.parse.ParseACL;
 import com.parse.ParseUser;
+
 
 /**
  * Activity in which user can create a new account to track finances.
  */
 public class AddAccountDialog extends Activity {
+    /**
+     *
+     */
 	private EditText _newAccountName;
     private EditText _newAccountValue;
 
@@ -23,7 +26,7 @@ public class AddAccountDialog extends Activity {
      * Tell device to create the view based on savedInstanceState and R.activity_addaccount.
      * Displays fields for account name and initial account value.
      *
-     * @param savedInstanceState
+     * @param savedInstanceState information from the last activity
      */
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -32,7 +35,7 @@ public class AddAccountDialog extends Activity {
 		
 		getWindow().setLayout(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT);
 		
-		_newAccountName = (EditText) findViewById(R.id.new_account_name);
+        _newAccountName = (EditText) findViewById(R.id.new_account_name);
         _newAccountValue = (EditText) findViewById(R.id.account_value);
 	}
 
@@ -45,14 +48,14 @@ public class AddAccountDialog extends Activity {
 	public void createNewAccount(View v) {
         Intent i = new Intent();
 
-		if (InputValidator.isValid(_newAccountName.getText().toString(), _newAccountValue.getText().toString())){
+    if (InputValidator.isValid(_newAccountName.getText().toString(), _newAccountValue.getText().toString())) {
 			UserAccount uac = new UserAccount();
-			uac.setACL(new ParseACL(ParseUser.getCurrentUser()));
+            uac.setACL(new ParseACL(ParseUser.getCurrentUser()));
 			uac.setUser(ParseUser.getCurrentUser());
 			uac.setAccountName(_newAccountName.getText().toString());
             uac.setInitialValue(Double.parseDouble(_newAccountValue.getText().toString()));
             uac.setAccountValue(uac.getInitialValue());
-			uac.saveEventually();
+            uac.saveEventually();
 
             i.putExtra("accountName", _newAccountName.getText().toString());
             i.putExtra("accountValue", Double.parseDouble(_newAccountValue.getText().toString()));
@@ -69,6 +72,6 @@ public class AddAccountDialog extends Activity {
             setResult(RESULT_CANCELED, i);
         }
 
-		finish();
+    finish();
 	}
 }

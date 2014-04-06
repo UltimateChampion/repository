@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
-
 import com.parse.ParseException;
 import com.parse.ParseUser;
 import com.parse.SignUpCallback;
@@ -37,6 +36,7 @@ public class RegisterActivity extends Activity {
 	
 	/**
 	 * Attempts to register the user.
+     * @param v -View of the activity.
 	 */
 	public void register(final View v) {
 		if (username.getText().length() == 0 || password.getText().length() == 0) {

@@ -1,7 +1,7 @@
 package test.java;
 
 /**
- * Created by AmierNaji on 3/30/14.
+ * IGNORE THIS CLASS
  */
 
         import android.test.ActivityUnitTestCase;
