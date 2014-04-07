@@ -26,8 +26,20 @@
     [self.scrollView setContentSize:[[UIScreen mainScreen] bounds].size];
     [self.scrollView setUserInteractionEnabled:YES];
     
-    UIColor *bgImage = [UIColor colorWithPatternImage:[UIImage imageNamed:@"bgImage.jpg"]];
-    [self.scrollView setBackgroundColor:bgImage];
+    // create the blurred image
+    UIImage *bgImage = [UIImage imageNamed:@"bgImage.jpg"];
+    CIContext *context = [CIContext contextWithOptions:nil];
+    CIImage *inputImage = [CIImage imageWithCGImage:bgImage.CGImage];
+    
+    // set up the Gaussian Blur
+    CIFilter *filter = [CIFilter filterWithName:@"CIGaussianBlur"];
+    [filter setValue:inputImage forKeyPath:kCIInputImageKey];
+    [filter setValue:[NSNumber numberWithFloat:5.0f] forKeyPath:kCIInputRadiusKey];
+    CIImage *result = [filter valueForKey:kCIOutputImageKey];
+    CGImageRef cgImage = [context createCGImage:result fromRect:[inputImage extent]];
+    
+    // set the blurred image as the scrollview's background
+    [self.scrollView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageWithCGImage:cgImage]]];
     
     [self.roundedView setUserInteractionEnabled:YES];
     self.roundedView.layer.cornerRadius = 5;
@@ -44,6 +56,7 @@
     self.userImageView = [[CircularImageView alloc] initWithFrame:CGRectMake(110, 110, 100, 100)];
     [self.userImageView setUserPicture:[UIImage imageNamed:@"DefaultUserPicture.png"]];
     
+    // use a UIButton here instead
     UITapGestureRecognizer *takePicture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(takePicture)];
     [self.userImageView addGestureRecognizer:takePicture];
     [self.view addSubview:self.userImageView];
@@ -57,7 +70,20 @@
 
 - (IBAction)getStarted:(id)sender
 {
-    
+    NSString *usernameString = [_username text];
+    NSString *passwordString = [_password text];
+    [PFUser logInWithUsernameInBackground:usernameString password:passwordString block:^(PFUser *user, NSError *error) {
+        if (error) {
+            NSLog(@"something went wrong");
+            return;
+        }
+        else {
+            [self.view endEditing:YES];
+            UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+            CameraViewController *viewController = [storyboard instantiateViewControllerWithIdentifier:@"AccountListView"];
+            [self presentViewController:viewController animated:YES completion:nil];
+        }
+    }];
 }
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField
@@ -145,7 +171,7 @@
 {
     [self.view endEditing:YES];
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    CameraViewController *viewController = [storyboard instantiateViewControllerWithIdentifier:@"CameraViewController"];
+    CameraViewController *viewController = [storyboard instantiateViewControllerWithIdentifier:@"CameraView"];
     [self presentViewController:viewController animated:YES completion:nil];
 }
 

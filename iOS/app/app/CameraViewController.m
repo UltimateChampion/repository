@@ -74,6 +74,10 @@ deviceFound:;
             [session addOutput:videoDataOutput];
         }
         
+        if ([session canAddOutput:stillImageOutput]) {
+            [session addOutput:stillImageOutput];
+        }
+        
         videoPreviewLayer = [AVCaptureVideoPreviewLayer layerWithSession:session];
         videoPreviewLayer.frame = self.view.bounds;
         videoPreviewLayer.videoGravity = AVLayerVideoGravityResizeAspectFill;
@@ -97,7 +101,6 @@ deviceFound:;
 
 - (void)takePicture:(id)sender
 {
-    if (stillImageOutput == nil) NSLog(@"stillImageOutput is null");
     AVCaptureConnection *captureConnection = nil;
     for (AVCaptureConnection *connection in stillImageOutput.connections) {
         for (AVCaptureInputPort *port in [connection inputPorts]) {
@@ -119,29 +122,15 @@ deviceFound:;
          if (imageSampleBuffer != NULL) {
              NSData *imageData = [AVCaptureStillImageOutput jpegStillImageNSDataRepresentation:imageSampleBuffer];
              self.lastCapturedPicture = [[UIImage alloc] initWithData:imageData];
+             
+             if (!pictureView) {
+                 pictureView = [[UIImageView alloc] initWithFrame:[self.view frame]];
+             }
+             
+             pictureView.backgroundColor = [UIColor colorWithPatternImage:self.lastCapturedPicture];
+             [self.view addSubview:pictureView];
          }
     }];
-    
-    if (!pictureView) {
-        pictureView = [[UIImageView alloc] initWithFrame:[self.view frame]];
-    }
-    
-    pictureView.backgroundColor = [UIColor colorWithPatternImage:self.lastCapturedPicture];
-    
-    UIView *flashView = [[UIView alloc] initWithFrame:[pictureView frame]];
-    [flashView setBackgroundColor:[UIColor whiteColor]];
-    [[[self view] window] addSubview:flashView];
-    
-    [UIView animateWithDuration:.4f
-                     animations:^{
-                         [flashView setAlpha:0.f];
-                     }
-                     completion:^(BOOL finished){
-                         [flashView removeFromSuperview];
-                     }
-     ];
-    
-    [self.view addSubview:pictureView];
 }
 
 - (void)didReceiveMemoryWarning
