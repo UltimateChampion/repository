@@ -150,6 +150,9 @@ public class UserAccountsActivity extends Activity implements OnItemClickListene
             case R.id.recordAccountItem:
                 startActivity(new Intent(this, AccountRecordActivity.class));
                 return true;
+            case R.id.deficitChartItem:
+                startActivity(new Intent(this, Chart.class));
+                return true;
 			default:
 				return super.onOptionsItemSelected(item);
 		}

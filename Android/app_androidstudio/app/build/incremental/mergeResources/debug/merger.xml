@@ -1817,10 +1817,6 @@ normal
                     name="TextAppearance.AppCompat.Widget.PopupMenu.Large"
                     parent="TextAppearance.AppCompat.Base.Widget.PopupMenu.Large" />
 
-                <attr
-                    name="listPreferredItemHeightSmall"
-                    format="dimension" />
-
                 <declare-styleable name="MenuItem" >
 
                     <!-- The ID of the item. -->
@@ -1958,6 +1954,10 @@ normal
                         name="actionProviderClass"
                         format="string" />
                 </declare-styleable>
+
+                <attr
+                    name="listPreferredItemHeightSmall"
+                    format="dimension" />
 
                 <style
                     name="TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse"
@@ -7649,6 +7649,8 @@ false
                 </string>
                 <string name="accountview_balance_label" >Account Balance
                 </string>
+                <string name="title_activity_chart" >Chart
+                </string>
                 <string name="add_rm_accounts" >+/- Accounts
                 </string>
                 <string name="submit" >Submit
@@ -7660,6 +7662,8 @@ false
                 <string name="new_transaction" >New Transaction
                 </string>
                 <string name="account_value" >Account Value
+                </string>
+                <string name="title_activity_splash" >Splash
                 </string>
                 <string name="accountview_num_txns" >Transactions
                 </string>
@@ -7730,6 +7734,41 @@ false
                 <dimen name="activity_horizontal_margin" >64dp
                 </dimen>
             </file>
+            <file
+                name="fragment_chart"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/layout/fragment_chart.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_chart"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/layout/activity_chart.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="chart"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/menu/chart.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="fragment_splash"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/layout/fragment_splash.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_splash"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/layout/activity_splash.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="splash"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/menu/splash.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="spin"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/raw/spin.gif"
+                qualifiers=""
+                type="raw" />
         </source>
         <source path="/Users/AmierNaji/repository/Android/app_androidstudio/app/build/res/rs/debug" />
     </dataSet>

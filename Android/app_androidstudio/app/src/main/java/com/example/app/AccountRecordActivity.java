@@ -16,6 +16,7 @@ import com.parse.ParseUser;
 
 
 
+
 /**
  * Created by michael on 3/8/2014
  */
@@ -103,7 +104,6 @@ public class AccountRecordActivity extends Activity{
             Toast.makeText(this, "Invalid Date Inputs", Toast.LENGTH_SHORT).show();
             return;
         }
-
 
         AccountRecord report = new AccountRecord(DateValidator.getFirstDate(), DateValidator.getSecondDate());
         //Toast.makeText(this, report.buildRecord(), Toast.LENGTH_SHORT).show();
