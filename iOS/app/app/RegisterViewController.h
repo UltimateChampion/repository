@@ -7,7 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CircularImageView.h"
 
-@interface RegisterViewController : UIViewController
+@interface RegisterViewController : UIViewController <UITextFieldDelegate>
+
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
+@property (weak, nonatomic) IBOutlet UIButton *cancelButton;
+@property (weak, nonatomic) IBOutlet UIButton *saveButton;
+@property (strong, nonatomic) CircularImageView *userImageView;
+@property (weak, nonatomic) IBOutlet UITextField *firstName;
+@property (weak, nonatomic) IBOutlet UITextField *lastName;
+@property (weak, nonatomic) IBOutlet UITextField *emailAddress;
+@property (weak, nonatomic) IBOutlet UITextField *username;
+@property (weak, nonatomic) IBOutlet UITextField *password;
+
+- (IBAction)dismissRegisterScreen:(id)sender;
+- (IBAction)saveButtonPressed:(id)sender;
 
 @end

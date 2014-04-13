@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface FirstViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIButton *signInButton;
+@property (weak, nonatomic) IBOutlet UIButton *signUpButton;
+- (IBAction)pushLoginViewController:(id)sender;
+- (IBAction)pushSignUpViewController:(id)sender;
 
 @end

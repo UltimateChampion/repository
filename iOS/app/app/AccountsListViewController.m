@@ -46,4 +46,9 @@
 }
 */
 
+- (IBAction)addAccount:(id)sender {
+}
+
+- (IBAction)openSettingsView:(id)sender {
+}
 @end

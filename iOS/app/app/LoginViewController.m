@@ -42,7 +42,7 @@
     [self.scrollView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageWithCGImage:cgImage]]];
     
     [self.roundedView setUserInteractionEnabled:YES];
-    self.roundedView.layer.cornerRadius = 5;
+    // self.roundedView.layer.cornerRadius = 5;
     self.roundedView.layer.masksToBounds = YES;
     
     [self.username setDelegate:self];
@@ -56,7 +56,7 @@
     self.userImageView = [[CircularImageView alloc] initWithFrame:CGRectMake(110, 110, 100, 100)];
     [self.userImageView setUserPicture:[UIImage imageNamed:@"DefaultUserPicture.png"]];
     
-    // use a UIButton here instead
+    // use a UIButton here instead?
     UITapGestureRecognizer *takePicture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(takePicture)];
     [self.userImageView addGestureRecognizer:takePicture];
     [self.view addSubview:self.userImageView];
@@ -80,7 +80,7 @@
         else {
             [self.view endEditing:YES];
             UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-            CameraViewController *viewController = [storyboard instantiateViewControllerWithIdentifier:@"AccountListView"];
+            CameraViewController *viewController = [storyboard instantiateViewControllerWithIdentifier:@"AccountsListView"];
             [self presentViewController:viewController animated:YES completion:nil];
         }
     }];

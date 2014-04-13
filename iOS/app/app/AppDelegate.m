@@ -20,7 +20,6 @@
     [Transaction registerSubclass];
     [Parse setApplicationId:@"YIVDzaJoFQvyNUY8OA6LlM6hniqOrjYvBJA9PaTD"
                   clientKey:@"8NHMSqmbfZGOPSkzovW05PcJ4Rxkhfhj9FdJTy3g"];
-    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     return YES;
 }
 							

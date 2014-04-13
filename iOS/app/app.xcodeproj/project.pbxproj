@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		793B5C0F18FA8DE900C67292 /* RBParallaxScrollerTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 793B5C0B18FA8DE900C67292 /* RBParallaxScrollerTableVC.m */; };
+		793B5C1018FA8DE900C67292 /* RBParallaxTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 793B5C0D18FA8DE900C67292 /* RBParallaxTableVC.m */; };
+		79917E2D18F8CAD5001F44EA /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79917E2C18F8CAD5001F44EA /* FirstViewController.m */; };
 		799BD5D818E0913800DA1B28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 799BD5D718E0913800DA1B28 /* Foundation.framework */; };
 		799BD5DA18E0913800DA1B28 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 799BD5D918E0913800DA1B28 /* CoreGraphics.framework */; };
 		799BD5DC18E0913800DA1B28 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 799BD5DB18E0913800DA1B28 /* UIKit.framework */; };
@@ -39,6 +42,8 @@
 		799BD63B18E1322A00DA1B28 /* CircularImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 799BD63A18E1322A00DA1B28 /* CircularImageView.m */; };
 		799BD63F18E13DE400DA1B28 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 799BD63E18E13DE400DA1B28 /* CameraViewController.m */; };
 		799BD64118E13E8600DA1B28 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 799BD64018E13E8600DA1B28 /* AVFoundation.framework */; };
+		79C3E37F18FA44510045C60B /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C3E37E18FA44510045C60B /* RegisterViewController.m */; };
+		79C3E38218FA745E0045C60B /* AccountsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C3E38118FA745E0045C60B /* AccountsListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +57,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		793B5C0A18FA8DE900C67292 /* RBParallaxScrollerTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBParallaxScrollerTableVC.h; sourceTree = "<group>"; };
+		793B5C0B18FA8DE900C67292 /* RBParallaxScrollerTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBParallaxScrollerTableVC.m; sourceTree = "<group>"; };
+		793B5C0C18FA8DE900C67292 /* RBParallaxTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBParallaxTableVC.h; sourceTree = "<group>"; };
+		793B5C0D18FA8DE900C67292 /* RBParallaxTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBParallaxTableVC.m; sourceTree = "<group>"; };
+		79917E2B18F8CAD5001F44EA /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		79917E2C18F8CAD5001F44EA /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		799BD5D418E0913800DA1B28 /* app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		799BD5D718E0913800DA1B28 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		799BD5D918E0913800DA1B28 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -93,6 +104,10 @@
 		799BD63D18E13DE400DA1B28 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
 		799BD63E18E13DE400DA1B28 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
 		799BD64018E13E8600DA1B28 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		79C3E37D18FA44510045C60B /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		79C3E37E18FA44510045C60B /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		79C3E38018FA745E0045C60B /* AccountsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountsListViewController.h; sourceTree = "<group>"; };
+		79C3E38118FA745E0045C60B /* AccountsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountsListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +145,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		793B5C1118FA8DEF00C67292 /* RBParallaxTable */ = {
+			isa = PBXGroup;
+			children = (
+				793B5C0A18FA8DE900C67292 /* RBParallaxScrollerTableVC.h */,
+				793B5C0B18FA8DE900C67292 /* RBParallaxScrollerTableVC.m */,
+				793B5C0C18FA8DE900C67292 /* RBParallaxTableVC.h */,
+				793B5C0D18FA8DE900C67292 /* RBParallaxTableVC.m */,
+			);
+			name = RBParallaxTable;
+			sourceTree = "<group>";
+		};
 		799BD5CB18E0913800DA1B28 = {
 			isa = PBXGroup;
 			children = (
@@ -219,10 +245,17 @@
 		799BD62018E0D5BA00DA1B28 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				799BD5EC18E0913800DA1B28 /* LoginViewController.h */,
-				799BD5ED18E0913800DA1B28 /* LoginViewController.m */,
+				79C3E38018FA745E0045C60B /* AccountsListViewController.h */,
+				793B5C1118FA8DEF00C67292 /* RBParallaxTable */,
+				79C3E38118FA745E0045C60B /* AccountsListViewController.m */,
+				79917E2B18F8CAD5001F44EA /* FirstViewController.h */,
+				79917E2C18F8CAD5001F44EA /* FirstViewController.m */,
 				799BD63D18E13DE400DA1B28 /* CameraViewController.h */,
 				799BD63E18E13DE400DA1B28 /* CameraViewController.m */,
+				799BD5EC18E0913800DA1B28 /* LoginViewController.h */,
+				799BD5ED18E0913800DA1B28 /* LoginViewController.m */,
+				79C3E37D18FA44510045C60B /* RegisterViewController.h */,
+				79C3E37E18FA44510045C60B /* RegisterViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -357,13 +390,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79C3E38218FA745E0045C60B /* AccountsListViewController.m in Sources */,
 				799BD63B18E1322A00DA1B28 /* CircularImageView.m in Sources */,
 				799BD62418E0D61100DA1B28 /* UserAccount.m in Sources */,
 				799BD5EE18E0913800DA1B28 /* LoginViewController.m in Sources */,
 				799BD5E818E0913800DA1B28 /* AppDelegate.m in Sources */,
+				79C3E37F18FA44510045C60B /* RegisterViewController.m in Sources */,
+				793B5C0F18FA8DE900C67292 /* RBParallaxScrollerTableVC.m in Sources */,
+				793B5C1018FA8DE900C67292 /* RBParallaxTableVC.m in Sources */,
 				799BD62718E0D61700DA1B28 /* Transaction.m in Sources */,
 				799BD63F18E13DE400DA1B28 /* CameraViewController.m in Sources */,
 				799BD5E418E0913800DA1B28 /* main.m in Sources */,
+				79917E2D18F8CAD5001F44EA /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,6 +614,7 @@
 				799BD60818E0913900DA1B28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		799BD60918E0913900DA1B28 /* Build configuration list for PBXNativeTarget "appTests" */ = {
 			isa = XCConfigurationList;
@@ -584,6 +623,7 @@
 				799BD60B18E0913900DA1B28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
