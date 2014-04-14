@@ -8,6 +8,8 @@
 
 #import "FirstViewController.h"
 #import "LoginViewController.h"
+#import "AccountsListViewController.h"
+#import <Parse/Parse.h>
 
 @interface FirstViewController ()
 
@@ -27,6 +29,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    if ([PFUser currentUser]) {
+        NSLog(@"%@", [[PFUser currentUser] username]);
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        AccountsListViewController *viewController = [storyboard instantiateViewControllerWithIdentifier:@"AccountsListView"];
+        [self presentViewController:viewController animated:NO completion:nil];
+    }
     // create the blurred image
     UIImage *bgImage = [UIImage imageNamed:@"bgImage.jpg"];
     CIContext *context = [CIContext contextWithOptions:nil];

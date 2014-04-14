@@ -20,6 +20,17 @@
     [Transaction registerSubclass];
     [Parse setApplicationId:@"YIVDzaJoFQvyNUY8OA6LlM6hniqOrjYvBJA9PaTD"
                   clientKey:@"8NHMSqmbfZGOPSkzovW05PcJ4Rxkhfhj9FdJTy3g"];
+    
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    
+    self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+    
+    NSString *initialVC = [PFUser currentUser] ? @"AccountsListView" : @"FirstView";
+    UIViewController *viewController = [storyboard instantiateViewControllerWithIdentifier:initialVC];
+    
+    self.window.rootViewController = viewController;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 							

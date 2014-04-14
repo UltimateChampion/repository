@@ -32,6 +32,8 @@
         [self.layer addSublayer:containerLayer];
     }
     
+    [self setUserPicture:[UIImage imageNamed:@"DefaultUserPicture.png"]];
+    
     return self;
 }
 
