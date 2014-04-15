@@ -16,4 +16,7 @@
 @property (strong, nonatomic) NSDate *date;
 @property (strong, nonatomic) NSNumber *value;
 
+- (void)setTxnValue:(NSNumber *)value;
+- (NSNumber *)getTxnValue;
+
 @end

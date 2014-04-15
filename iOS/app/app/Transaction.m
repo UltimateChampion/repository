@@ -32,4 +32,17 @@
     return self;
 }
 
+
+// PARSE IS A NERD
+// I JUST WANNA LET THAT BE KNOWN
+- (void)setTxnValue:(NSNumber *)value
+{
+    self.value = value;
+}
+
+- (NSNumber *)getTxnValue
+{
+    return self.value;
+}
+
 @end

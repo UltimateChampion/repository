@@ -20,6 +20,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *emailAddress;
 @property (weak, nonatomic) IBOutlet UITextField *username;
 @property (weak, nonatomic) IBOutlet UITextField *password;
+@property (weak, nonatomic) IBOutlet UITextField *confirmPassword;
 
 - (IBAction)dismissRegisterScreen:(id)sender;
 - (IBAction)saveButtonPressed:(id)sender;

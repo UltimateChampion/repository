@@ -11,6 +11,7 @@
 #import "UserAccount.h"
 #import "AccountTableViewCell.h"
 #import "AccountCreateViewController.h"
+#import "AccountTransactionListViewController.h"
 
 @interface AccountsListViewController () {
     NSMutableArray *dataSource;
@@ -54,14 +55,24 @@
     [_userView addSubview:_userPictureView];
     
     dataSource = [NSMutableArray arrayWithArray:[self getAccountsList]];
-
-    NSLog(@"%@", [[PFUser currentUser] username]);
 }
 
 - (NSArray *)getAccountsList
 {
     PFQuery *query = [PFQuery queryWithClassName:@"Account"];
     [query whereKey:@"user" equalTo:[PFUser currentUser]]; // so unsafe
+    
+//    __block NSArray *o;
+//    [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
+//        if (error) {
+//            NSLog(@"%@", [error localizedDescription]);
+//            return;
+//        }
+//        else {
+//            o = [NSArray arrayWithArray:objects];
+//        }
+//    }];
+    
     return [query findObjects];
 }
 
@@ -102,6 +113,14 @@
     return 66;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    AccountTransactionListViewController *viewController = [storyboard instantiateViewControllerWithIdentifier:@"AccountTransactionListView"];
+    [viewController setUserAccount:[dataSource objectAtIndex:indexPath.row]];
+    [self presentViewController:viewController animated:YES completion:nil];
+}
+
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
     CGFloat scrollOffset = scrollView.contentOffset.y;
@@ -120,7 +139,6 @@
 
 - (void)accountCreated:(UserAccount *)newAccount
 {
-    NSLog(@"I'm here");
     [dataSource addObject:newAccount];
     [_tableView reloadData];
 }
@@ -135,11 +153,12 @@
         NSLog(@"gonna segue");
         ((AccountCreateViewController *)[segue destinationViewController]).delegate = self;
     }
-    else if ([segue.description isEqualToString:@"accountSelectedSegue"]) {
-        // do stuff later
-    }
 }
 
 - (IBAction)openSettingsView:(id)sender {
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    UIViewController *viewController = [storyboard instantiateViewControllerWithIdentifier:@"FirstView"];
+    [self presentViewController:viewController animated:NO completion:nil];
 }
+
 @end
