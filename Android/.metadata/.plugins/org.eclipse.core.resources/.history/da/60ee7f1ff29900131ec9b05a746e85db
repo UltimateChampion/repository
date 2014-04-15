@@ -1,0 +1,14 @@
+package com.example.app;
+import com.parse.ParseObject;
+import com.parse.ParseClassName;
+
+@ParseClassName("User")
+public class User extends ParseObject {
+	public User() {
+		
+	}
+	
+	public ArrayList<Account> getUserAccounts() {
+		return null;
+	}
+}

@@ -1,0 +1,23 @@
+package com.example.app;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.EditText;
+
+public class RegisterActivity extends Activity {
+	private EditText username;
+	private EditText password;
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_login);
+		
+		username = (EditText) findViewById(R.id.register_username);
+		password = (EditText) findViewById(R.id.register_password);
+	}
+	
+	public void register(final View v) {
+		
+	}
+}

@@ -1,0 +1,45 @@
+package com.example.app;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.parse.ParseClassName;
+import com.parse.ParseObject;
+import com.parse.ParseUser;
+
+@ParseClassName("Account")
+public class UserAccount extends ParseObject {
+	private String accountName;
+	private User user;
+	private List<Transaction> txnList;
+	
+	public UserAccount(String accountName) {
+		this.accountName = accountName;
+		this.txnList = new ArrayList<Transaction>();
+		this.user = ParseUser.getCurrentUser();
+	}
+	
+	public void setAccountName(String s) {
+		this.accountName = s;
+	}
+	
+	public String getAccountName() {
+		return accountName;
+	}
+	
+	public void addTransaction(Transaction t) {
+		txnList.add(t);
+	}
+	
+	public void removeTransaction(Transaction t) {
+		txnList.remove(t);
+	}
+	
+	public void setTxnList(List<Transaction> txnList) {
+		this.txnList = txnList;
+	}
+	
+	public List<Transaction> getTxnList() {
+		return txnList;
+	}
+}

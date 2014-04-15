@@ -1,0 +1,6 @@
+INDEX VERSION 1.126+/Users/richard/Documents/CS 2340/repository/Android/.metadata/.plugins/org.eclipse.jdt.core
+911706257.index
+2491976358.index
+3703517012.index
+171921732.index
+4013607337.index

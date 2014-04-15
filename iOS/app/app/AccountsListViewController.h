@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "CircularImageView.h"
+#import "AccountCreateViewController.h"
 
-@interface AccountsListViewController : UIViewController <UIScrollViewDelegate, UITableViewDelegate, UITableViewDataSource>
+@interface AccountsListViewController : UIViewController <UIScrollViewDelegate, UITableViewDelegate, UITableViewDataSource, AccountCreationDelegate>
 @property (weak, nonatomic) IBOutlet UIView *accountsListView;
 @property (weak, nonatomic) IBOutlet UIButton *addAccountButton;
 @property (weak, nonatomic) IBOutlet UIButton *settingsButton;
@@ -18,8 +19,6 @@
 @property (strong, nonatomic) CircularImageView *userPictureView;
 @property double headerYOffset;
 
-
-- (IBAction)addAccount:(id)sender;
 - (IBAction)openSettingsView:(id)sender;
 
 @end

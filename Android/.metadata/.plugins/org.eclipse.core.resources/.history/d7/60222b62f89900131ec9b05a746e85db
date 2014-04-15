@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">app</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <drawable name="blueish">#19718E</drawable>
+    <drawable name="darkblue">#0F5C75</drawable>
+
+</resources>

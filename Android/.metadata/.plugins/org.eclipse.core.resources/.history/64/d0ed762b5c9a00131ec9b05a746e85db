@@ -1,0 +1,8 @@
+package com.example.app;
+
+import android.app.Activity;
+import android.widget.EditText;
+
+public class AddAccountDialog extends Activity {
+	private EditText _accountName;
+}

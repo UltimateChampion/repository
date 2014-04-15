@@ -1,0 +1,7 @@
+package com.example.app;
+
+import android.widget.ArrayAdapter;
+
+public class AccountAdapter extends ArrayAdapter<T> {
+
+}

@@ -1,0 +1,25 @@
+package com.example.app;
+
+import com.parse.ParseObject;
+import com.parse.ParseClassName;
+
+@ParseClassName("Account")
+public class UserAccount extends ParseObject {
+	private String accountName;
+	
+	public UserAccount() {
+		
+	}
+	
+	public UserAccount(String accountName) {
+		this.accountName = accountName;
+	}
+	
+	public void setAccountName(String s) {
+		this.accountName = s;
+	}
+	
+	public String getAccountName() {
+		return accountName;
+	}
+}

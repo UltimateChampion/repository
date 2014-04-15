@@ -1,0 +1,32 @@
+import com.parse.Parse;
+import com.parse.ParseACL;
+import com.parse.ParseObject;
+import com.parse.ParseUser;
+
+import android.app.Application;
+
+
+public class AppApplication extends Application {
+
+	@Override
+	public void onCreate() {
+		super.onCreate();
+
+		// Add your initialization code here
+		Parse.initialize(this, "YIVDzaJoFQvyNUY8OA6LlM6hniqOrjYvBJA9PaTD", "8NHMSqmbfZGOPSkzovW05PcJ4Rxkhfhj9FdJTy3g");
+
+
+		ParseUser.enableAutomaticUser();
+		ParseACL defaultACL = new ParseACL();
+	    
+		// If you would like all objects to be private by default, remove this line.
+		defaultACL.setPublicReadAccess(true);
+		
+		ParseACL.setDefaultACL(defaultACL, true);
+		
+		ParseObject testObject = new ParseObject("TestObject");
+		testObject.put("foo", "bar");
+		testObject.saveInBackground();
+	}
+	
+}

@@ -14,6 +14,7 @@
 @dynamic accountName;
 @dynamic accountValue;
 @dynamic initialValue;
+@dynamic user;
 
 + (NSString *)parseClassName
 {

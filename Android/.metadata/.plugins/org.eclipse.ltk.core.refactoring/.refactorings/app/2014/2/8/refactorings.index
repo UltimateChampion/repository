@@ -1,0 +1,21 @@
+1392868061633	Move compilation unit
+1392874929537	Move compilation unit
+1392875635706	Rename type 'Account'
+1392876942908	Rename type 'MainActivity'
+1392877797626	Rename resource 'activity_main.xml'
+1392878430455	Extracts string 'null' into R.string.add_rm_accounts
+1392883023198	Extracts string 'null' into R.string.sign_up_label
+1392883039635	Extracts string 'null' into R.string.already_have_account
+1392883057090	Extracts string 'null' into R.string.password_label
+1392883181735	Delete element
+1392883241467	Delete element
+1392883700500	Rename type 'AddAcountDialog'
+1392919020932	Rename type 'AccountAdapter'
+1392920089122	Extracts string 'null' into R.string.account_name_field
+1392927010680	Delete element
+1392927179922	Extracts string 'null' into R.string.enter_account_name_field
+1392927583273	Extracts string 'null' into R.string.submit
+1392947710091	Delete element
+1392948095762	Rename field 'textView1'
+1392948173933	Delete element
+1392949188883	Extracts string 'null' into R.string.refresh

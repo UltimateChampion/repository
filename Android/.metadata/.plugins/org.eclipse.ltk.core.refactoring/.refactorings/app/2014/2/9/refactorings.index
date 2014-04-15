@@ -1,0 +1,4 @@
+1393227185542	Extract local variable 'parseObject'
+1393227742098	Extracts string 'null' into R.string.add_account
+1393228219091	Extracts string 'null' into R.string.manage_accounts
+1393228311089	Extracts string 'null' into R.string.log_out

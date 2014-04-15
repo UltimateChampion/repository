@@ -15,5 +15,6 @@
 @property (strong, nonatomic) NSString *accountName;
 @property (strong, nonatomic) NSNumber *accountValue;
 @property (strong, nonatomic) NSNumber *initialValue;
+@property (strong, nonatomic) PFUser *user;
 
 @end

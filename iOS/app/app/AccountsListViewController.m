@@ -10,6 +10,7 @@
 #import "AccountsListViewController.h"
 #import "UserAccount.h"
 #import "AccountTableViewCell.h"
+#import "AccountCreateViewController.h"
 
 @interface AccountsListViewController () {
     NSMutableArray *dataSource;
@@ -53,6 +54,8 @@
     [_userView addSubview:_userPictureView];
     
     dataSource = [NSMutableArray arrayWithArray:[self getAccountsList]];
+
+    NSLog(@"%@", [[PFUser currentUser] username]);
 }
 
 - (NSArray *)getAccountsList
@@ -115,19 +118,26 @@
     _userView.frame = headerImageFrame;
 }
 
-/*
+- (void)accountCreated:(UserAccount *)newAccount
+{
+    NSLog(@"I'm here");
+    [dataSource addObject:newAccount];
+    [_tableView reloadData];
+}
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
-- (IBAction)addAccount:(id)sender {
-    
+    NSLog(@"%@", segue.identifier);
+    if ([segue.identifier isEqualToString:@"accountCreateSegue"]) {
+        NSLog(@"gonna segue");
+        ((AccountCreateViewController *)[segue destinationViewController]).delegate = self;
+    }
+    else if ([segue.description isEqualToString:@"accountSelectedSegue"]) {
+        // do stuff later
+    }
 }
 
 - (IBAction)openSettingsView:(id)sender {
