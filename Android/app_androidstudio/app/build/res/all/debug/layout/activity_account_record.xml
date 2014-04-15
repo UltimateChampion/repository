@@ -60,4 +60,13 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="false" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Date"
+        android:id="@+id/button"
+        android:layout_below="@+id/view2"
+        android:onClick="setStart"
+        android:layout_toLeftOf="@+id/build_record_button" />
+
 </RelativeLayout><!-- From: file:/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/layout/activity_account_record.xml -->

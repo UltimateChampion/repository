@@ -6,6 +6,7 @@
     <item android:id="@+id/refresh" android:title="@string/refresh"></item>
     <item android:id="@+id/logOutMenuItem" android:title="@string/log_out"></item>
     <item android:id="@+id/recordAccountItem" android:title="Get Account Record"></item>
+    <item android:id="@+id/deficitChartItem" android:title="View Deficit Chart"></item>
 
 
 </menu>

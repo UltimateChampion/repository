@@ -16,6 +16,8 @@ import com.parse.ParseUser;
 
 
 
+
+
 /**
  * Created by michael on 3/8/2014
  */
@@ -39,6 +41,20 @@ public class AccountRecordActivity extends Activity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_account_record);
+
+        Bundle extras = getIntent().getExtras();
+        if (extras != null) {
+
+            String toAdd = extras.getString("date");
+
+            if (extras.getInt("date_type") == 0) {
+
+                _startDateField.setText(toAdd);
+            } else {
+
+                _endDateField.setText(toAdd);
+            }
+        }
     }
 
     /**
@@ -104,12 +120,26 @@ public class AccountRecordActivity extends Activity{
             return;
         }
 
-
         AccountRecord report = new AccountRecord(DateValidator.getFirstDate(), DateValidator.getSecondDate());
         //Toast.makeText(this, report.buildRecord(), Toast.LENGTH_SHORT).show();
         _builtRecordView = (TextView) findViewById(R.id.built_record_label);
         _builtRecordView.setText(report.buildRecord());
         _builtRecordView.setMovementMethod(new ScrollingMovementMethod());
     }
+
+    public void setStart(View v) {
+
+        Intent i = new Intent(getApplicationContext(), StartEnd.class);
+        i.putExtra("date_type",0);
+        startActivity(i);
+    }
+
+    public void setEnd(View v) {
+
+        Intent i = new Intent(getApplicationContext(), StartEnd.class);
+        i.putExtra("date_type",1);
+        startActivity(i);
+    }
+
 
 }

@@ -14,9 +14,11 @@
     <application
         android:name="com.example.app.AppApplication"
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@raw/dollar"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+
+        <!-- android:name="com.example.app.UserAccountsActivity" -->
         <activity
             android:name="com.example.app.UserAccountsActivity"
             android:label="@string/app_name" >
@@ -50,6 +52,18 @@
         <activity
             android:name="com.example.app.AccountRecordActivity"
             android:label="@string/title_activity_account_record" >
+        </activity>
+        <activity
+            android:name="com.example.app.Chart"
+            android:label="@string/title_activity_chart" >
+        </activity>
+        <activity
+            android:name="com.example.app.Splash"
+            android:label="@string/title_activity_splash" >
+        </activity>
+        <activity
+            android:name="com.example.app.StartEnd"
+            android:label="@string/title_activity_start_end" >
         </activity>
     </application>
 

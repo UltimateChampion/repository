@@ -31,4 +31,12 @@ public class InputValidator {
         }
         return true;
     }
+
+    public static boolean isValidUsername(String name) {
+        if (name.matches("[\\[$&+,:;=?@#|\\]]")) return false;
+        else if (name.length() == 0) return false;
+        else if (name.length() > 30) return false;
+
+        return true;
+    }
 }

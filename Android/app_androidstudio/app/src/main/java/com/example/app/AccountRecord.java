@@ -29,6 +29,9 @@ public class AccountRecord {
     private List<String> accounts;
     private List<Double> accountBalances; //Don't HIT ME FOR THIS. Had to make parallel lists b/c time.
     private String date = "date";
+    private double percentDeficit = 0;
+    private double percentSurplus = 0;
+
 
     /**
      * Constructor to build an account record bounded by start and end dates.
@@ -56,7 +59,16 @@ public class AccountRecord {
         DecimalFormat toMoney = new DecimalFormat("$#,##0.00;-$#,##0.00");
 
         out += "\nTransactions:\n";
+        double plus = 0;
+        double minus = 0;
         for (Transaction t: getRecords()) {
+
+            if (t.getTransactionValue() >=0) {
+                plus++;
+            }
+            else {
+                minus++;
+            }
 
             if ((t.getTransactionDate().compareTo(start) >= 0) && (t.getTransactionDate().compareTo(end) <= 0)) {
             out += "\tAccount: " + t.getTransactionAccount().getAccountName() + ":\n\tName: " + t.getTransactionName() + "\n\tDate: " + t.getTransactionDate().toString() + "\n\tAmount Spent: " + toMoney.format(t.getTransactionValue()) + "\n\n";
@@ -71,6 +83,8 @@ public class AccountRecord {
             }
         }
 
+        percentDeficit = minus/(minus+plus);
+        percentSurplus = plus/(minus+plus);
 
         out += "Account Balances:\n";
         for (int j = 0; j < accounts.size(); j++){

@@ -7452,6 +7452,36 @@ false
     <dataSet config="main" >
         <source path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res" >
             <file
+                name="fullbutton2"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/drawable/fullbutton2.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="fullbutton3"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/drawable/fullbutton3.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="inputtext"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/drawable/inputtext.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="loginbutton"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/drawable/loginbutton.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="tfield1"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/drawable/tfield1.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="tfield2"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/drawable/tfield2.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
                 name="ic_launcher"
                 path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/drawable-hdpi/ic_launcher.png"
                 qualifiers="hdpi"
@@ -7497,6 +7527,11 @@ false
                 qualifiers=""
                 type="layout" />
             <file
+                name="activity_chart"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/layout/activity_chart.xml"
+                qualifiers=""
+                type="layout" />
+            <file
                 name="activity_login"
                 path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/layout/activity_login.xml"
                 qualifiers=""
@@ -7507,8 +7542,33 @@ false
                 qualifiers=""
                 type="layout" />
             <file
+                name="activity_splash"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/layout/activity_splash.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_start_end"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/layout/activity_start_end.xml"
+                qualifiers=""
+                type="layout" />
+            <file
                 name="activity_transaction"
                 path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/layout/activity_transaction.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_chart"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/layout/fragment_chart.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_splash"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/layout/fragment_splash.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_start_end"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/layout/fragment_start_end.xml"
                 qualifiers=""
                 type="layout" />
             <file
@@ -7522,8 +7582,23 @@ false
                 qualifiers=""
                 type="menu" />
             <file
+                name="chart"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/menu/chart.xml"
+                qualifiers=""
+                type="menu" />
+            <file
                 name="main"
                 path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/menu/main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="splash"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/menu/splash.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="start_end"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/menu/start_end.xml"
                 qualifiers=""
                 type="menu" />
             <file
@@ -7534,6 +7609,21 @@ false
             <file
                 name="c17"
                 path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/raw/c17.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="dollar"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/raw/dollar.jpg"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="money"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/raw/money.jpg"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="spin"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/raw/spin.gif"
                 qualifiers=""
                 type="raw" />
             <file
@@ -7621,6 +7711,8 @@ false
                 </string>
                 <string name="title_activity_account_record" >AccountRecordActivity
                 </string>
+                <string name="title_activity_start_end" >StartEnd
+                </string>
                 <string name="txncreate_txn_name_label" >Transaction Name
                 </string>
                 <string name="manage_accounts" >Manage Accounts
@@ -7649,6 +7741,8 @@ false
                 </string>
                 <string name="accountview_balance_label" >Account Balance
                 </string>
+                <string name="title_activity_chart" >Chart
+                </string>
                 <string name="add_rm_accounts" >+/- Accounts
                 </string>
                 <string name="submit" >Submit
@@ -7660,6 +7754,8 @@ false
                 <string name="new_transaction" >New Transaction
                 </string>
                 <string name="account_value" >Account Value
+                </string>
+                <string name="title_activity_splash" >Splash
                 </string>
                 <string name="accountview_num_txns" >Transactions
                 </string>

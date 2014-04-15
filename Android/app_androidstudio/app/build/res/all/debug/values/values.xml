@@ -564,8 +564,11 @@
     <string name="submit">Submit</string>
     <string name="title_activity_account_record">AccountRecordActivity</string>
     <string name="title_activity_account_report">AccountReportActivity</string>
+    <string name="title_activity_chart">Chart</string>
     <string name="title_activity_login">Login</string>
     <string name="title_activity_register">Register</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_start_end">StartEnd</string>
     <string name="txncreate_account_label">Account</string>
     <string name="txncreate_button_save">Save</string>
     <string name="txncreate_date_label">Date</string>

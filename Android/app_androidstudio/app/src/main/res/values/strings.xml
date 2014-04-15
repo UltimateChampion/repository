@@ -32,5 +32,8 @@
     <string name="txncreate_account_label">Account</string>
     <string name="title_activity_account_report">AccountReportActivity</string>
     <string name="title_activity_account_record">AccountRecordActivity</string>
+    <string name="title_activity_chart">Chart</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_start_end">StartEnd</string>
 
 </resources>

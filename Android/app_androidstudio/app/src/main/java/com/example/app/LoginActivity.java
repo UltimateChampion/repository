@@ -82,6 +82,11 @@ public class LoginActivity extends Activity {
 			}
 		});
 	}
+
+    public void toSplash(final View view) {
+
+        startActivity(new Intent(this, Splash.class));
+    }
 	
 	/**
 	 * Directs the App to the Registration screen.
