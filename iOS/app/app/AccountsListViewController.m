@@ -9,6 +9,7 @@
 #import <Parse/Parse.h>
 #import "AccountsListViewController.h"
 #import "UserAccount.h"
+#import "AccountTableViewCell.h"
 
 @interface AccountsListViewController () {
     NSMutableArray *dataSource;
@@ -52,7 +53,6 @@
     [_userView addSubview:_userPictureView];
     
     dataSource = [NSMutableArray arrayWithArray:[self getAccountsList]];
-    NSLog(@"%@", [(UserAccount*)[dataSource objectAtIndex:0] accountName]);
 }
 
 - (NSArray *)getAccountsList
@@ -77,13 +77,26 @@
 {
     static NSString *tableIdentifier = @"AccountTableViewCell";
     
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:tableIdentifier];
+    AccountTableViewCell *cell = (AccountTableViewCell *)[tableView dequeueReusableCellWithIdentifier:tableIdentifier];
     if (!cell) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:tableIdentifier];
+        NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"AccountTableViewCell" owner:self options:nil];
+        cell = [nib objectAtIndex:0];
     }
     
-    cell.textLabel.text = [(UserAccount *)[dataSource objectAtIndex:indexPath.row] accountName];
+    [[cell accountNameLabel] setText:[[dataSource objectAtIndex:indexPath.row] accountName]];
+    [[cell accountSubtextLabel] setText:[[[dataSource objectAtIndex:indexPath.row] updatedAt] description]];
+    
+    NSNumberFormatter *f = [[NSNumberFormatter alloc] init];
+    [f setNumberStyle:NSNumberFormatterCurrencyStyle];
+    NSNumber *av = [[dataSource objectAtIndex:indexPath.row] accountValue];
+    [[cell accountBalanceLabel] setText:[f stringFromNumber:av]];
+    
     return cell;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 66;
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
@@ -114,6 +127,7 @@
 */
 
 - (IBAction)addAccount:(id)sender {
+    
 }
 
 - (IBAction)openSettingsView:(id)sender {
