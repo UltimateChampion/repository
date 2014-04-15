@@ -115,10 +115,12 @@ public class AccountRecordActivity extends Activity{
         String endDateString = _endDateField.getText().toString();
          //Find a way to force slashes (our format)
 
-        if (DateValidator.validateDate(startDateString, endDateString)) {
+        if (!DateValidator.validateDate(startDateString, endDateString)) {
             Toast.makeText(this, "Invalid Date Inputs", Toast.LENGTH_SHORT).show();
             return;
         }
+
+       long x = DateValidator.getFirstDate().getTime();
 
         AccountRecord report = new AccountRecord(DateValidator.getFirstDate(), DateValidator.getSecondDate());
         //Toast.makeText(this, report.buildRecord(), Toast.LENGTH_SHORT).show();

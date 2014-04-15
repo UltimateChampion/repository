@@ -39,8 +39,6 @@ public class DateValidator {
 
         dateFormatter = new SimpleDateFormat("MM/dd/yy");
 
-        Date startDate;
-        Date endDate;
         try {
             startDate = dateFormatter.parse(a);
         } catch (java.text.ParseException e) {

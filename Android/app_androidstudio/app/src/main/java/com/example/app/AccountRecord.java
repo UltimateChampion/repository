@@ -41,8 +41,9 @@ public class AccountRecord {
      */
     public AccountRecord(Date startDate, Date endDate) {
 
-
+        System.out.println("weee"+ ((startDate == null) ? "NULL" : "NOT NULL"));
         start = new Date(startDate.getTime());
+        System.out.println("hit");
         end = new Date(endDate.getTime());
         accounts = new ArrayList<String>();
         accountBalances = new ArrayList<Double>();
