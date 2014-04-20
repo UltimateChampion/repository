@@ -10,12 +10,11 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Switch;
 import android.widget.Toast;
 import com.parse.ParseUser;
 
-
-
-
+import java.util.List;
 
 
 /**
@@ -31,6 +30,13 @@ public class AccountRecordActivity extends Activity{
     private ListView _accountBalanceList;
     private TextView _totalBalance;
 
+    private List <UserAccount> _accountList;// = (List<UserAccount>) ParseSingleton.getInstance().get("accountsList");
+    private UserAccount _account;// = _accountList.get(v.getInt("accountID"));
+    Switch s;
+
+
+    //private UserAccount _userAccount;
+
     /**
      * Tell device to create the view based on savedInstanceState and
      * the activity_account_record layout in R file.
@@ -43,7 +49,7 @@ public class AccountRecordActivity extends Activity{
         setContentView(R.layout.activity_account_record);
 
         Bundle extras = getIntent().getExtras();
-        if (extras != null) {
+        /*if (extras != null) {
 
             String toAdd = extras.getString("date");
 
@@ -54,7 +60,16 @@ public class AccountRecordActivity extends Activity{
 
                 _endDateField.setText(toAdd);
             }
-        }
+        }*/
+
+        _accountList = (List<UserAccount>) ParseSingleton.getInstance().get("accountsList");
+        _account = _accountList.get(extras.getInt("accountID"));
+        s = (Switch) findViewById(R.id.switch1);
+        s.setTextOn("Main Account");
+        s.setTextOff(_account.getAccountName());
+
+
+
     }
 
     /**
@@ -122,14 +137,28 @@ public class AccountRecordActivity extends Activity{
 
        long x = DateValidator.getFirstDate().getTime();
 
-        AccountRecord report = new AccountRecord(DateValidator.getFirstDate(), DateValidator.getSecondDate());
+
+        AccountRecord report = new AccountRecord(DateValidator.getFirstDate(), DateValidator.getSecondDate(), _account);
         //Toast.makeText(this, report.buildRecord(), Toast.LENGTH_SHORT).show();
-        _builtRecordView = (TextView) findViewById(R.id.built_record_label);
+        /*_builtRecordView = (TextView) findViewById(R.id.built_record_label);
         _builtRecordView.setText(report.buildRecord());
-        _builtRecordView.setMovementMethod(new ScrollingMovementMethod());
+        _builtRecordView.setMovementMethod(new ScrollingMovementMethod());*/
+
+        String out = "";
+
+
+
+
+        out = (s.isChecked()) ? report.buildRecord() : report.buildSubRecord();
+
+
+
+        Intent showRecord = new Intent(this, AccountRecordShow.class);
+        showRecord.putExtra("recordString", out);
+        startActivity(showRecord);
     }
 
-    public void setStart(View v) {
+   /* public void setStart(View v) {
 
         Intent i = new Intent(getApplicationContext(), StartEnd.class);
         i.putExtra("date_type",0);
@@ -141,7 +170,7 @@ public class AccountRecordActivity extends Activity{
         Intent i = new Intent(getApplicationContext(), StartEnd.class);
         i.putExtra("date_type",1);
         startActivity(i);
-    }
+    }*/
 
 
 }

@@ -16,7 +16,7 @@ public class Chart extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_chart);
+        setContentView(R.layout.activity_expense_plot);
 
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()

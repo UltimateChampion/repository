@@ -85,7 +85,7 @@ public class LoginActivity extends Activity {
 
     public void toSplash(final View view) {
 
-        startActivity(new Intent(this, Splash.class));
+        startActivity(new Intent(this, ExpensePlotActivity.class));
     }
 	
 	/**

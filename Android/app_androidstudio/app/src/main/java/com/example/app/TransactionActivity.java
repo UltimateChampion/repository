@@ -67,6 +67,16 @@ public class TransactionActivity extends Activity {
             _listeners.put(e, e.getKeyListener());
         }
 
+        Bundle extras = getIntent().getExtras();
+
+        if (extras != null) {
+
+            _name.setText(extras.getString("txnName"));
+            _value.setText(extras.getString("txnVal"));
+            _date.setText(extras.getString("txnDate"));
+            _description.setText(extras.getString("txnDes"));
+        }
+
         mp = MediaPlayer.create(this.getApplicationContext(), R.raw.c17);
     }
 

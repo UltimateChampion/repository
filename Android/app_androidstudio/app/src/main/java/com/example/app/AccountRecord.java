@@ -8,6 +8,7 @@ import com.parse.ParseQuery;
 import com.parse.ParseUser;
 
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
@@ -31,6 +32,7 @@ public class AccountRecord {
     private String date = "date";
     private double percentDeficit = 0;
     private double percentSurplus = 0;
+    private UserAccount u;
 
 
     /**
@@ -39,14 +41,19 @@ public class AccountRecord {
      * @param startDate beginning date from where to start reading transactions
      * @param endDate date to stop reading transactions
      */
-    public AccountRecord(Date startDate, Date endDate) {
+    public AccountRecord(Date startDate, Date endDate, UserAccount u) {
 
-        System.out.println("weee"+ ((startDate == null) ? "NULL" : "NOT NULL"));
+        //System.out.println("weee"+ ((startDate == null) ? "NULL" : "NOT NULL"));
         start = new Date(startDate.getTime());
-        System.out.println("hit");
+        //System.out.println("hit");
         end = new Date(endDate.getTime());
         accounts = new ArrayList<String>();
         accountBalances = new ArrayList<Double>();
+
+        String s = ((u == null) ? "NULL" : "NOT NULL");
+        Log.e(getClass().getName(), s+" "+u.getAccountName());
+
+        this.u = u;
     }
 
     /**
@@ -58,6 +65,7 @@ public class AccountRecord {
         double totalBalance = 0;
 
         DecimalFormat toMoney = new DecimalFormat("$#,##0.00;-$#,##0.00");
+        SimpleDateFormat sdf = new SimpleDateFormat("MM/dd/yyyy");
 
         out += "\nTransactions:\n";
         double plus = 0;
@@ -72,8 +80,54 @@ public class AccountRecord {
             }
 
             if ((t.getTransactionDate().compareTo(start) >= 0) && (t.getTransactionDate().compareTo(end) <= 0)) {
-            out += "\tAccount: " + t.getTransactionAccount().getAccountName() + ":\n\tName: " + t.getTransactionName() + "\n\tDate: " + t.getTransactionDate().toString() + "\n\tAmount Spent: " + toMoney.format(t.getTransactionValue()) + "\n\n";
+            out += "\tAccount: " + t.getTransactionAccount().getAccountName() + ":\n\tName: " + t.getTransactionName() + "\n\tDate: " + sdf.format(t.getTransactionDate()) + "\n\tAmount Spent: " + toMoney.format(t.getTransactionValue()) + "\n\n";
                totalBalance += t.getTransactionValue();
+
+                if (!accounts.contains(t.getTransactionAccount().toString())) {
+                    accounts.add(t.getTransactionAccount().toString());
+                    accountBalances.add(new Double(0)); //Initialize subaccount balance
+                }
+                int index = accounts.indexOf(t.getTransactionAccount().toString());
+                accountBalances.set(index, accountBalances.get(index) + t.getTransactionValue());
+            }
+        }
+
+        percentDeficit = minus/(minus+plus);
+        percentSurplus = plus/(minus+plus);
+
+        out += "Account Balances:\n";
+        for (int j = 0; j < accounts.size(); j++){
+            out += "\t" + accounts.get(j) + ": " + toMoney.format(accountBalances.get(j)) + "\n";
+        }
+
+        out += "\n\tTotal Balance: " + toMoney.format(totalBalance) + "\n";
+
+        return out;
+    }
+
+    public String buildSubRecord() {
+        String out = "Account Report: \n";
+        double totalBalance = 0;
+
+
+        DecimalFormat toMoney = new DecimalFormat("$#,##0.00;-$#,##0.00");
+        SimpleDateFormat sdf = new SimpleDateFormat("MM/dd/yyyy");
+
+        out += "\nTransactions:\n";
+        double plus = 0;
+        double minus = 0;
+        for (Transaction t: getGraphRecords()) {
+
+            if (t.getTransactionValue() >=0) {
+                plus++;
+            }
+            else {
+                minus++;
+            }
+
+            if ((t.getTransactionDate().compareTo(start) >= 0) && (t.getTransactionDate().compareTo(end) <= 0)) {
+                out += "\tAccount: " + t.getTransactionAccount().getAccountName() + ":\n\tName: " + t.getTransactionName() + "\n\tDate: " + sdf.format(t.getTransactionDate()) + "\n\tAmount Spent: " + toMoney.format(t.getTransactionValue()) + "\n\n";
+                totalBalance += t.getTransactionValue();
 
                 if (!accounts.contains(t.getTransactionAccount().toString())) {
                     accounts.add(t.getTransactionAccount().toString());
@@ -102,7 +156,7 @@ public class AccountRecord {
      * @return List of transactions found between the start and end date
      */
 
-    private List<Transaction> getRecords() {
+    public List<Transaction> getRecords() {
         Log.i(getClass().getName(), "Now getting records!");
         // Mapping of Account names to Transaction lists to be returned.
         List<Transaction> list = new LinkedList<Transaction>();
@@ -115,8 +169,11 @@ public class AccountRecord {
         query.whereLessThan(date, end);
         // Make sure we only select our current user's transactions
         query.whereEqualTo("user", ParseUser.getCurrentUser());
+        //query.whereEqualTo("userAccount", u);
+
         //include accounts into consideration
         query.include("userAccount");
+        query.include("Account");
         // Execute the search in the foreground (we don't want background)
         try {
             list = query.find();
@@ -127,6 +184,37 @@ public class AccountRecord {
 
         return list;
     }
+
+    public List<Transaction> getGraphRecords() {
+        Log.i(getClass().getName(), "Now getting records!");
+        // Mapping of Account names to Transaction lists to be returned.
+        List<Transaction> list = new LinkedList<Transaction>();
+
+        ParseQuery<Transaction> query = new ParseQuery(Transaction.class);
+        // Constraint: all dates from start to end, inclusive
+        query.whereEqualTo(date, start);
+        query.whereGreaterThan(date, start);
+        query.whereEqualTo(date, end);
+        query.whereLessThan(date, end);
+        // Make sure we only select our current user's transactions
+        query.whereEqualTo("user", ParseUser.getCurrentUser());
+        query.whereEqualTo("userAccount", u);
+
+        //include accounts into consideration
+        query.include("userAccount");
+        query.include("Account");
+        // Execute the search in the foreground (we don't want background)
+        try {
+            list = query.find();
+            Log.i(getClass().getName(), "" + list.size());
+        } catch (ParseException e) {
+            Log.e(getClass().getName(), "Parse exception: " + e.getCode());
+        }
+
+        return list;
+    }
+
+
 
     /**
      * Compares date objects in AccountRecord object to determine if the end date comes after the start date.

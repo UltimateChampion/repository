@@ -52,7 +52,7 @@ public class TransactionAdapter extends ArrayAdapter<Transaction> {
         
         name.setText(t.getTransactionName());
         value.setText(String.format("$%.2f", t.getTransactionValue()));
-        DateFormat df = new SimpleDateFormat("MM/dd/yyyy HH:mm");
+        DateFormat df = new SimpleDateFormat("MM/dd/yyyy");
         date.setText(df.format(t.getDate("date")));
         
         if(t.getTransactionValue() < 0.0) {
@@ -60,5 +60,10 @@ public class TransactionAdapter extends ArrayAdapter<Transaction> {
         }
         
         return convertView;
+    }
+
+    public Transaction getTransAtPos(int i) {
+
+        return transactions.get(i);
     }
 }

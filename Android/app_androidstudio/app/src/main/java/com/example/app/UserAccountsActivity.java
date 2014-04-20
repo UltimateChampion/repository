@@ -141,7 +141,7 @@ public class UserAccountsActivity extends Activity implements OnItemClickListene
 				updateData();
 				return true;
             case R.id.manageAccountMenuItem:
-                Log.e(getClass().getName(), "Manage Accounts not implemented yet!");
+                startActivity(new Intent(this, ScrollTestActivity.class));
                 return true;
 			case R.id.logOutMenuItem:
 				ParseUser.logOut();
@@ -151,6 +151,7 @@ public class UserAccountsActivity extends Activity implements OnItemClickListene
                 startActivity(new Intent(this, AccountRecordActivity.class));
                 return true;
             case R.id.deficitChartItem:
+
                 startActivity(new Intent(this, Chart.class));
                 return true;
 			default:
