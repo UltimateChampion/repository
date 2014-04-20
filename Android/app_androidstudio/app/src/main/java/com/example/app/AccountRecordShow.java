@@ -4,23 +4,21 @@ import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
+import android.text.method.ScrollingMovementMethod;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.os.Build;
-import android.widget.DatePicker;
-import android.content.Intent;
+import android.widget.TextView;
 
-public class StartEnd extends ActionBarActivity {
-
-    private int date_type;
+public class AccountRecordShow extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_start_end);
+        setContentView(R.layout.activity_account_record_show);
 
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
@@ -28,10 +26,11 @@ public class StartEnd extends ActionBarActivity {
                     .commit();
         }
 
-        Bundle extras = getIntent().getExtras();
-        if (extras != null) {
-            date_type = extras.getInt("date_type");
-        }
+        Bundle v = getIntent().getExtras();
+        TextView tv = (TextView) findViewById(R.id.recordText);
+        tv.setText(v.getString("recordString"));
+        tv.setMovementMethod(new ScrollingMovementMethod());
+
     }
 
 
@@ -39,7 +38,7 @@ public class StartEnd extends ActionBarActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.start_end, menu);
+        getMenuInflater().inflate(R.menu.account_record_show, menu);
         return true;
     }
 
@@ -66,20 +65,9 @@ public class StartEnd extends ActionBarActivity {
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                 Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_start_end, container, false);
+            View rootView = inflater.inflate(R.layout.fragment_account_record_show, container, false);
             return rootView;
         }
-    }
-
-    public void set(View v) {
-
-        DatePicker dp = (DatePicker) findViewById(R.id.datePicker);
-
-        Intent i = new Intent(getApplicationContext(), AccountRecordActivity.class);
-        i.putExtra("date_type", date_type);
-        i.putExtra("date", ""+dp.getMonth()+dp.getDayOfMonth()+"/"+dp.getYear());
-        startActivity(i);
-
     }
 
 }

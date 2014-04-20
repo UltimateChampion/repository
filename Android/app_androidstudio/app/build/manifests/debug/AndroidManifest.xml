@@ -27,11 +27,16 @@
         </activity>
         <activity android:label="@string/title_activity_account_record" android:name="com.example.app.AccountRecordActivity">
         </activity>
-        <activity android:label="@string/title_activity_chart" android:name="com.example.app.Chart">
+        <activity android:label="@string/title_activity_chart" android:name="com.example.app.Chart" android:theme="@style/Theme.AppCompat">
         </activity>
         <activity android:label="@string/title_activity_splash" android:name="com.example.app.Splash">
         </activity>
-        <activity android:label="@string/title_activity_start_end" android:name="com.example.app.StartEnd">
+        <activity android:label="@string/title_activity_expense_plot" android:name="com.example.app.ExpensePlotActivity" android:theme="@style/Theme.AppCompat">
+        </activity>
+        <activity android:label="@string/title_activity_scroll_test" android:name="com.example.app.ScrollTestActivity" android:theme="@style/Theme.AppCompat">
+        </activity>
+        <activity android:label="@string/title_activity_account_record_show" android:name="com.example.app.AccountRecordShow" android:theme="@style/Theme.AppCompat">&gt;
+
         </activity>
     </application>
 

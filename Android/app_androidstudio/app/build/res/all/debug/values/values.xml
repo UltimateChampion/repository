@@ -78,6 +78,12 @@
     <color name="abc_search_url_text_normal">#7fa87f</color>
     <color name="abc_search_url_text_pressed">@android:color/black</color>
     <color name="abc_search_url_text_selected">@android:color/black</color>
+    <!-- From: file:/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/values/colors.xml -->
+    <eat-comment />
+
+    <color name="black_overlay">#66000000</color>
+    <!-- From: file:/Users/AmierNaji/repository/Android/app_androidstudio/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values/values.xml -->
+    <eat-comment />
 
     <declare-styleable name="ActionBar">
 
@@ -178,6 +184,16 @@
         -->
         <attr name="expandActivityOverflowButtonDrawable" format="reference" />
     </declare-styleable>
+    <!-- From: file:/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/values/attrs.xml -->
+    <eat-comment />
+
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="metaButtonBarStyle" format="reference" />
+        <attr name="metaButtonBarButtonStyle" format="reference" />
+    </declare-styleable>
+    <!-- From: file:/Users/AmierNaji/repository/Android/app_androidstudio/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values/values.xml -->
+    <eat-comment />
+
     <declare-styleable name="CompatTextView">
 
         <!-- Present the text in ALL CAPS. This may use a small-caps form when available. -->
@@ -487,6 +503,13 @@
 
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="domain_label_font_size">13dp</dimen>
+    <dimen name="domain_tick_label_font_size">10dp</dimen>
+    <dimen name="legend_text_font_size">10dp</dimen>
+    <dimen name="pie_segment_label_font_size">10dp</dimen>
+    <dimen name="range_label_font_size">13dp</dimen>
+    <dimen name="range_tick_label_font_size">10dp</dimen>
+    <dimen name="title_font_size">17dp</dimen>
     <!-- From: file:/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/values/ids.xml -->
     <eat-comment />
 
@@ -552,6 +575,8 @@
     <string name="add_rm_accounts">+/- Accounts</string>
     <string name="already_have_account">I already have an account</string>
     <string name="app_name">app</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="enter_account_name_field">Enter Account name</string>
     <string name="hello_world">Hello world!</string>
     <string name="log_in_button_text">Log in</string>
@@ -563,10 +588,14 @@
     <string name="sign_up_label">Register</string>
     <string name="submit">Submit</string>
     <string name="title_activity_account_record">AccountRecordActivity</string>
+    <string name="title_activity_account_record_display">AccountRecordDisplay</string>
+    <string name="title_activity_account_record_show">AccountRecordShow</string>
     <string name="title_activity_account_report">AccountReportActivity</string>
     <string name="title_activity_chart">Chart</string>
+    <string name="title_activity_expense_plot">ExpensePlot</string>
     <string name="title_activity_login">Login</string>
     <string name="title_activity_register">Register</string>
+    <string name="title_activity_scroll_test">ScrollTestActivity</string>
     <string name="title_activity_splash">Splash</string>
     <string name="title_activity_start_end">StartEnd</string>
     <string name="txncreate_account_label">Account</string>
@@ -590,6 +619,23 @@
 
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+
+    <style name="ButtonBarButton" />
+
+    <style name="FullscreenTheme" parent="android:Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">@style/ButtonBar</item>
+        <item name="metaButtonBarButtonStyle">@style/ButtonBarButton</item>
     </style>
     <!-- From: file:/Users/AmierNaji/repository/Android/app_androidstudio/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values/values.xml -->
     <eat-comment />

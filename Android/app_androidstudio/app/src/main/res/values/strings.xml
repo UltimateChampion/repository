@@ -35,5 +35,11 @@
     <string name="title_activity_chart">Chart</string>
     <string name="title_activity_splash">Splash</string>
     <string name="title_activity_start_end">StartEnd</string>
+    <string name="title_activity_expense_plot">ExpensePlot</string>
+    <string name="title_activity_scroll_test">ScrollTestActivity</string>
+    <string name="title_activity_account_record_display">AccountRecordDisplay</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_account_record_show">AccountRecordShow</string>
 
 </resources>

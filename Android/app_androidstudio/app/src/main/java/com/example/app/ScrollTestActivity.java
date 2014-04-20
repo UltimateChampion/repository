@@ -11,23 +11,18 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.os.Build;
 
-public class Chart extends ActionBarActivity {
+public class ScrollTestActivity extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_expense_plot);
+        setContentView(R.layout.activity_scroll_test);
 
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
                     .add(R.id.container, new PlaceholderFragment())
                     .commit();
         }
-
-
-
-
-
     }
 
 
@@ -35,7 +30,7 @@ public class Chart extends ActionBarActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.chart, menu);
+        getMenuInflater().inflate(R.menu.scroll_test, menu);
         return true;
     }
 
@@ -62,7 +57,7 @@ public class Chart extends ActionBarActivity {
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                 Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_chart, container, false);
+            View rootView = inflater.inflate(R.layout.fragment_scroll_test, container, false);
             return rootView;
         }
     }

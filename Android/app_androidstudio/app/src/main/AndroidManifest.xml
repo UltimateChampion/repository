@@ -55,15 +55,28 @@
         </activity>
         <activity
             android:name="com.example.app.Chart"
-            android:label="@string/title_activity_chart" >
+            android:label="@string/title_activity_chart"
+            android:theme="@style/Theme.AppCompat" >
         </activity>
         <activity
             android:name="com.example.app.Splash"
             android:label="@string/title_activity_splash" >
         </activity>
         <activity
-            android:name="com.example.app.StartEnd"
-            android:label="@string/title_activity_start_end" >
+            android:name="com.example.app.ExpensePlotActivity"
+            android:label="@string/title_activity_expense_plot"
+            android:theme="@style/Theme.AppCompat" >
+        </activity>
+        <activity
+            android:name="com.example.app.ScrollTestActivity"
+            android:label="@string/title_activity_scroll_test"
+            android:theme="@style/Theme.AppCompat" >
+        </activity>
+        <activity
+            android:name="com.example.app.AccountRecordShow"
+            android:label="@string/title_activity_account_record_show"
+            android:theme="@style/Theme.AppCompat" >>
+
         </activity>
     </application>
 

@@ -40,6 +40,7 @@ public class AccountViewActivity extends Activity implements OnItemClickListener
     private String accID = "accountID";
     private String accName = "accountName";
     private String edit = "edit";
+    private int _accountIdentifier;
 
     /**
      * Tell device to create the view based on savedInstanceState and
@@ -69,6 +70,8 @@ public class AccountViewActivity extends Activity implements OnItemClickListener
 
         _accountList = (List<UserAccount>) ParseSingleton.getInstance().get("accountsList");
         _account = _accountList.get(v.getInt("accountID"));
+        _accountIdentifier = v.getInt("accountID");
+
         if (_account == null) Log.e(getClass().getName(), "_account is null");
         String accountName = _account.getAccountName();
         double balance = _account.getAccountValue();
@@ -156,7 +159,14 @@ public class AccountViewActivity extends Activity implements OnItemClickListener
                 startActivity(new Intent(this, LoginActivity.class));
                 return true;
             case R.id.recordAccountItem:
-                startActivity(new Intent(this, AccountRecordActivity.class));
+                Intent record = new Intent(this, AccountRecordActivity.class);
+                record.putExtra("accountID", _accountIdentifier);
+                startActivity(record);
+                return true;
+            case R.id.deficitChartItem:
+                Intent chart = new Intent(this, ExpensePlotActivity.class);
+                chart.putExtra("accountID", _accountIdentifier);
+                startActivity(chart);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
@@ -222,6 +232,20 @@ public class AccountViewActivity extends Activity implements OnItemClickListener
         intent.putExtra(accID, getIntent().getIntExtra("accountID", 0));
         intent.putExtra(accName, _accountNameField.getText().toString());
         intent.putExtra(edit, true);
+
+        Transaction toSend = _adapter.getTransAtPos(i);
+        intent.putExtra("txnName", toSend.getTransactionName());
+        intent.putExtra("txnVal", toSend.getTransactionValue()+"");
+        intent.putExtra("txnDate", toSend.getTransactionDate().toString());
+        intent.putExtra("txnDes", toSend.getDescription());
+
+
+
+
+
+
+        //Log.i(getClass().getName(), "Now getting records!");
+
         startActivityForResult(intent, 1);
     }
 
