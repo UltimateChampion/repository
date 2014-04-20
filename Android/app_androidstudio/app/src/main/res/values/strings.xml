@@ -34,6 +34,6 @@
     <string name="title_activity_account_record">AccountRecordActivity</string>
     <string name="title_activity_chart">Chart</string>
     <string name="title_activity_splash">Splash</string>
-    <string name="title_activity_start_end">StartEnd</string>
+    <string name="title_activity_start_end">StartEnd</string><string name="register_email_label">Email address:</string>
 
 </resources>

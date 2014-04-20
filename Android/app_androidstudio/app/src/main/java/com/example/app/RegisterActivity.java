@@ -14,6 +14,7 @@ import com.parse.SignUpCallback;
 public class RegisterActivity extends Activity {
 	private EditText username;
 	private EditText password;
+    private EditText email;
 	private TextView error;
     private MediaPlayer mp;
 	
@@ -29,6 +30,7 @@ public class RegisterActivity extends Activity {
 		
 		username = (EditText) findViewById(R.id.register_username);
 		password = (EditText) findViewById(R.id.register_password);
+        email = (EditText) findViewById(R.id.register_email_address);
 		error = (TextView) findViewById(R.id.error_message);
 
         mp = MediaPlayer.create(this.getApplicationContext(), R.raw.b17);
@@ -47,7 +49,8 @@ public class RegisterActivity extends Activity {
 		ParseUser user = new ParseUser();
 		user.setUsername(username.getText().toString());
 		user.setPassword(password.getText().toString());
-	
+	    user.setEmail(email.getText().toString());
+
 		user.signUpInBackground(new SignUpCallback() {
 			@Override
 			public void done(ParseException e) {
