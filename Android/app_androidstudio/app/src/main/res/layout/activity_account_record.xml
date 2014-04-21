@@ -11,7 +11,8 @@
         android:id="@+id/build_record_button"
         android:onClick="onButtonClick"
         android:layout_below="@+id/editText_start_date"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/loginbutton" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -59,7 +60,8 @@
 
         android:checked="false"
         android:layout_below="@+id/textView2"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/loginbutton" />
 
     <TextView
         android:layout_width="wrap_content"

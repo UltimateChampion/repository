@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    android:weightSum="1">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -12,11 +13,13 @@
         <EditText
 	        android:id="@+id/new_account_name"
 	        android:layout_width="0dp"
-	        android:layout_height="wrap_content"
+	        android:layout_height="31dp"
 	        android:layout_weight="1"
 	        android:ems="10"
 	        android:hint="@string/enter_account_name_field"
-	        android:inputType="text" >
+	        android:inputType="text"
+            android:background="@drawable/inputtext"
+            android:paddingLeft="10dp">
 
 	        <requestFocus />
         </EditText>
@@ -29,7 +32,10 @@
         android:inputType="numberDecimal|numberSigned"
         android:ems="10"
         android:id="@id/account_value"
-        android:hint="Enter Initial Balance" />
+        android:hint="Enter Initial Balance"
+        android:background="@drawable/inputtext"
+        android:layout_weight="0.03"
+        android:paddingLeft="10dp" />
 
     <Button
         android:id="@+id/submit_button"
@@ -37,6 +43,7 @@
         android:layout_height="wrap_content"
         android:onClick="createNewAccount"
         android:text="@string/submit"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/loginbutton" />
 
 </LinearLayout>

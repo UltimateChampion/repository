@@ -8,13 +8,16 @@
 
     <EditText
         android:id="@id/txncreate_txn_name"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="10dp"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:editable="true"
         android:enabled="true"
-        android:hint="New Transaction (tap to edit)" />
+        android:hint="New Transaction (tap to edit)"
+        android:background="@drawable/inputtext"
+        android:paddingLeft="10dp"
+        android:paddingBottom="10dp" />
 
     <View
         android:layout_width="fill_parent"
@@ -29,12 +32,13 @@
 
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="35dp"
             android:id="@id/txncreate_txn_value"
-            android:paddingLeft="20dp"
+            android:paddingLeft="10dp"
             android:inputType="numberDecimal|numberSigned"
             android:numeric="signed|decimal"
-            android:hint="Transaction Amount" />
+            android:hint="Transaction Amount"
+            android:background="@drawable/inputtext" />
     </LinearLayout>
 
     <LinearLayout
@@ -43,13 +47,14 @@
         android:layout_height="wrap_content">
 
         <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
             android:inputType="date"
             android:ems="10"
             android:id="@id/txncreate_txn_date"
-            android:layout_weight="1"
-            android:hint="Date" />
+            android:hint="Date"
+            android:background="@drawable/inputtext"
+            android:paddingLeft="10dp" />
 
     </LinearLayout>
 
@@ -59,13 +64,14 @@
         android:layout_height="wrap_content">
 
         <EditText
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
             android:inputType="textMultiLine"
             android:ems="10"
             android:id="@id/txncreate_description"
-            android:layout_weight="1"
-            android:hint="Description" />
+            android:hint="Description"
+            android:background="@drawable/inputtext"
+            android:paddingLeft="10dp" />
     </LinearLayout>
 
     <LinearLayout
@@ -94,6 +100,7 @@
         android:text="@string/txncreate_button_save"
         android:id="@+id/button"
         android:layout_gravity="center_horizontal"
-        android:onClick="createNewTransaction" />
+        android:onClick="createNewTransaction"
+        android:background="@drawable/loginbutton" />
 
 </LinearLayout>
