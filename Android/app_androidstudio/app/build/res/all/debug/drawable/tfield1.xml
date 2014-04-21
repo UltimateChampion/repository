@@ -1,4 +1,0 @@
-<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle" >
-    <solid android:color="#ffffff" />
-    <stroke android:width="1dip" android:color="#ff0000"/>
-</shape><!-- From: file:/Users/richard/Documents/CS2340/repository/Android/app_androidstudio/app/src/main/res/drawable/tfield1.xml -->

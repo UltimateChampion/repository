@@ -27,34 +27,20 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="@string/txncreate_value_label"
-            android:id="@id/txncreate_value_label"
-            android:paddingTop="10dp" />
-
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@id/txncreate_txn_value"
             android:paddingLeft="20dp"
             android:inputType="numberDecimal|numberSigned"
-            android:numeric="signed|decimal" />
+            android:numeric="signed|decimal"
+            android:hint="Transaction Amount" />
     </LinearLayout>
 
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="@string/txncreate_date_label"
-            android:id="@id/txncreate_date_label" />
 
         <EditText
             android:layout_width="wrap_content"
@@ -62,7 +48,8 @@
             android:inputType="date"
             android:ems="10"
             android:id="@id/txncreate_txn_date"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:hint="Date" />
 
     </LinearLayout>
 
@@ -71,20 +58,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="@string/txncreate_description_label"
-            android:id="@id/txncreate_description_label" />
-
         <EditText
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:inputType="textMultiLine"
             android:ems="10"
             android:id="@id/txncreate_description"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:hint="Description" />
     </LinearLayout>
 
     <LinearLayout

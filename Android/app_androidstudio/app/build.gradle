@@ -18,13 +18,8 @@ android {
 }
 
 dependencies {
-<<<<<<< HEAD
-    compile 'com.android.support:support-v4:19.0.+'
-    compile 'com.android.support:appcompat-v7:19.0.+'
-=======
     compile 'com.android.support:support-v4:18.0.0'
     compile 'com.android.support:appcompat-v7:+'
->>>>>>> 3d2a834d71b75c8659b4c32dd8fc80f1c5fe428b
     compile files('libs/Parse-1.4.1.jar')
     compile files('libs/androidplot-core-0.6.0.jar')
 }
