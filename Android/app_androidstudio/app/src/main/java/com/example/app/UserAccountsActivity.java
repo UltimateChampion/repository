@@ -118,7 +118,7 @@ public class UserAccountsActivity extends Activity implements OnItemClickListene
      */
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.accountsmenu, menu);
+        getMenuInflater().inflate(R.menu.mainaccountmenu, menu);
         return true;
     }
     
@@ -134,26 +134,15 @@ public class UserAccountsActivity extends Activity implements OnItemClickListene
 				startActivityForResult(new Intent(this, AddAccountDialog.class), 1);
 				updateData();
 				return true;
-            case R.id.addtransaction:
-                Log.e(getClass().getName(), "Add Transaction not implemented yet!");
-                return true;
 			case R.id.refresh:
 				updateData();
 				return true;
-            case R.id.manageAccountMenuItem:
-                startActivity(new Intent(this, ScrollTestActivity.class));
-                return true;
+
 			case R.id.logOutMenuItem:
 				ParseUser.logOut();
 				startActivity(new Intent(this, LoginActivity.class));
 				return true;
-            case R.id.recordAccountItem:
-                startActivity(new Intent(this, AccountRecordActivity.class));
-                return true;
-            case R.id.deficitChartItem:
 
-                startActivity(new Intent(this, Chart.class));
-                return true;
 			default:
 				return super.onOptionsItemSelected(item);
 		}

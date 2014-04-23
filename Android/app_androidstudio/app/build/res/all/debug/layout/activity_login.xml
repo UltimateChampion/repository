@@ -22,7 +22,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Finance"
+            android:text="Funance"
             android:id="@+id/textView"
             android:layout_gravity="center_horizontal"
             android:layout_weight="0.09" />
@@ -61,15 +61,6 @@
             android:inputType="textPassword"
             android:layout_weight="0.10"
             android:hint="Password" />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Splash"
-            android:id="@+id/splashButton"
-
-            android:onClick="toSplash"
-            android:layout_gravity="right" />
 
         <Button
             android:id="@+id/loginButton"

@@ -1,6 +1,7 @@
 package com.example.app;
 
 import android.accounts.Account;
+import android.util.Log;
 
 import java.util.Calendar;
 import java.util.Comparator;
@@ -14,7 +15,7 @@ import java.util.Collections;
  */
 public class ExpensePlotData {
 
-    public List<Number> getTotalBalance(int pastTransactions, UserAccount uac) {
+    public List<Number> getTotalBalance(UserAccount uac) {
 
         Date currentDate = new Date();//get current date
         Calendar cal = Calendar.getInstance();
@@ -26,7 +27,10 @@ public class ExpensePlotData {
 
         for(Transaction t : ar.getGraphRecords()) {
 
+            Log.e(getClass().getName(), t.getTransactionName()+", "+t.getTransactionValue());
+            if (t.getTransactionAccount().toString().equals(uac.toString())) {
             transList.add(t);
+            }
         }
 
         Collections.sort(transList,new Comparator<Transaction>() {
@@ -37,28 +41,10 @@ public class ExpensePlotData {
             }
         });//sort list by date
 
-        ArrayList<Transaction> outList = new ArrayList<Transaction>();
-        int listindex = 0;
-        for (int i = 0; i< pastTransactions; i++) {
-
-            listindex = transList.size()-i-1;
-            if (listindex >= 0) {
-
-            outList.add(transList.get(listindex));
-            }
-        }
-
-        Collections.sort(outList,new Comparator<Transaction>() {
-
-            public int compare(Transaction a, Transaction b) {
-
-                return (int) (a.getTransactionDate().getTime()- b.getTransactionDate().getTime());
-            }
-        });//sort this list again
 
         ArrayList<Number> out = new ArrayList<Number>();
         double currentBalance = 0;
-        for (Transaction t : outList) {
+        for (Transaction t : transList) {
 
             currentBalance += t.getTransactionValue();
             out.add(currentBalance);

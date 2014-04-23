@@ -81,7 +81,7 @@ public class AccountRecordActivity extends Activity{
     // TODO Customize a menu for the AccountViewActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.accountsmenu, menu);
+        getMenuInflater().inflate(R.menu.scroll_test, menu);
         return true;
     }
 
@@ -94,23 +94,6 @@ public class AccountRecordActivity extends Activity{
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.addaccount:
-                // startActivityForResult(new Intent(this, AddAccountDialog.class), 1);
-                // updateData();
-                return true;
-            case R.id.addtransaction:
-//                addTransaction();
-                return true;
-            case R.id.refresh:
-//                updateData();
-                return true;
-            case R.id.manageAccountMenuItem:
-                Log.e(getClass().getName(), "Manage Accounts not implemented yet!");
-                return true;
-            case R.id.logOutMenuItem:
-                ParseUser.logOut();
-                startActivity(new Intent(this, LoginActivity.class));
-                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }

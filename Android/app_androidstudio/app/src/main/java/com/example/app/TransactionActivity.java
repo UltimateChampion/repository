@@ -36,6 +36,7 @@ public class TransactionActivity extends Activity {
     private String edit = "edit";
 
 
+
     // TODO Clear text in txn name field on first tap on first create only
     // (or just highlight all of the text on selecting the EditText every time
 

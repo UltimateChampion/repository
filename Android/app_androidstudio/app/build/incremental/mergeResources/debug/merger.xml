@@ -1817,10 +1817,6 @@ normal
                     name="TextAppearance.AppCompat.Widget.PopupMenu.Large"
                     parent="TextAppearance.AppCompat.Base.Widget.PopupMenu.Large" />
 
-                <attr
-                    name="listPreferredItemHeightSmall"
-                    format="dimension" />
-
                 <declare-styleable name="MenuItem" >
 
                     <!-- The ID of the item. -->
@@ -1958,6 +1954,10 @@ normal
                         name="actionProviderClass"
                         format="string" />
                 </declare-styleable>
+
+                <attr
+                    name="listPreferredItemHeightSmall"
+                    format="dimension" />
 
                 <style
                     name="TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse"
@@ -7831,6 +7831,8 @@ false
                 </string>
                 <string name="accountview_balance_label" >Account Balance
                 </string>
+                <string name="title_activity_trends" >Trends Information
+                </string>
                 <string name="title_activity_chart" >Chart
                 </string>
                 <string name="add_rm_accounts" >+/- Accounts
@@ -7853,7 +7855,7 @@ false
                 </string>
                 <string name="title_activity_account_record_display" >AccountRecordDisplay
                 </string>
-                <string name="app_name" >app
+                <string name="app_name" >Funance
                 </string>
                 <string name="title_activity_login" >Login
                 </string>
@@ -7985,6 +7987,31 @@ true
                 <dimen name="activity_horizontal_margin" >64dp
                 </dimen>
             </file>
+            <file
+                name="trends"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/menu/trends.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="fragment_trends"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/layout/fragment_trends.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_trends"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/layout/activity_trends.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="mainaccountmenu"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/menu/mainaccountmenu.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="logo"
+                path="/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/raw/logo.jpg"
+                qualifiers=""
+                type="raw" />
         </source>
         <source path="/Users/AmierNaji/repository/Android/app_androidstudio/app/build/res/rs/debug" />
     </dataSet>

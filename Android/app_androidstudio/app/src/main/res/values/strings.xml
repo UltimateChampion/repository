@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">app</string>
+    <string name="app_name">Funance</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
     <string name="add_rm_accounts">+/- Accounts</string>
@@ -34,15 +34,14 @@
     <string name="title_activity_account_record">AccountRecordActivity</string>
     <string name="title_activity_chart">Chart</string>
     <string name="title_activity_splash">Splash</string>
-
-    <string name="title_activity_start_end">StartEnd</string><string name="register_email_label">Email address:</string>
-
-
+    <string name="title_activity_start_end">StartEnd</string>
+    <string name="register_email_label">Email address:</string>
     <string name="title_activity_expense_plot">ExpensePlot</string>
     <string name="title_activity_scroll_test">ScrollTestActivity</string>
     <string name="title_activity_account_record_display">AccountRecordDisplay</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="title_activity_account_record_show">AccountRecordShow</string>
+    <string name="title_activity_trends">Trends Information</string>
 
 </resources>

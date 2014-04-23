@@ -575,7 +575,7 @@
     <string name="add_account">New Account</string>
     <string name="add_rm_accounts">+/- Accounts</string>
     <string name="already_have_account">I already have an account</string>
-    <string name="app_name">app</string>
+    <string name="app_name">Funance</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="enter_account_name_field">Enter Account name</string>
@@ -600,6 +600,7 @@
     <string name="title_activity_scroll_test">ScrollTestActivity</string>
     <string name="title_activity_splash">Splash</string>
     <string name="title_activity_start_end">StartEnd</string>
+    <string name="title_activity_trends">Trends Information</string>
     <string name="txncreate_account_label">Account</string>
     <string name="txncreate_button_save">Save</string>
     <string name="txncreate_date_label">Date</string>

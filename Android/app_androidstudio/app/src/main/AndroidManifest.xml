@@ -14,14 +14,14 @@
     <application
         android:name="com.example.app.AppApplication"
         android:allowBackup="true"
-        android:icon="@raw/dollar"
-        android:label="@string/app_name"
+        android:icon="@raw/logo"
+        android:label="Funance"
         android:theme="@style/AppTheme" >
 
         <!-- android:name="com.example.app.UserAccountsActivity" -->
         <activity
             android:name="com.example.app.UserAccountsActivity"
-            android:label="@string/app_name" >
+            android:label="Funance" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -51,7 +51,7 @@
         </activity>
         <activity
             android:name="com.example.app.AccountRecordActivity"
-            android:label="@string/title_activity_account_record" >
+            android:label="Account Record" >
         </activity>
         <activity
             android:name="com.example.app.Chart"
@@ -64,7 +64,7 @@
         </activity>
         <activity
             android:name="com.example.app.ExpensePlotActivity"
-            android:label="@string/title_activity_expense_plot"
+            android:label="Cumulative Balance Plot"
             android:theme="@style/Theme.AppCompat" >
         </activity>
         <activity
@@ -74,9 +74,15 @@
         </activity>
         <activity
             android:name="com.example.app.AccountRecordShow"
-            android:label="@string/title_activity_account_record_show"
-            android:theme="@style/Theme.AppCompat" >>
-
+            android:label="Account Record"
+            android:theme="@style/Theme.AppCompat" >
+>
+        </activity>
+        <activity
+            android:name="com.example.app.TrendsActivity"
+            android:label="@string/title_activity_trends"
+            android:theme="@style/Theme.AppCompat"
+            >
         </activity>
     </application>
 

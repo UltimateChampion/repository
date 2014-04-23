@@ -12,6 +12,9 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import java.util.Date;
 
 import com.parse.FindCallback;
 import com.parse.ParseException;
@@ -141,18 +144,12 @@ public class AccountViewActivity extends Activity implements OnItemClickListener
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.addaccount:
-                // startActivityForResult(new Intent(this, AddAccountDialog.class), 1);
-                // updateData();
-                return true;
+
             case R.id.addtransaction:
                 addTransaction();
                 return true;
             case R.id.refresh:
                 updateData();
-                return true;
-            case R.id.manageAccountMenuItem:
-                Log.e(getClass().getName(), "Manage Accounts not implemented yet!");
                 return true;
             case R.id.logOutMenuItem:
                 ParseUser.logOut();
@@ -164,10 +161,17 @@ public class AccountViewActivity extends Activity implements OnItemClickListener
                 startActivity(record);
                 return true;
             case R.id.deficitChartItem:
-                Intent chart = new Intent(this, ExpensePlotActivity.class);
+                AccountRecord ar = new AccountRecord(new Date(0), new Date(), _account);
+
+                if (ar.getGraphRecords().size() >= 5) {
+                Intent chart = new Intent(this, TrendsActivity.class);
                 chart.putExtra("accountID", _accountIdentifier);
                 startActivity(chart);
                 return true;
+                }
+                Toast.makeText(getApplicationContext(), "Sub-account must have at least 5 transactions to utilize this function. ", Toast.LENGTH_SHORT).show();
+                return true;
+
             default:
                 return super.onOptionsItemSelected(item);
         }

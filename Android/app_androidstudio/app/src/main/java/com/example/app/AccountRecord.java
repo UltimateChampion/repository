@@ -9,11 +9,15 @@ import com.parse.ParseUser;
 
 
 import java.text.SimpleDateFormat;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
+import org.apache.commons.math3.stat.regression.SimpleRegression;
+
 
 /**
  * Created by michaelfalk on 3/9/14.
@@ -223,5 +227,52 @@ public class AccountRecord {
      */
     public boolean validDateRange() {
         return (!(end.compareTo(start) <= 0));
+    }
+
+
+    public String buildTrendRecord() {
+
+        String out = "";
+        List<Transaction> transList = getGraphRecords();
+        Collections.sort(transList, new Comparator<Transaction>() {
+
+            public int compare(Transaction a, Transaction b) {
+
+                return (int) (a.getTransactionDate().getTime() - b.getTransactionDate().getTime());
+            }
+        });
+
+        double cumulativeSurplus = 0;
+        double cumulativeDeficit = 0;
+        double sum = 0;
+        int index = 1;
+
+        SimpleRegression spr = new SimpleRegression();
+
+        for (Transaction t : transList) {
+
+            spr.addData(index, t.getTransactionValue());
+            sum += t.getTransactionValue();
+            cumulativeSurplus += (t.getTransactionValue() > 0) ? t.getTransactionValue() : 0;
+            cumulativeDeficit += (t.getTransactionValue() < 0) ? t.getTransactionValue() : 0;
+            index++;
+
+        }
+        double avgTransactionCost = sum/index;
+        DecimalFormat toMoney = new DecimalFormat("$#,##0.00;-$#,##0.00");
+        double regSlope = spr.getSlope();
+        double regIntercept = spr.getIntercept();
+        double nextValue = regSlope*(index+1)+regIntercept;
+
+        double rVal = Math.abs(spr.getR());
+        rVal  = ((double) ((int) (rVal*100)))/100.;
+
+
+
+        out += "Trends Report for "+u.getAccountName()+": \n\n" + "Cumulative Surplus: " + toMoney.format(cumulativeSurplus)+
+                "\n\nCumulative Deficit: "+ toMoney.format(cumulativeDeficit)+"\n\nAverage Transaction Cost:"+ avgTransactionCost+
+                "\n\nTransaction Consistency, Scaled from 0 to 1 (0 being least consistent): "+rVal+"\n\nNext Expected Transaction Value: "+toMoney.format(nextValue);
+
+        return out;
     }
 }

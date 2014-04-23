@@ -24,6 +24,7 @@ import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Date;
 
 public class ExpensePlotActivity extends ActionBarActivity {
 
@@ -68,16 +69,19 @@ public class ExpensePlotActivity extends ActionBarActivity {
 
         ExpensePlotData epd = new ExpensePlotData();
 
+        int numTransactions = epd.getTotalBalance(_account).size();
+
+       plot.setTitle("Last " + numTransactions + " Transactions");
        // Number[] months = {2,3,4,5,6,7};
 
 
         //String[] months = {"January","February","March","April","May"};
 
-        ArrayList<Number> plotNums =  (ArrayList<Number>) epd.getTotalBalance(5, _account);
+        ArrayList<Number> plotNums =  (ArrayList<Number>) epd.getTotalBalance( _account);
         XYSeries series1 = new SimpleXYSeries(
                          // SimpleXYSeries takes a List so turn our array into a List
                 Arrays.asList(epd.getXVals(plotNums)),
-                epd.getTotalBalance(5, _account), // can use Y_VALS_ONLY here to use the element index as the x value
+                plotNums, // can use Y_VALS_ONLY here to use the element index as the x value
                 "Balance");                             // Set the display title of the series
 
 
@@ -129,8 +133,8 @@ public class ExpensePlotActivity extends ActionBarActivity {
         plot.setRangeStep(XYStepMode.INCREMENT_BY_VAL, step);
         plot.setDomainStep(XYStepMode.INCREMENT_BY_VAL, 1);
         // customize our domain/range labels
-        plot.setDomainLabel("Transaction");
-        plot.setRangeLabel("Amount Spent ($)");
+        plot.setDomainLabel("Transaction Number");
+        plot.setRangeLabel("Balance By Transaction ($)");
 
         plot.setRangeValueFormat(new DecimalFormat("#.00"));
         plot.setDomainValueFormat(new DecimalFormat("0"));
