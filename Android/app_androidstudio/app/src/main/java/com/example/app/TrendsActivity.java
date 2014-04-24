@@ -90,4 +90,12 @@ public class TrendsActivity extends ActionBarActivity {
 
     }
 
+    public void goBack(View v) {
+
+        Intent showRecord = new Intent(this, UserAccountsActivity.class);
+        startActivity(showRecord);
+
+
+    }
+
 }

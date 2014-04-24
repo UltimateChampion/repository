@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/values-v11/styles.xml -->
+    <!-- From: file:/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/values-v11/styles.xml -->
     <eat-comment />
 
     <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
@@ -19,7 +19,7 @@
         <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
         <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
     </style>
-    <!-- From: file:/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-v11/values.xml -->
+    <!-- From: file:/Users/AmierNaji/repository/Android/app_androidstudio/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-v11/values.xml -->
     <eat-comment />
 
     <style name="Theme.Base" parent="android:Theme.Holo">

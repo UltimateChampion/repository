@@ -165,10 +165,14 @@ public class UserAccountsActivity extends Activity implements OnItemClickListene
      */
 	@Override
 	public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        UserAccount uac = _adapter.getItem(position);
+
 		Intent intent = new Intent(this, AccountViewActivity.class);
         intent.putExtra("accountID", position);
         startActivity(intent);
 	}
+
+    @Override
+    public void onBackPressed() {
+    }
     
 }

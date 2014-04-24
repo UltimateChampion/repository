@@ -14,4 +14,4 @@
         android:id="@+id/recordText"
         android:layout_gravity="center_horizontal|top" />
 </FrameLayout>
-<!-- From: file:/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/layout/activity_account_record_show.xml -->
+<!-- From: file:/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/layout/activity_account_record_show.xml -->

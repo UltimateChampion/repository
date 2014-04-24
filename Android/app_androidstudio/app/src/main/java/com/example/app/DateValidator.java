@@ -17,7 +17,8 @@ public class DateValidator {
      * @return The start date.
      */
     public static Date getFirstDate() {
-        return startDate;
+        return
+                new Date(startDate.getTime());
     }
 
     /**
@@ -25,7 +26,7 @@ public class DateValidator {
      * @return The end date.
      */
     public static Date getSecondDate() {
-        return endDate;
+        return new Date(endDate.getTime());
     }
 
     /**

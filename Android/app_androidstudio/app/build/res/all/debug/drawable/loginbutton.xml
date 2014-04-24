@@ -5,4 +5,4 @@
     <item android:state_focused="false" android:state_pressed="true"
         android:drawable="@drawable/fullbutton3" />
     <item android:drawable="@drawable/fullbutton2" />
-</selector><!-- From: file:/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/drawable/loginbutton.xml -->
+</selector><!-- From: file:/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/drawable/loginbutton.xml -->

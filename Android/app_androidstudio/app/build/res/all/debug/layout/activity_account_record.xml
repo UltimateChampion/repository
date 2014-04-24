@@ -74,4 +74,4 @@
         android:layout_alignRight="@+id/textView"
         android:layout_alignEnd="@+id/textView" />
 
-</RelativeLayout><!-- From: file:/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/layout/activity_account_record.xml -->
+</RelativeLayout><!-- From: file:/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/layout/activity_account_record.xml -->

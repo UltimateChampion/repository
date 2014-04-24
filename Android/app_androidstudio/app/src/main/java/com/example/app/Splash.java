@@ -17,6 +17,8 @@ import com.parse.ParseUser;
 import com.parse.SignUpCallback;
 
 import java.io.InputStream;
+import java.util.Timer;
+import java.util.TimerTask;
 
 public class Splash extends Activity {
 
@@ -24,46 +26,25 @@ public class Splash extends Activity {
     public void onCreate(Bundle savedInstanceState){
 
         super.onCreate(savedInstanceState);
-        setContentView(new MYGIFView(this));
+        setContentView(R.layout.activity_splash);
+
+        Timer t = new Timer();
+        t.schedule(new toNext(), 2000);
+
 
     }
 
-    private class MYGIFView extends View{
-
-        Movie movie;//,movie1;
-        InputStream is=null;//,is1=null;
-        long moviestart;
-
-        public MYGIFView(Context context) {
-            super(context);
-
-            //Provide your own gif animation file
-
-            is=context.getResources().openRawResource(R.raw.spin);
-            movie=Movie.decodeStream(is);
-
-        }
+    private class toNext extends TimerTask {
 
         @Override
-        protected void onDraw(Canvas canvas) {
-
-            canvas.drawColor(Color.WHITE);
-            super.onDraw(canvas);
-            long now=android.os.SystemClock.uptimeMillis();
-            System.out.println("now="+now);
-            if (moviestart == 0) { // first time
-                moviestart = now;
-
-            }
-            System.out.println("\tmoviestart="+moviestart);
-            int relTime = (int)((now - moviestart) % movie.duration()) ;
-            System.out.println("time="+relTime+"\treltime="+movie.duration());
-            movie.setTime(0);
-            movie.setTime(relTime);
-            movie.draw(canvas,this.getWidth()/2-20,this.getHeight()/2-40);
-            this.invalidate();
+        public void run() {
+            startActivity(new Intent(getApplicationContext(), LoginActivity.class));
         }
     }
+
+
+
+
 
 }
 

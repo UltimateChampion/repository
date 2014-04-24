@@ -20,7 +20,7 @@
 
         <!-- android:name="com.example.app.UserAccountsActivity" -->
         <activity
-            android:name="com.example.app.UserAccountsActivity"
+            android:name="com.example.app.Splash"
             android:label="Funance" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,6 +28,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name="com.example.app.UserAccountsActivity"
+            android:label="@string/app_name"
+           >
+        </activity>
+
         <activity
             android:name="com.example.app.AddAccountDialog"
             android:label="@string/app_name"
@@ -58,10 +65,7 @@
             android:label="@string/title_activity_chart"
             android:theme="@style/Theme.AppCompat" >
         </activity>
-        <activity
-            android:name="com.example.app.Splash"
-            android:label="@string/title_activity_splash" >
-        </activity>
+
         <activity
             android:name="com.example.app.ExpensePlotActivity"
             android:label="Cumulative Balance Plot"

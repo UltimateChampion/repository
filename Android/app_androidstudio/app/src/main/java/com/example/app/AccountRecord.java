@@ -55,7 +55,7 @@ public class AccountRecord {
         accountBalances = new ArrayList<Double>();
 
         String s = ((u == null) ? "NULL" : "NOT NULL");
-        Log.e(getClass().getName(), s+" "+u.getAccountName());
+        //Log.e(getClass().getName(), s+" "+u.getAccountName());
 
         this.u = u;
     }

@@ -118,8 +118,10 @@ public class AccountViewActivity extends Activity implements OnItemClickListener
                     startActivity(chart);
 
                 }
+                else {
                 Toast.makeText(getApplicationContext(), "Sub-account must have at least 5 transactions to utilize this function. ", Toast.LENGTH_SHORT).show();
-            }
+                }
+           }
         });
     }
 
@@ -292,4 +294,6 @@ public class AccountViewActivity extends Activity implements OnItemClickListener
         intent.putExtra(edit, true);
         startActivityForResult(intent, 1);
     }
+
+
 }
