@@ -5,4 +5,4 @@
     <item android:state_focused="false" android:state_pressed="true"
         android:drawable="@drawable/tfield2" />
     <item android:drawable="@drawable/tfield1" />
-</selector><!-- From: file:/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/drawable/inputtext.xml --><!-- From: file:/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/drawable/inputtext.xml -->
+</selector><!-- From: file:/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/drawable/inputtext.xml --><!-- From: file:/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/drawable/inputtext.xml -->

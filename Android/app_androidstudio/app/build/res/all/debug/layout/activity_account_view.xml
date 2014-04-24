@@ -21,6 +21,13 @@
         android:layout_marginTop="10dp"
         android:background="@android:color/black" />
 
+    <Button
+        android:layout_width="192dp"
+        android:layout_height="27dp"
+        android:text="Add New Transaction"
+        android:id="@+id/add_transaction_button"
+        android:background="@drawable/loginbutton" />
+
     <ListView
         android:layout_width="match_parent"
         android:layout_height="281dp"
@@ -83,4 +90,32 @@
             android:gravity="right" />
     </LinearLayout>
 
-</LinearLayout><!-- From: file:/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/layout/activity_account_view.xml -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.17"
+        android:id="@+id/linearLayout2"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="1">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Account Record"
+            android:id="@+id/get_account_record_button"
+            android:background="@drawable/loginbutton"
+            android:layout_weight="0.40" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Trends Info"
+            android:id="@+id/get_trends_info_button"
+            android:layout_weight="0.51"
+            android:background="@drawable/loginbutton" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/layout/activity_account_view.xml -->

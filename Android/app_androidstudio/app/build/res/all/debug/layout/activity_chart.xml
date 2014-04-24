@@ -89,4 +89,4 @@
             <TextView android:textSize="32sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="outsideInset" />
         </LinearLayout>
     </ScrollView>
-</LinearLayout><!-- From: file:/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/layout/activity_chart.xml -->
+</LinearLayout><!-- From: file:/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/layout/activity_chart.xml -->

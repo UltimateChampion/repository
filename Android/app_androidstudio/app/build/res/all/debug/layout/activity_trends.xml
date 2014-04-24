@@ -31,4 +31,4 @@
         android:layout_centerVertical="true"
         android:onClick= "goReport"
         android:layout_centerHorizontal="true" />
-</RelativeLayout><!-- From: file:/Users/AmierNaji/repository/Android/app_androidstudio/app/src/main/res/layout/activity_trends.xml -->
+</RelativeLayout><!-- From: file:/Users/michaelfalk/Desktop/repository/Android/app_androidstudio/app/src/main/res/layout/activity_trends.xml -->

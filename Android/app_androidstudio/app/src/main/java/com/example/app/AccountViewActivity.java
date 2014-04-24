@@ -10,6 +10,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -92,6 +93,34 @@ public class AccountViewActivity extends Activity implements OnItemClickListener
         }
 
         updateData();
+        final Button ADD_TRANSACTION_BUTTON = (Button) findViewById(R.id.add_transaction_button);
+        ADD_TRANSACTION_BUTTON.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                addTransaction();
+            }
+        });
+        final Button ACCOUNT_RECORD_BUTTON = (Button) findViewById(R.id.get_account_record_button);
+        ACCOUNT_RECORD_BUTTON.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent record = new Intent(v.getContext(), AccountRecordActivity.class);
+                record.putExtra("accountID", _accountIdentifier);
+                startActivity(record);
+            }
+        });
+        final Button SPENDING_INFO_BUTTON = (Button) findViewById(R.id.get_trends_info_button);
+        SPENDING_INFO_BUTTON.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                AccountRecord ar = new AccountRecord(new Date(0), new Date(), _account);
+
+                if (ar.getGraphRecords().size() >= 5) {
+                    Intent chart = new Intent(v.getContext(), TrendsActivity.class);
+                    chart.putExtra("accountID", _accountIdentifier);
+                    startActivity(chart);
+
+                }
+                Toast.makeText(getApplicationContext(), "Sub-account must have at least 5 transactions to utilize this function. ", Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 
     /**
@@ -145,9 +174,9 @@ public class AccountViewActivity extends Activity implements OnItemClickListener
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
 
-            case R.id.addtransaction:
-                addTransaction();
-                return true;
+//            case R.id.addtransaction:
+//                addTransaction();
+//                return true;
             case R.id.refresh:
                 updateData();
                 return true;
@@ -155,22 +184,22 @@ public class AccountViewActivity extends Activity implements OnItemClickListener
                 ParseUser.logOut();
                 startActivity(new Intent(this, LoginActivity.class));
                 return true;
-            case R.id.recordAccountItem:
-                Intent record = new Intent(this, AccountRecordActivity.class);
-                record.putExtra("accountID", _accountIdentifier);
-                startActivity(record);
-                return true;
-            case R.id.deficitChartItem:
-                AccountRecord ar = new AccountRecord(new Date(0), new Date(), _account);
-
-                if (ar.getGraphRecords().size() >= 5) {
-                Intent chart = new Intent(this, TrendsActivity.class);
-                chart.putExtra("accountID", _accountIdentifier);
-                startActivity(chart);
-                return true;
-                }
-                Toast.makeText(getApplicationContext(), "Sub-account must have at least 5 transactions to utilize this function. ", Toast.LENGTH_SHORT).show();
-                return true;
+//            case R.id.recordAccountItem:
+//                Intent record = new Intent(this, AccountRecordActivity.class);
+//                record.putExtra("accountID", _accountIdentifier);
+//                startActivity(record);
+//                return true;
+//            case R.id.deficitChartItem:
+//                AccountRecord ar = new AccountRecord(new Date(0), new Date(), _account);
+//
+//                if (ar.getGraphRecords().size() >= 5) {
+//                Intent chart = new Intent(this, TrendsActivity.class);
+//                chart.putExtra("accountID", _accountIdentifier);
+//                startActivity(chart);
+//                return true;
+//                }
+//                Toast.makeText(getApplicationContext(), "Sub-account must have at least 5 transactions to utilize this function. ", Toast.LENGTH_SHORT).show();
+//                return true;
 
             default:
                 return super.onOptionsItemSelected(item);
