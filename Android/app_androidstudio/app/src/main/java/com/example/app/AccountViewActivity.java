@@ -180,10 +180,10 @@ public class AccountViewActivity extends Activity implements OnItemClickListener
             case R.id.refresh:
                 updateData();
                 return true;
-            case R.id.logOutMenuItem:
-                ParseUser.logOut();
-                startActivity(new Intent(this, LoginActivity.class));
-                return true;
+//            case R.id.logOutMenuItem:
+//                ParseUser.logOut();
+//                startActivity(new Intent(this, LoginActivity.class));
+//                return true;
 //            case R.id.recordAccountItem:
 //                Intent record = new Intent(this, AccountRecordActivity.class);
 //                record.putExtra("accountID", _accountIdentifier);

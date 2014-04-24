@@ -9,6 +9,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -55,6 +56,13 @@ public class UserAccountsActivity extends Activity implements OnItemClickListene
         _accountsView.setOnItemClickListener(this);
         
         updateData();
+        final Button ADD_ACCOUNT_BUTTON = (Button) findViewById(R.id.add_account_button);
+        ADD_ACCOUNT_BUTTON.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivityForResult(new Intent(v.getContext(), AddAccountDialog.class), 1);
+                updateData();
+            }
+        });
     }
     
     /**
@@ -130,10 +138,10 @@ public class UserAccountsActivity extends Activity implements OnItemClickListene
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 		switch (item.getItemId()) {
-			case R.id.addaccount:
-				startActivityForResult(new Intent(this, AddAccountDialog.class), 1);
-				updateData();
-				return true;
+//			case R.id.addaccount:
+//				startActivityForResult(new Intent(this, AddAccountDialog.class), 1);
+//				updateData();
+//				return true;
 			case R.id.refresh:
 				updateData();
 				return true;

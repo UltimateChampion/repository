@@ -118,7 +118,7 @@ public class AccountRecordActivity extends Activity{
             return;
         }
 
-       long x = DateValidator.getFirstDate().getTime();
+//       long x = DateValidator.getFirstDate().getTime();
 
 
         AccountRecord report = new AccountRecord(DateValidator.getFirstDate(), DateValidator.getSecondDate(), _account);
