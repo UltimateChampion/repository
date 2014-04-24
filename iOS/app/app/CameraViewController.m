@@ -43,7 +43,7 @@
             if ([captureDevice position] == AVCaptureDevicePositionFront) {
                 self.isUsingFrontFacingCamera = YES;
                 device = captureDevice;
-                goto deviceFound;
+                break;
             }
         }
     }
@@ -101,17 +101,7 @@ deviceFound:;
 
 - (void)takePicture:(id)sender
 {
-    AVCaptureConnection *captureConnection = nil;
-    for (AVCaptureConnection *connection in stillImageOutput.connections) {
-        for (AVCaptureInputPort *port in [connection inputPorts]) {
-            if ([[port mediaType] isEqual:AVMediaTypeVideo]) {
-                captureConnection = connection;
-                break;
-            }
-            
-            if (captureConnection) break;
-        }
-    }
+    AVCaptureConnection *captureConnection = [stillImageOutput connectionWithMediaType:AVMediaTypeVideo];
     
     [stillImageOutput captureStillImageAsynchronouslyFromConnection:captureConnection completionHandler:
      ^(CMSampleBufferRef imageSampleBuffer, NSError *error) {

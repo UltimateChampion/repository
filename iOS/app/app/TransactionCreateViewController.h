@@ -19,5 +19,11 @@
 @property (weak, nonatomic) IBOutlet UITextField *nameField;
 @property (weak, nonatomic) IBOutlet UITextField *valueField;
 @property (weak, nonatomic) IBOutlet UITextField *dateField;
+@property (weak, nonatomic) IBOutlet UIButton *cancelButton;
+@property (weak, nonatomic) IBOutlet UIButton *saveButton;
+
+
+- (IBAction)cancelButtonPressed:(id)sender;
+- (IBAction)saveButtonPressed:(id)sender;
 
 @end

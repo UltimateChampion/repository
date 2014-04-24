@@ -118,6 +118,7 @@
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     AccountTransactionListViewController *viewController = [storyboard instantiateViewControllerWithIdentifier:@"AccountTransactionListView"];
     [viewController setUserAccount:[dataSource objectAtIndex:indexPath.row]];
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
     [self presentViewController:viewController animated:YES completion:nil];
 }
 
@@ -156,6 +157,7 @@
 }
 
 - (IBAction)openSettingsView:(id)sender {
+    [PFUser logOut];
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     UIViewController *viewController = [storyboard instantiateViewControllerWithIdentifier:@"FirstView"];
     [self presentViewController:viewController animated:NO completion:nil];
